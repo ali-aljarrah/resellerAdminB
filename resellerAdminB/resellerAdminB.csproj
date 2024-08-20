@@ -1,0 +1,340 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E69B1149-10A5-410A-B523-315536D67C14}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>resellerAdminB</RootNamespace>
+    <AssemblyName>resellerAdminB</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44356</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\custom.css" />
+    <Content Include="assets\css\font.css" />
+    <Content Include="assets\css\prism.css" />
+    <Content Include="assets\css\style.bundle.css" />
+    <Content Include="assets\img\home\Frame 93.png" />
+    <Content Include="assets\img\home\Layer 1.svg" />
+    <Content Include="assets\img\LOGO.svg" />
+    <Content Include="assets\img\youtube.png" />
+    <Content Include="assets\js\account.js" />
+    <Content Include="assets\js\admin-scheduled-log.js" />
+    <Content Include="assets\js\admin-sms-log.js" />
+    <Content Include="assets\js\affiliates.js" />
+    <Content Include="assets\js\buy-credits.js" />
+    <Content Include="assets\js\coverage.js" />
+    <Content Include="assets\js\credits-log.js" />
+    <Content Include="assets\js\custom\authentication\reset-password\reset-password.js" />
+    <Content Include="assets\js\custom\authentication\reset-password\reset_func.js" />
+    <Content Include="assets\js\custom\authentication\sign-in\general.js" />
+    <Content Include="assets\js\custom\authentication\sign-in\two-fa-other.js" />
+    <Content Include="assets\js\custom\authentication\sign-in\two-factor.js" />
+    <Content Include="assets\js\custom\authentication\sign-up\general.js" />
+    <Content Include="assets\js\hlr.js" />
+    <Content Include="assets\js\hlr_log.js" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\js\manage_files.js" />
+    <Content Include="assets\js\manage_temp.js" />
+    <Content Include="assets\js\payment_report.js" />
+    <Content Include="assets\js\prism.js" />
+    <Content Include="assets\js\queue_report.js" />
+    <Content Include="assets\js\reload_report.js" />
+    <Content Include="assets\js\scripts.bundle.js" />
+    <Content Include="assets\js\send-email.js" />
+    <Content Include="assets\js\sendbulk.js" />
+    <Content Include="assets\js\sendsms.js" />
+    <Content Include="assets\js\sentreport.js" />
+    <Content Include="assets\js\settings.js" />
+    <Content Include="assets\js\sms-scheduled.js" />
+    <Content Include="assets\js\sms-summary.js" />
+    <Content Include="assets\js\transactions-log.js" />
+    <Content Include="assets\js\user-list.js" />
+    <Content Include="assets\js\user.js" />
+    <Content Include="assets\plugins\custom\ckeditor\ckeditor-balloon-block.bundle.js" />
+    <Content Include="assets\plugins\custom\ckeditor\ckeditor-balloon.bundle.js" />
+    <Content Include="assets\plugins\custom\ckeditor\ckeditor-classic.bundle.js" />
+    <Content Include="assets\plugins\custom\ckeditor\ckeditor-document.bundle.js" />
+    <Content Include="assets\plugins\custom\ckeditor\ckeditor-inline.bundle.js" />
+    <Content Include="assets\plugins\custom\cookiealert\cookiealert.bundle.css" />
+    <Content Include="assets\plugins\custom\cookiealert\cookiealert.bundle.js" />
+    <Content Include="assets\plugins\custom\cropper\cropper.bundle.css" />
+    <Content Include="assets\plugins\custom\cropper\cropper.bundle.js" />
+    <Content Include="assets\plugins\custom\datatables\datatables.bundle.css" />
+    <Content Include="assets\plugins\custom\datatables\datatables.bundle.js" />
+    <Content Include="assets\plugins\custom\draggable\draggable.bundle.js" />
+    <Content Include="assets\plugins\custom\flotcharts\flotcharts.bundle.js" />
+    <Content Include="assets\plugins\custom\formrepeater\formrepeater.bundle.js" />
+    <Content Include="assets\plugins\custom\fslightbox\fslightbox.bundle.js" />
+    <Content Include="assets\plugins\custom\fullcalendar\fullcalendar.bundle.css" />
+    <Content Include="assets\plugins\custom\fullcalendar\fullcalendar.bundle.js" />
+    <Content Include="assets\plugins\custom\jkanban\jkanban.bundle.css" />
+    <Content Include="assets\plugins\custom\jkanban\jkanban.bundle.js" />
+    <Content Include="assets\plugins\custom\jstree\images\jstree\32px.png" />
+    <Content Include="assets\plugins\custom\jstree\images\jstree\throbber.gif" />
+    <Content Include="assets\plugins\custom\jstree\jstree.bundle.css" />
+    <Content Include="assets\plugins\custom\jstree\jstree.bundle.js" />
+    <Content Include="assets\plugins\custom\leaflet\leaflet.bundle.css" />
+    <Content Include="assets\plugins\custom\leaflet\leaflet.bundle.js" />
+    <Content Include="assets\plugins\custom\prismjs\prismjs.bundle.css" />
+    <Content Include="assets\plugins\custom\prismjs\prismjs.bundle.js" />
+    <Content Include="assets\plugins\custom\tinymce\skins\content\dark\content.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\content\dark\content.min.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\content\default\content.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\content\default\content.min.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\content\document\content.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\content\document\content.min.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\content\writer\content.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\content\writer\content.min.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide-dark\content.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide-dark\content.inline.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide-dark\content.inline.min.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide-dark\content.min.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide-dark\content.mobile.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide-dark\content.mobile.min.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide-dark\skin.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide-dark\skin.min.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide-dark\skin.mobile.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide-dark\skin.mobile.min.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide-dark\skin.shadowdom.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide-dark\skin.shadowdom.min.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide\content.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide\content.inline.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide\content.inline.min.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide\content.min.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide\content.mobile.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide\content.mobile.min.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide\skin.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide\skin.min.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide\skin.mobile.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide\skin.mobile.min.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide\skin.shadowdom.css" />
+    <Content Include="assets\plugins\custom\tinymce\skins\ui\oxide\skin.shadowdom.min.css" />
+    <Content Include="assets\plugins\custom\tinymce\tinymce.bundle.js" />
+    <Content Include="assets\plugins\custom\typedjs\typedjs.bundle.js" />
+    <Content Include="assets\plugins\custom\vis-timeline\vis-timeline.bundle.css" />
+    <Content Include="assets\plugins\custom\vis-timeline\vis-timeline.bundle.js" />
+    <Content Include="assets\plugins\global\fonts\keenicons\keenicons-duotone.svg" />
+    <Content Include="assets\plugins\global\fonts\keenicons\keenicons-outline.svg" />
+    <Content Include="assets\plugins\global\fonts\keenicons\keenicons-solid.svg" />
+    <Content Include="assets\plugins\global\fonts\line-awesome\la-brands-400.svg" />
+    <Content Include="assets\plugins\global\fonts\line-awesome\la-regular-400.svg" />
+    <Content Include="assets\plugins\global\fonts\line-awesome\la-solid-900.svg" />
+    <Content Include="assets\plugins\global\plugins.bundle.css" />
+    <Content Include="assets\plugins\global\plugins.bundle.js" />
+    <Content Include="Controls\Footer.ascx" />
+    <Content Include="Controls\FooterLinks.ascx" />
+    <Content Include="Controls\Head.ascx" />
+    <Content Include="Controls\Loader.ascx" />
+    <Content Include="Controls\MenuTop.ascx" />
+    <Content Include="Controls\SideBar.ascx" />
+    <Content Include="index.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FooterLinks.ascx.cs">
+      <DependentUpon>FooterLinks.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FooterLinks.ascx.designer.cs">
+      <DependentUpon>FooterLinks.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Head.ascx.cs">
+      <DependentUpon>Head.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Head.ascx.designer.cs">
+      <DependentUpon>Head.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Loader.ascx.cs">
+      <DependentUpon>Loader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Loader.ascx.designer.cs">
+      <DependentUpon>Loader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MenuTop.ascx.cs">
+      <DependentUpon>MenuTop.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MenuTop.ascx.designer.cs">
+      <DependentUpon>MenuTop.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SideBar.ascx.cs">
+      <DependentUpon>SideBar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SideBar.ascx.designer.cs">
+      <DependentUpon>SideBar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\font\UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2" />
+    <Content Include="assets\font\UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7SUc.woff2" />
+    <Content Include="assets\font\UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2" />
+    <Content Include="assets\font\UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2" />
+    <Content Include="assets\font\UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2" />
+    <Content Include="assets\font\UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2" />
+    <Content Include="assets\font\UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2" />
+    <Content Include="assets\img\404img.webp" />
+    <Content Include="assets\img\error-img.webp" />
+    <Content Include="assets\img\home\german.webp" />
+    <Content Include="assets\img\home\Image.webp" />
+    <Content Include="assets\img\home\japan.webp" />
+    <Content Include="assets\img\home\netherland.webp" />
+    <Content Include="assets\img\img-user.webp" />
+    <Content Include="assets\img\login-img.webp" />
+    <Content Include="assets\img\Rectangle3.webp" />
+    <Content Include="assets\img\Rectangle4.webp" />
+    <Content Include="assets\img\Rectangle55.webp" />
+    <Content Include="assets\plugins\global\fonts\%40fortawesome\fa-brands-400.ttf" />
+    <Content Include="assets\plugins\global\fonts\%40fortawesome\fa-brands-400.woff2" />
+    <Content Include="assets\plugins\global\fonts\%40fortawesome\fa-regular-400.ttf" />
+    <Content Include="assets\plugins\global\fonts\%40fortawesome\fa-regular-400.woff2" />
+    <Content Include="assets\plugins\global\fonts\%40fortawesome\fa-solid-900.ttf" />
+    <Content Include="assets\plugins\global\fonts\%40fortawesome\fa-solid-900.woff2" />
+    <Content Include="assets\plugins\global\fonts\%40fortawesome\fa-v4compatibility.ttf" />
+    <Content Include="assets\plugins\global\fonts\%40fortawesome\fa-v4compatibility.woff2" />
+    <Content Include="assets\plugins\global\fonts\bootstrap-icons\bootstrap-icons.woff" />
+    <Content Include="assets\plugins\global\fonts\bootstrap-icons\bootstrap-icons.woff2" />
+    <Content Include="assets\plugins\global\fonts\keenicons\keenicons-duotone.eot" />
+    <Content Include="assets\plugins\global\fonts\keenicons\keenicons-duotone.ttf" />
+    <Content Include="assets\plugins\global\fonts\keenicons\keenicons-duotone.woff" />
+    <Content Include="assets\plugins\global\fonts\keenicons\keenicons-outline.eot" />
+    <Content Include="assets\plugins\global\fonts\keenicons\keenicons-outline.ttf" />
+    <Content Include="assets\plugins\global\fonts\keenicons\keenicons-outline.woff" />
+    <Content Include="assets\plugins\global\fonts\keenicons\keenicons-solid.eot" />
+    <Content Include="assets\plugins\global\fonts\keenicons\keenicons-solid.ttf" />
+    <Content Include="assets\plugins\global\fonts\keenicons\keenicons-solid.woff" />
+    <Content Include="assets\plugins\global\fonts\line-awesome\la-brands-400.eot" />
+    <Content Include="assets\plugins\global\fonts\line-awesome\la-brands-400.ttf" />
+    <Content Include="assets\plugins\global\fonts\line-awesome\la-brands-400.woff" />
+    <Content Include="assets\plugins\global\fonts\line-awesome\la-brands-400.woff2" />
+    <Content Include="assets\plugins\global\fonts\line-awesome\la-regular-400.eot" />
+    <Content Include="assets\plugins\global\fonts\line-awesome\la-regular-400.ttf" />
+    <Content Include="assets\plugins\global\fonts\line-awesome\la-regular-400.woff" />
+    <Content Include="assets\plugins\global\fonts\line-awesome\la-regular-400.woff2" />
+    <Content Include="assets\plugins\global\fonts\line-awesome\la-solid-900.eot" />
+    <Content Include="assets\plugins\global\fonts\line-awesome\la-solid-900.ttf" />
+    <Content Include="assets\plugins\global\fonts\line-awesome\la-solid-900.woff" />
+    <Content Include="assets\plugins\global\fonts\line-awesome\la-solid-900.woff2" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60943</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44356/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
