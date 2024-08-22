@@ -37,7 +37,7 @@ body {
 }
 
 .black {
-    color: #000;
+    color: #000 !important;
 }
 
 .btn-grad {
@@ -67,9 +67,7 @@ body {
 /* end header */
 
 /* sidebar */
-.app-sidebar {
-    height: 42.5rem !important;
-}
+
 
 div#kt_aside_menu_wrapper {
     padding: 0px !important;
@@ -681,4 +679,10 @@ input#dt-search-0 {
     max-width: 435px;
 }
 
+.bg-sidebar {
+    background-color: #ffffff !important;
+}
+[data-kt-app-layout=dark-sidebar] .app-sidebar .app-sidebar-logo {
+    border:none;
 
+}
