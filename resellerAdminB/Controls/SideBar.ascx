@@ -54,9 +54,9 @@
                         </a>
                     </div>
                     <!--begin:Menu item-->
-                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                        <!--begin:Menu link-->
-                        <span class="menu-link main">
+                    <div class="menu-item">
+                        <a class="menu-link main" href="/buy-credits.aspx">
+                            <!--begin:Menu link-->
                             <span class="menu-icon">
                                 <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M15.8333 10.5001C15.8333 10.7211 15.7455 10.9331 15.5892 11.0893C15.4329 11.2456 15.221 11.3334 15 11.3334C14.7789 11.3334 14.567 11.2456 14.4107 11.0893C14.2544 10.9331 14.1666 10.7211 14.1666 10.5001C14.1666 10.2791 14.2544 10.0671 14.4107 9.91083C14.567 9.75455 14.7789 9.66675 15 9.66675C15.221 9.66675 15.4329 9.75455 15.5892 9.91083C15.7455 10.0671 15.8333 10.2791 15.8333 10.5001Z" fill="#121212" />
@@ -64,8 +64,8 @@
                                 </svg>
                             </span>
                             <span class="menu-title black">Buy Credits</span>
-                        </span>
                         <!--end:Menu link-->
+                       </a>
                     </div>
                     <!--end:Menu item-->
                     <!--begin:Menu item-->
@@ -87,7 +87,7 @@
                             <!--begin:Menu item-->
                             <div class="menu-item">
                                 <!--begin:Menu link-->
-                                <a class="menu-link" href="/send_sms.aspx">
+                                <a class="menu-link" href="/single-sms.aspx">
                                     <span class="menu-bullet">
                                         <span class="bullet bullet-dot"></span>
                                     </span>
@@ -99,7 +99,7 @@
                             <!--begin:Menu item-->
                             <div class="menu-item">
                                 <!--begin:Menu link-->
-                                <a class="menu-link" href="/bulksms.aspx">
+                                <a class="menu-link" href="/sendbulk.aspx">
                                     <span class="menu-bullet">
                                         <span class="bullet bullet-dot"></span>
                                     </span>
@@ -111,7 +111,7 @@
                              <!--begin:Menu item-->
                              <div class="menu-item">
                                  <!--begin:Menu link-->
-                                 <a class="menu-link" href="/bulksms.aspx">
+                                 <a class="menu-link" href="/files-manager.aspx">
                                      <span class="menu-bullet">
                                          <span class="bullet bullet-dot"></span>
                                      </span>
@@ -125,9 +125,9 @@
                     </div>
                     <!--end:Menu item-->
                     <!--begin:Menu item-->
-                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                        <!--begin:Menu link-->
-                        <span class="menu-link main">
+                    <div class="menu-item">
+                        <a class="menu-link main" href="/admin-sms-log.aspx">
+                            <!--begin:Menu link-->
                             <span class="menu-icon">
                                 <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M12.5 3.42661C13.5593 3.8025 14.5209 4.41106 15.3141 5.20755C16.1073 6.00404 16.7118 6.9682 17.0833 8.02911M9.16663 3.04578C7.90265 3.18708 6.69537 3.64746 5.65824 4.38365C4.62112 5.11984 3.78823 6.10766 3.23784 7.25425C2.68746 8.40084 2.43767 9.66856 2.51195 10.9382C2.58623 12.2079 2.98213 13.4378 3.66246 14.5124L2.49996 17.9999L5.98746 16.8374C7.06205 17.5178 8.29199 17.9137 9.56167 17.988C10.8313 18.0622 12.0991 17.8124 13.2457 17.2621C14.3922 16.7117 15.3801 15.8788 16.1162 14.8417C16.8524 13.8045 17.3128 12.5972 17.4541 11.3333" stroke="#121212" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
@@ -136,23 +136,23 @@
                                 </svg>
                             </span>
                             <span class="menu-title black">SMS Log</span>
-                        </span>
                         <!--end:Menu link-->
+                        </a>
                     </div>
                     <!--end:Menu item-->
                     <!--begin:Menu item-->
-                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                        <!--begin:Menu link-->
-                        <span class="menu-link main">
+                    <div class="menu-item">
+                        <a class="menu-link main" href="/admin-scheduled-log.aspx">
+                            <!--begin:Menu link-->
                             <span class="menu-icon">
                                 <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M10.4706 5.83203H9.53119C9.44526 5.83203 9.37494 5.90235 9.37494 5.98828V11.3652C9.37494 11.416 9.39838 11.4629 9.4394 11.4922L12.6679 13.8496C12.7382 13.9004 12.8359 13.8867 12.8867 13.8164L13.4453 13.0547C13.498 12.9824 13.4824 12.8848 13.4121 12.8359L10.6269 10.8223V5.98828C10.6269 5.90235 10.5566 5.83203 10.4706 5.83203ZM14.7636 7.30078L17.8261 8.04883C17.9238 8.07227 18.0195 7.99805 18.0195 7.89844L18.0351 4.74414C18.0351 4.61328 17.8847 4.53907 17.7831 4.6211L14.705 7.02539C14.6818 7.04339 14.664 7.06759 14.6539 7.0952C14.6438 7.12282 14.6417 7.15273 14.6478 7.1815C14.6539 7.21027 14.668 7.23672 14.6885 7.25782C14.709 7.27893 14.735 7.29382 14.7636 7.30078ZM18.039 13.1816L16.9316 12.8008C16.893 12.7875 16.8507 12.7899 16.8139 12.8075C16.777 12.825 16.7484 12.8562 16.7343 12.8945C16.6972 12.9941 16.6581 13.0918 16.6171 13.1895C16.2695 14.0117 15.7714 14.752 15.1347 15.3867C14.5051 16.0183 13.7589 16.5218 12.9374 16.8691C12.0865 17.2289 11.1718 17.4136 10.248 17.4121C9.3144 17.4121 8.4101 17.2305 7.55854 16.8691C6.73713 16.5218 5.99092 16.0183 5.36127 15.3867C4.72651 14.752 4.22846 14.0117 3.87885 13.1895C3.52107 12.3381 3.33777 11.4235 3.33979 10.5C3.33979 9.56641 3.52143 8.66016 3.88276 7.8086C4.23041 6.98633 4.72846 6.2461 5.36518 5.61133C5.99483 4.97973 6.74104 4.47629 7.56245 4.12891C8.4101 3.76758 9.31635 3.58594 10.2499 3.58594C11.1835 3.58594 12.0878 3.76758 12.9394 4.12891C13.7608 4.47629 14.507 4.97973 15.1367 5.61133C15.3359 5.8125 15.5234 6.02149 15.6953 6.24219L16.8632 5.32813C15.3261 3.36328 12.9335 2.09961 10.246 2.10156C5.56635 2.10352 1.80854 5.9043 1.85541 10.5859C1.90229 15.1856 5.64252 18.8984 10.2499 18.8984C13.873 18.8984 16.9589 16.6016 18.1347 13.3848C18.164 13.3027 18.121 13.2109 18.039 13.1816Z" fill="#121212" />
                                 </svg>
                             </span>
                             <span class="menu-title black">SMS Scheduled Log</span>
-                        </span>
-                        <!--end:Menu link-->
-                    </div>
+                        </a>
+                      </div>
+                     <!--end:Menu link-->
                     <!--end:Menu item-->
                     <!--begin:Menu item-->
                     <%--                    <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention">--%>
@@ -175,7 +175,7 @@
                             <!--begin:Menu item-->
                             <div class="menu-item">
                                 <!--begin:Menu link-->
-                                <a class="menu-link" href="/sentreport.aspx">
+                                <a class="menu-link" href="/coverage-price.aspx">
                                     <span class="menu-bullet">
                                         <span class="bullet bullet-dot"></span>
                                     </span>
@@ -187,7 +187,7 @@
                             <!--begin:Menu item-->
                             <div class="menu-item">
                                 <!--begin:Menu link-->
-                                <a class="menu-link" href="/queuereport.aspx">
+                                <a class="menu-link" href="/sms-summary.aspx">
                                     <span class="menu-bullet">
                                         <span class="bullet bullet-dot"></span>
                                     </span>
@@ -199,7 +199,7 @@
                             <!--begin:Menu item-->
                             <div class="menu-item">
                                 <!--begin:Menu link-->
-                                <a class="menu-link" href="/reloadreport.aspx">
+                                <a class="menu-link" href="/affiliates.aspx">
                                     <span class="menu-bullet">
                                         <span class="bullet bullet-dot"></span>
                                     </span>
@@ -211,7 +211,7 @@
                             <!--begin:Menu item-->
                             <div class="menu-item">
                                 <!--begin:Menu link-->
-                                <a class="menu-link" href="/paymentsreport.aspx">
+                                <a class="menu-link" href="/api.aspx">
                                     <span class="menu-bullet">
                                         <span class="bullet bullet-dot"></span>
                                     </span>
@@ -243,7 +243,7 @@
                             <!--begin:Menu item-->
                             <div class="menu-item">
                                 <!--begin:Menu link-->
-                                <a class="menu-link" href="/sentreport.aspx">
+                                <a class="menu-link" href="/user.aspx">
                                     <span class="menu-bullet">
                                         <span class="bullet bullet-dot"></span>
                                     </span>
@@ -255,7 +255,7 @@
                             <!--begin:Menu item-->
                             <div class="menu-item">
                                 <!--begin:Menu link-->
-                                <a class="menu-link" href="/paymentsreport.aspx">
+                                <a class="menu-link" href="/send-email.aspx">
                                     <span class="menu-bullet">
                                         <span class="bullet bullet-dot"></span>
                                     </span>
@@ -267,7 +267,7 @@
                              <!--begin:Menu item-->
                              <div class="menu-item">
                                  <!--begin:Menu link-->
-                                 <a class="menu-link" href="/paymentsreport.aspx">
+                                 <a class="menu-link" href="/transactions-log.aspx">
                                      <span class="menu-bullet">
                                          <span class="bullet bullet-dot"></span>
                                      </span>
@@ -279,7 +279,7 @@
                              <!--begin:Menu item-->
                              <div class="menu-item">
                                  <!--begin:Menu link-->
-                                 <a class="menu-link" href="/paymentsreport.aspx">
+                                 <a class="menu-link" href="/credits-log.aspx">
                                      <span class="menu-bullet">
                                          <span class="bullet bullet-dot"></span>
                                      </span>
@@ -291,7 +291,7 @@
                              <!--begin:Menu item-->
                                  <div class="menu-item">
                                      <!--begin:Menu link-->
-                                     <a class="menu-link" href="/paymentsreport.aspx">
+                                     <a class="menu-link" href="/sms-log.aspx">
                                          <span class="menu-bullet">
                                              <span class="bullet bullet-dot"></span>
                                          </span>
@@ -303,7 +303,7 @@
                              <!--begin:Menu item-->
                                  <div class="menu-item">
                                      <!--begin:Menu link-->
-                                     <a class="menu-link" href="/paymentsreport.aspx">
+                                     <a class="menu-link" href="/sms-log.aspx">
                                          <span class="menu-bullet">
                                              <span class="bullet bullet-dot"></span>
                                          </span>
@@ -315,7 +315,7 @@
                              <!--begin:Menu item-->
                                  <div class="menu-item">
                                      <!--begin:Menu link-->
-                                     <a class="menu-link" href="/paymentsreport.aspx">
+                                     <a class="menu-link" href="/general-settings.aspx">
                                          <span class="menu-bullet">
                                              <span class="bullet bullet-dot"></span>
                                          </span>

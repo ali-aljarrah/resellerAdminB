@@ -203,6 +203,8 @@
     <Content Include="sms-scheduled.aspx" />
     <Content Include="sms-summary.aspx" />
     <Content Include="smslog.aspx" />
+    <Content Include="transactions-log.aspx" />
+    <Content Include="user.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -374,6 +376,20 @@
     </Compile>
     <Compile Include="smslog.aspx.designer.cs">
       <DependentUpon>smslog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="transactions-log.aspx.cs">
+      <DependentUpon>transactions-log.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="transactions-log.aspx.designer.cs">
+      <DependentUpon>transactions-log.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user.aspx.cs">
+      <DependentUpon>user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user.aspx.designer.cs">
+      <DependentUpon>user.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
