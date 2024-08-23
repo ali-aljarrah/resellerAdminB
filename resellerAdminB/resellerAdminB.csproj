@@ -70,6 +70,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="403.aspx" />
+    <Content Include="404.aspx" />
+    <Content Include="500.aspx" />
     <Content Include="account.aspx" />
     <Content Include="admin-scheduled-log.aspx" />
     <Content Include="admin-sms-log.aspx" />
@@ -200,6 +203,8 @@
     <Content Include="forgot.aspx" />
     <Content Include="general-settings.aspx" />
     <Content Include="index.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="register.aspx" />
     <Content Include="send-email.aspx" />
     <Content Include="sendbulk.aspx" />
     <Content Include="single-sms.aspx" />
@@ -213,6 +218,27 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="403.aspx.cs">
+      <DependentUpon>403.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="403.aspx.designer.cs">
+      <DependentUpon>403.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="404.aspx.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="404.aspx.designer.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="500.aspx.cs">
+      <DependentUpon>500.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="500.aspx.designer.cs">
+      <DependentUpon>500.aspx</DependentUpon>
+    </Compile>
     <Compile Include="account.aspx.cs">
       <DependentUpon>account.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -339,7 +365,21 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
     <Compile Include="send-email.aspx.cs">
       <DependentUpon>send-email.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -419,7 +459,6 @@
     <Content Include="assets\font\UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2" />
     <Content Include="assets\font\UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2" />
     <Content Include="assets\font\UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2" />
-    <Content Include="assets\img\404img.webp" />
     <Content Include="assets\img\error-img.webp" />
     <Content Include="assets\img\home\german.webp" />
     <Content Include="assets\img\home\Image.webp" />
@@ -427,7 +466,6 @@
     <Content Include="assets\img\home\netherland.webp" />
     <Content Include="assets\img\img-user.webp" />
     <Content Include="assets\img\login-img.webp" />
-    <Content Include="assets\img\Rectangle3.webp" />
     <Content Include="assets\img\Rectangle4.webp" />
     <Content Include="assets\img\Rectangle55.webp" />
     <Content Include="assets\plugins\global\fonts\%40fortawesome\fa-brands-400.ttf" />
@@ -461,6 +499,8 @@
     <Content Include="assets\plugins\global\fonts\line-awesome\la-solid-900.ttf" />
     <Content Include="assets\plugins\global\fonts\line-awesome\la-solid-900.woff" />
     <Content Include="assets\plugins\global\fonts\line-awesome\la-solid-900.woff2" />
+    <Content Include="assets\img\404img.webp" />
+    <Content Include="assets\img\log-img.webp" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
