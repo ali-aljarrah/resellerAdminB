@@ -44,6 +44,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -67,6 +70,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="account.aspx" />
     <Content Include="admin-scheduled-log.aspx" />
     <Content Include="admin-sms-log.aspx" />
     <Content Include="affiliates.aspx" />
@@ -204,10 +208,18 @@
     <Content Include="sms-summary.aspx" />
     <Content Include="smslog.aspx" />
     <Content Include="transactions-log.aspx" />
+    <Content Include="user-list.aspx" />
     <Content Include="user.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="account.aspx.cs">
+      <DependentUpon>account.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="account.aspx.designer.cs">
+      <DependentUpon>account.aspx</DependentUpon>
+    </Compile>
     <Compile Include="admin-scheduled-log.aspx.cs">
       <DependentUpon>admin-scheduled-log.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -383,6 +395,13 @@
     </Compile>
     <Compile Include="transactions-log.aspx.designer.cs">
       <DependentUpon>transactions-log.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user-list.aspx.cs">
+      <DependentUpon>user-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user-list.aspx.designer.cs">
+      <DependentUpon>user-list.aspx</DependentUpon>
     </Compile>
     <Compile Include="user.aspx.cs">
       <DependentUpon>user.aspx</DependentUpon>
