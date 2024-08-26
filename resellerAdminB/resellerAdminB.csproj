@@ -101,6 +101,7 @@
     <Content Include="assets\js\custom\authentication\sign-up\general.js" />
     <Content Include="assets\js\hlr.js" />
     <Content Include="assets\js\hlr_log.js" />
+    <Content Include="assets\js\loader.js" />
     <Content Include="assets\js\main.js" />
     <Content Include="assets\js\manage_files.js" />
     <Content Include="assets\js\manage_temp.js" />
@@ -501,6 +502,7 @@
     <Content Include="assets\plugins\global\fonts\line-awesome\la-solid-900.woff2" />
     <Content Include="assets\img\404img.webp" />
     <Content Include="assets\img\log-img.webp" />
+    <Content Include="assets\img\logo.webp" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

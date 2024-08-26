@@ -30,50 +30,82 @@ $(document).ready(function () {
         $('.loader').removeClass('show');
     }, 1500);
 
-    //var url = window.location.pathname;
+    var url = window.location.pathname;
 
-    //if (url == '/index.aspx') {
-    //    document.getElementById("home-lg-link").classList.add("active");
-    //} else if (url == '/send_sms.aspx') {
-    //    document.getElementById("sms-lg-btn").classList.add("active");
-    //    document.getElementById("send-single-sms-lg-link").classList.add("active");
-    //} else if (url == '/bulksms.aspx') {
-    //    document.getElementById("sms-lg-btn").classList.add("active");
-    //    document.getElementById("send-bulk-sms-lg-link").classList.add("active");
-    //} else if (url == '/hlr.aspx') {
-    //    document.getElementById("hlr-lg-btn").classList.add("active");
-    //    document.getElementById("hlr-lookup-lg-link").classList.add("active");
-    //} else if (url == '/hlr_log.aspx') {
-    //    document.getElementById("hlr-lg-btn").classList.add("active");
-    //    document.getElementById("hlr-log-lg-link").classList.add("active");
-    //} else if (url == '/sms_temp.aspx') {
-    //    document.getElementById("managment-lg-btn").classList.add("active");
-    //    document.getElementById("template-managment-lg-link").classList.add("active");
-    //} else if (url == '/groups_manager.aspx') {
-    //    document.getElementById("managment-lg-btn").classList.add("active");
-    //    document.getElementById("group-manager-lg-link").classList.add("active");
-    //} else if (url == '/sentreport.aspx') {
-    //    document.getElementById("report-lg-btn").classList.add("active");
-    //    document.getElementById("sent-report-lg-link").classList.add("active");
-    //} else if (url == '/queuereport.aspx') {
-    //    document.getElementById("report-lg-btn").classList.add("active");
-    //    document.getElementById("queue-report-lg-link").classList.add("active");
-    //} else if (url == '/reloadreport.aspx') {
-    //    document.getElementById("report-lg-btn").classList.add("active");
-    //    document.getElementById("reload-report-lg-link").classList.add("active");
-    //} else if (url == '/paymentsreport.aspx') {
-    //    document.getElementById("report-lg-btn").classList.add("active");
-    //    document.getElementById("payment-report-lg-link").classList.add("active");
-    //} else if (url == '/reload.aspx') {
-    //    document.getElementById("reload-lg-link").classList.add("active");
-    //} else if (url == '/api_references.aspx') {
-    //    document.getElementById("api-lg-link").classList.add("active");
-    //} else if (url == '/cov.aspx') {
-    //    document.getElementById("coverage-lg-link").classList.add("active");
-    //} else if (url == '/settings.aspx') {
-    //    document.getElementById("settings-lg-link").classList.add("active");
-    //}
-
+    if (url == '/index.aspx') {
+        document.getElementById("home-link").classList.add("active");
+    } else if (url == '/buy-credits.aspx') {
+        document.getElementById("reload-link").classList.add("active");
+    } else if (url == '/single-sms.aspx') {
+        document.getElementById("send-sms-link").classList.add("active");
+        document.getElementById("send-sinle-sms-link").classList.add("active");
+        document.getElementById("send-sms-link").classList.add("hover");
+        document.getElementById("send-sms-link").classList.add("show");
+    } else if (url == '/sendbulk.aspx') {
+        document.getElementById("send-sms-link").classList.add("active");
+        document.getElementById("send-bulk-sms-link").classList.add("active");
+        document.getElementById("send-sms-link").classList.add("hover");
+        document.getElementById("send-sms-link").classList.add("show");
+    } else if (url == '/files-manager.aspx') {
+        document.getElementById("send-sms-link").classList.add("active");
+        document.getElementById("file-manager-sms-link").classList.add("active");
+        document.getElementById("send-sms-link").classList.add("hover");
+        document.getElementById("send-sms-link").classList.add("show");
+    } else if (url == '/admin-sms-log.aspx') {
+        document.getElementById("admin-sms-log-link").classList.add("active");
+    } else if (url == '/admin-scheduled-log.aspx') {
+        document.getElementById("admin-scheduled-log-link").classList.add("active");
+    } else if (url == '/coverage-price.aspx') {
+        document.getElementById("reseller-features-link").classList.add("active");
+        document.getElementById("cov-link").classList.add("active");
+        document.getElementById("reseller-features-link").classList.add("hover");
+        document.getElementById("reseller-features-link").classList.add("show");
+    } else if (url == '/sms-summary.aspx') {
+        document.getElementById("reseller-features-link").classList.add("active");
+        document.getElementById("sms-summary-link").classList.add("active");
+        document.getElementById("reseller-features-link").classList.add("hover");
+        document.getElementById("reseller-features-link").classList.add("show");
+    } else if (url == '/affiliates.aspx') {
+        document.getElementById("reseller-features-link").classList.add("active");
+        document.getElementById("affiliates-link").classList.add("active");
+        document.getElementById("reseller-features-link").classList.add("hover");
+        document.getElementById("reseller-features-link").classList.add("show");
+    } else if (url == '/api.aspx') {
+        document.getElementById("reseller-features-link").classList.add("active");
+        document.getElementById("api-link").classList.add("active");
+        document.getElementById("reseller-features-link").classList.add("hover");
+        document.getElementById("reseller-features-link").classList.add("show");
+    } else if (url == '/user-list.aspx' || url == '/user.aspx') {
+        document.getElementById("reseller-admin-link").classList.add("active");
+        document.getElementById("user-list-link").classList.add("active");
+        document.getElementById("reseller-admin-link").classList.add("hover");
+        document.getElementById("reseller-admin-link").classList.add("show");
+    } else if (url == '/send-email.aspx') {
+        document.getElementById("reseller-admin-link").classList.add("active");
+        document.getElementById("send-email-link").classList.add("active");
+        document.getElementById("reseller-admin-link").classList.add("hover");
+        document.getElementById("reseller-admin-link").classList.add("show");
+    } else if (url == '/transactions-log.aspx') {
+        document.getElementById("reseller-admin-link").classList.add("active");
+        document.getElementById("transactions-log-link").classList.add("active");
+        document.getElementById("reseller-admin-link").classList.add("hover");
+        document.getElementById("reseller-admin-link").classList.add("show");
+    } else if (url == '/credits-log.aspx') {
+        document.getElementById("reseller-admin-link").classList.add("active");
+        document.getElementById("credits-log-link").classList.add("active");
+        document.getElementById("reseller-admin-link").classList.add("hover");
+        document.getElementById("reseller-admin-link").classList.add("show");
+    } else if (url == '/sms-log.aspx') {
+        document.getElementById("reseller-admin-link").classList.add("active");
+        document.getElementById("sms-log-link").classList.add("active");
+        document.getElementById("reseller-admin-link").classList.add("hover");
+        document.getElementById("reseller-admin-link").classList.add("show");
+    } else if (url == '/general-settings.aspx') {
+        document.getElementById("reseller-admin-link").classList.add("active");
+        document.getElementById("general-settings-link").classList.add("active");
+        document.getElementById("reseller-admin-link").classList.add("hover");
+        document.getElementById("reseller-admin-link").classList.add("show");
+    }
 });
 
 

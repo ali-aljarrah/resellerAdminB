@@ -642,27 +642,17 @@ input#dt-search-0 {
 }
 /*form search js file */
 
-.nav-line-tabs.nav-line-tabs-2x .nav-item .nav-link.active, .nav-line-tabs.nav-line-tabs-2x .nav-item .nav-link:hover:not(.disabled), .nav-line-tabs.nav-line-tabs-2x .nav-item.show .nav-link {
+.nav-line-tabs.nav-line-tabs-2x .nav-item .nav-link, .nav-line-tabs.nav-line-tabs-2x .nav-item .nav-link:not(.disabled), .nav-line-tabs.nav-line-tabs-2x .nav-item.show .nav-link {
+        padding-left:20px;
+    padding-right:20px;
+}
+    .nav-line-tabs.nav-line-tabs-2x .nav-item .nav-link.active, .nav-line-tabs.nav-line-tabs-2x .nav-item .nav-link:hover:not(.disabled), .nav-line-tabs.nav-line-tabs-2x .nav-item.show .nav-link {
     background: -webkit-linear-gradient(#0E41C1, #0047FF) !important;
     border: none !important;
     border-radius: 20px !important;
     color: white !important;
     margin-bottom: .75rem !important;
-    padding-left:20px;
-    padding-right:20px;
-}
-
-/*.bg-image-log {
-    background-image:url(/assets/img/Rectangle3.webp), -webkit-linear-gradient(#0E41C1, #0047FF);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom left;
-}*/
-.bg-img-404 {
-    background-image: url(/assets/img/404img.webp), -webkit-linear-gradient(#0E41C1, #0047FF);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom left;
+   
 }
 
 .fs-44{
@@ -699,4 +689,59 @@ input#dt-search-0 {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom left;
+}
+
+.bg-sidebar {
+    background-color: #ffffff !important;
+}
+/*sidebar title color*/
+
+[data-kt-app-layout=dark-sidebar] .app-sidebar .menu .menu-item .menu-link .menu-title {
+    color: #000000 !important;
+}
+
+[data-kt-app-layout=dark-sidebar] .app-sidebar .app-sidebar-logo {
+    border-bottom: none !important;
+}
+
+[data-kt-app-layout=dark-sidebar] .app-sidebar .menu .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here) .menu-arrow:after, [data-kt-app-layout=dark-sidebar] .app-sidebar .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-arrow:after {
+    background-color: #000000 !important;
+}
+
+.menu-item {
+    border-radius: 10px !important;
+    transition: all .2s ease-in-out;
+}
+
+    .menu-item .menu-link .menu-title {
+        color: #000000;
+        transition: all .2s ease-in-out;
+    }
+
+    .menu-item .menu-link .menu-icon svg path {
+        transition: all .2s ease-in-out;
+    }
+
+    .menu-item:hover .menu-link.main, .menu-item.active .menu-link.main {
+        background-color: #0e41c1;
+    }
+
+        .menu-item:hover .menu-link.main .menu-title, .menu-item.active .menu-link.main .menu-title {
+            color: #FFFFFF !important;
+        }
+
+        .menu-item:hover .menu-link.main .menu-icon svg path, .menu-item.active .menu-link.main .menu-icon svg path {
+            fill: #FFFFFF;
+        }
+
+    .menu-item.child:hover, .menu-item.child.active {
+        background-color: #0e41c1;
+    }
+
+        .menu-item.child:hover .menu-title, .menu-item.child.active .menu-title {
+            color: #FFFFFF !important;
+        }
+
+.btn-prem-top-menu {
+    padding-top: 16px !important;
 }
