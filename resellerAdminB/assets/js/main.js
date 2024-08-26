@@ -1,4 +1,7 @@
-$( document ).ready(function() {
+$(document).ready(function () {
+
+    // Call sideBar check function in page load
+    checkSideBar();
 
     toastr.options = {
         "closeButton": false,
@@ -27,51 +30,94 @@ $( document ).ready(function() {
         $('.loader').removeClass('show');
     }, 1500);
 
-    var url = window.location.pathname;
+    //var url = window.location.pathname;
 
-    if (url == '/index.aspx') {
-        document.getElementById("home-lg-link").classList.add("active");
-    } else if (url == '/send_sms.aspx') {
-        document.getElementById("sms-lg-btn").classList.add("active");
-        document.getElementById("send-single-sms-lg-link").classList.add("active");
-    } else if (url == '/bulksms.aspx') {
-        document.getElementById("sms-lg-btn").classList.add("active");
-        document.getElementById("send-bulk-sms-lg-link").classList.add("active");
-    } else if (url == '/hlr.aspx') {
-        document.getElementById("hlr-lg-btn").classList.add("active");
-        document.getElementById("hlr-lookup-lg-link").classList.add("active");
-    } else if (url == '/hlr_log.aspx') {
-        document.getElementById("hlr-lg-btn").classList.add("active");
-        document.getElementById("hlr-log-lg-link").classList.add("active");
-    } else if (url == '/sms_temp.aspx') {
-        document.getElementById("managment-lg-btn").classList.add("active");
-        document.getElementById("template-managment-lg-link").classList.add("active");
-    } else if (url == '/groups_manager.aspx') {
-        document.getElementById("managment-lg-btn").classList.add("active");
-        document.getElementById("group-manager-lg-link").classList.add("active");
-    } else if (url == '/sentreport.aspx') {
-        document.getElementById("report-lg-btn").classList.add("active");
-        document.getElementById("sent-report-lg-link").classList.add("active");
-    } else if (url == '/queuereport.aspx') {
-        document.getElementById("report-lg-btn").classList.add("active");
-        document.getElementById("queue-report-lg-link").classList.add("active");
-    } else if (url == '/reloadreport.aspx') {
-        document.getElementById("report-lg-btn").classList.add("active");
-        document.getElementById("reload-report-lg-link").classList.add("active");
-    } else if (url == '/paymentsreport.aspx') {
-        document.getElementById("report-lg-btn").classList.add("active");
-        document.getElementById("payment-report-lg-link").classList.add("active");
-    } else if (url == '/reload.aspx') {
-        document.getElementById("reload-lg-link").classList.add("active");
-    } else if (url == '/api_references.aspx') {
-        document.getElementById("api-lg-link").classList.add("active");
-    } else if (url == '/cov.aspx') {
-        document.getElementById("coverage-lg-link").classList.add("active");
-    } else if (url == '/settings.aspx') {
-        document.getElementById("settings-lg-link").classList.add("active");
-    }
+    //if (url == '/index.aspx') {
+    //    document.getElementById("home-lg-link").classList.add("active");
+    //} else if (url == '/send_sms.aspx') {
+    //    document.getElementById("sms-lg-btn").classList.add("active");
+    //    document.getElementById("send-single-sms-lg-link").classList.add("active");
+    //} else if (url == '/bulksms.aspx') {
+    //    document.getElementById("sms-lg-btn").classList.add("active");
+    //    document.getElementById("send-bulk-sms-lg-link").classList.add("active");
+    //} else if (url == '/hlr.aspx') {
+    //    document.getElementById("hlr-lg-btn").classList.add("active");
+    //    document.getElementById("hlr-lookup-lg-link").classList.add("active");
+    //} else if (url == '/hlr_log.aspx') {
+    //    document.getElementById("hlr-lg-btn").classList.add("active");
+    //    document.getElementById("hlr-log-lg-link").classList.add("active");
+    //} else if (url == '/sms_temp.aspx') {
+    //    document.getElementById("managment-lg-btn").classList.add("active");
+    //    document.getElementById("template-managment-lg-link").classList.add("active");
+    //} else if (url == '/groups_manager.aspx') {
+    //    document.getElementById("managment-lg-btn").classList.add("active");
+    //    document.getElementById("group-manager-lg-link").classList.add("active");
+    //} else if (url == '/sentreport.aspx') {
+    //    document.getElementById("report-lg-btn").classList.add("active");
+    //    document.getElementById("sent-report-lg-link").classList.add("active");
+    //} else if (url == '/queuereport.aspx') {
+    //    document.getElementById("report-lg-btn").classList.add("active");
+    //    document.getElementById("queue-report-lg-link").classList.add("active");
+    //} else if (url == '/reloadreport.aspx') {
+    //    document.getElementById("report-lg-btn").classList.add("active");
+    //    document.getElementById("reload-report-lg-link").classList.add("active");
+    //} else if (url == '/paymentsreport.aspx') {
+    //    document.getElementById("report-lg-btn").classList.add("active");
+    //    document.getElementById("payment-report-lg-link").classList.add("active");
+    //} else if (url == '/reload.aspx') {
+    //    document.getElementById("reload-lg-link").classList.add("active");
+    //} else if (url == '/api_references.aspx') {
+    //    document.getElementById("api-lg-link").classList.add("active");
+    //} else if (url == '/cov.aspx') {
+    //    document.getElementById("coverage-lg-link").classList.add("active");
+    //} else if (url == '/settings.aspx') {
+    //    document.getElementById("settings-lg-link").classList.add("active");
+    //}
 
 });
+
+
+// Function to check the sideBar
+function checkSideBar() {
+    if (localStorage.getItem("sideBar") === null) {
+        // If the item is not in the local storage then the sideBar is open by default
+        // So we create item in local storage for the side bar with the value 1
+        localStorage.setItem("sideBar", 1);
+    } else {
+        // If the item is in the local storage we need to get the item's value
+        let sideBarValue = localStorage.getItem("sideBar");
+
+        // TO DO:
+        // if the value is zero we need to delete the body attribute to close the side bar
+        if (sideBarValue == 0) {
+            document.getElementsByTagName('body')[0].setAttribute("data-kt-app-sidebar-minimize", "on");
+            document.getElementById('kt_app_sidebar_toggle').classList.add("active");
+        }
+    }
+}
+
+
+
+// Function to change storage value for sidebar
+function sideClick() {
+    // 
+    if (localStorage.getItem("sideBar") != null) {
+        let sideBarValue = localStorage.getItem("sideBar");
+        if (sideBarValue == 0) {
+            localStorage.setItem("sideBar", 1);
+        }
+        else {
+            localStorage.setItem("sideBar", 0);
+        }
+
+    }
+}
+
+
+
+
+
+
 
 $.fn.scrollDivToElement = function(childSel) {
     if (! this.length) return this;
