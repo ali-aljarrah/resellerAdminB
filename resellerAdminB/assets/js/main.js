@@ -75,9 +75,9 @@ $(document).ready(function () {
         document.getElementById("api-link").classList.add("active");
         document.getElementById("reseller-features-link").classList.add("hover");
         document.getElementById("reseller-features-link").classList.add("show");
-    } else if (url == '/user-list.aspx' || url == '/user.aspx') {
+    } else if (url == '/users-list.aspx' || url == '/user.aspx') {
         document.getElementById("reseller-admin-link").classList.add("active");
-        document.getElementById("user-list-link").classList.add("active");
+        document.getElementById("users-list-link").classList.add("active");
         document.getElementById("reseller-admin-link").classList.add("hover");
         document.getElementById("reseller-admin-link").classList.add("show");
     } else if (url == '/send-email.aspx') {

@@ -7,7 +7,7 @@ $(document).ready(function () {
     }).DataTable();
 
     var recent_traffic_data = $('#recent-traffic-report').DataTable({
-        dom: "<'d-flex justify-content-between align-items-center flex-column flex-md-row'<''f><'mt-3 mt-md-0 mb-3 mb-md-0'B>>" +
+        dom: "<'d-flex mb-5 justify-content-between align-items-center flex-column flex-md-row'<''f><'mt-3 mt-md-0 mb-3 mb-md-0'B>>" +
             "<'row'<'col-sm-12'tr>>" +
             "<'d-flex justify-content-between align-items-center flex-column flex-md-row'<''l><''i><''p>>",
         buttons: [
@@ -39,7 +39,7 @@ $(document).ready(function () {
     }).DataTable();
 
     var recent_transactions_data = $('#recent-transactions-report').DataTable({
-        dom: "<'d-flex justify-content-between align-items-center flex-column flex-md-row'<''f><'mt-3 mt-md-0 mb-3 mb-md-0'B>>" +
+        dom: "<'d-flex mb-5 justify-content-between align-items-center flex-column flex-md-row'<''f><'mt-3 mt-md-0 mb-3 mb-md-0'B>>" +
             "<'row'<'col-sm-12'tr>>" +
             "<'d-flex justify-content-between align-items-center flex-column flex-md-row'<''l><''i><''p>>",
         buttons: [
@@ -71,7 +71,7 @@ $(document).ready(function () {
     }).DataTable();
 
     var custom_rates_data = $('#custom-rates-report').DataTable({
-        dom: "<'d-flex justify-content-between align-items-center flex-column flex-md-row'<''f><'mt-3 mt-md-0 mb-3 mb-md-0'B>>" +
+        dom: "<'d-flex mb-5 justify-content-between align-items-center flex-column flex-md-row'<''f><'mt-3 mt-md-0 mb-3 mb-md-0'B>>" +
             "<'row'<'col-sm-12'tr>>" +
             "<'d-flex justify-content-between align-items-center flex-column flex-md-row'<''l><''i><''p>>",
         buttons: [
@@ -105,121 +105,116 @@ $('#userStatus').change(function () {
 // Modals initialize
 
 // Submit send message event
-$('#sendMessageSubmitBtn').click(function (e) {
-    e.preventDefault();
-    $(this).prop('disabled', true);
+function sendEmailSubmit(id) {
+    var el = document.getElementById(id);
+    el.disabled = true;
 
-    let messageSubject = $('#messageSubject').val();
-    let messageBody = $('#messageBody').val();
+    let messageSubject = document.getElementById("messageSubject").value;
+    let messageBody = document.getElementById("messageBody").value;
 
     if (messageSubject.trim() == '') {
-        toastr.error("Enter message subject!");
-        $(this).prop('disabled', false);
-        return;
+        toastr.error("Please enter message subject!");
+
+        el.disabled = false;
+
+        return false;
     }
 
     if (messageBody.trim() == '') {
-        toastr.error("Enter message!");
-        $(this).prop('disabled', false);
-        return;
+        toastr.error("Please enter message content!");
+
+        el.disabled = false;
+
+        return false;
     }
 
-    toastr.success("Message has been sent successfully!");
+    el.disabled = false;
 
-    $(this).prop('disabled', false);
-    $('#messageSubject').val('');
-    $('#messageBody').val('');
-});
+    __doPostBack(id, '');
+}
 
 // Submit add credits event
-$('#addCreditsSubmitBtn').click(function (e) {
-    e.preventDefault();
-    $(this).prop('disabled', true);
+function addCreditSubmit(id) {
+    var el = document.getElementById(id);
+    el.disabled = true;
 
-    let creditsAmount = $('#creditsAmount').val();
+    let creditsAmount = document.getElementById("creditsAmount").value;
 
     if (creditsAmount.length <= 0 || !$.isNumeric(creditsAmount)) {
         toastr.error("Enter a valid credit amount!");
-        $(this).prop('disabled', false);
-        return;
+
+        el.disabled = false;
+
+        return false;
     }
 
-    toastr.success("Credits has been addedd successfully!");
+    el.disabled = false;
 
-    $(this).prop('disabled', false);
-    $('#creditsAmount').val('');
-});
+    __doPostBack(id, '');
+}
+
 
 // Submit edit account info event
-$('#editAccountInfoSubmitBtn').click(function (e) {
-    e.preventDefault();
-    $(this).prop('disabled', true);
+function editAccountSubmit(id) {
+    var el = document.getElementById(id);
+    el.disabled = true;
 
-    var accountType = $('#accountType').find(":selected").val();
-    var accountStatus = $('#accountStatus').find(":selected").val();
+    let accountType = document.getElementById("accountType").value;
+    let accountStatus = document.getElementById("accountStatus").value;
 
-    if (accountType == '') {
-        toastr.error("Select the account type!");
-        $(this).prop('disabled', false);
-        return;
+    if (accountType.trim() == '') {
+        toastr.error("Please select the account type!");
+        el.disabled = false;
+        return false;
     }
 
-    if (accountStatus == '') {
-        toastr.error("Select the account status!");
-        $(this).prop('disabled', false);
-        return;
+    if (accountStatus.trim() == '') {
+        toastr.error("Please select the account status!");
+        el.disabled = false;
+        return false;
     }
+    el.disabled = false;
 
-    toastr.success("Account information updated successfully!");
-
-    $(this).prop('disabled', false);
-});
-
-// Submit edit contact details event
-$('#editContactDetailsSubmitBtn').click(function (e) {
-    e.preventDefault();
-
-    toastr.success("Contact details updated successfully!");
-});
+    __doPostBack(id, '');
+}
 
 // Submit change password event
-$('#changePasswordSubmitBtn').click(function (e) {
-    e.preventDefault();
-    $(this).prop('disabled', true);
+function editAccountPasswordSubmit(id) {
+    var el = document.getElementById(id);
+    el.disabled = true;
 
-    let oldPassword = $('#oldPassword').val();
-    let newPassword = $('#newPassword').val();
-    let confirmNewPassword = $('#confirmNewPassword').val();
+    let oldPassword = document.getElementById("oldPassword").value;
+    let newPassword = document.getElementById("newPassword").value;
+    let confirmNewPassword = document.getElementById("confirmNewPassword").value;
 
     if (oldPassword.trim() == '') {
-        toastr.error("Enter the account current password!");
-        $(this).prop('disabled', false);
-        return;
+        toastr.error("Please enter the account current password!");
+        el.disabled = false;
+        return false;
     }
+
     if (newPassword.trim() == '') {
-        toastr.error("Enter the account new password!");
-        $(this).prop('disabled', false);
-        return;
+        toastr.error("Please enter the account new password!");
+        el.disabled = false;
+        return false;
     }
+
     if (confirmNewPassword.trim() == '') {
-        toastr.error("Confirm the account new password!");
-        $(this).prop('disabled', false);
-        return;
+        toastr.error("Please confirm the account new password!");
+        el.disabled = false;
+        return false;
     }
+
     if (newPassword.trim() != confirmNewPassword.trim()) {
         toastr.error("Confirm password is not correct!");
-        $(this).prop('disabled', false);
-        return;
+        el.disabled = false;
+        return false;
     }
 
-    toastr.success("Account password updated successfully!");
+    el.disabled = false;
 
-    $(this).prop('disabled', false);
-
-    $('#oldPassword').val('');
-    $('#newPassword').val('');
-    $('#confirmNewPassword').val('');
-});
+    __doPostBack(id, '');
+}
 
 
 // Create new message function

@@ -116,7 +116,6 @@
     <Content Include="assets\js\sentreport.js" />
     <Content Include="assets\js\settings.js" />
     <Content Include="assets\js\sms-scheduled.js" />
-    <Content Include="assets\js\sms-summary.js" />
     <Content Include="assets\js\transactions-log.js" />
     <Content Include="assets\js\user-list.js" />
     <Content Include="assets\js\user.js" />
@@ -214,7 +213,7 @@
     <Content Include="sms-summary.aspx" />
     <Content Include="smslog.aspx" />
     <Content Include="transactions-log.aspx" />
-    <Content Include="user-list.aspx" />
+    <Content Include="users-list.aspx" />
     <Content Include="user.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -437,12 +436,12 @@
     <Compile Include="transactions-log.aspx.designer.cs">
       <DependentUpon>transactions-log.aspx</DependentUpon>
     </Compile>
-    <Compile Include="user-list.aspx.cs">
-      <DependentUpon>user-list.aspx</DependentUpon>
+    <Compile Include="users-list.aspx.cs">
+      <DependentUpon>users-list.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="user-list.aspx.designer.cs">
-      <DependentUpon>user-list.aspx</DependentUpon>
+    <Compile Include="users-list.aspx.designer.cs">
+      <DependentUpon>users-list.aspx</DependentUpon>
     </Compile>
     <Compile Include="user.aspx.cs">
       <DependentUpon>user.aspx</DependentUpon>

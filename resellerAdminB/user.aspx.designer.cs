@@ -24,6 +24,15 @@ namespace resellerAdminB
         protected global::resellerAdminB.Controls.Head Head;
 
         /// <summary>
+        /// userForm control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm userForm;
+
+        /// <summary>
         /// Loader control.
         /// </summary>
         /// <remarks>
@@ -51,6 +60,87 @@ namespace resellerAdminB
         protected global::resellerAdminB.Controls.SideBar SideBar;
 
         /// <summary>
+        /// accountType control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlSelect accountType;
+
+        /// <summary>
+        /// accountStatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlSelect accountStatus;
+
+        /// <summary>
+        /// userBirthday control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl userBirthday;
+
+        /// <summary>
+        /// EditAccountInfoSubmitBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button EditAccountInfoSubmitBtn;
+
+        /// <summary>
+        /// EditContactDetailsSubmitBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button EditContactDetailsSubmitBtn;
+
+        /// <summary>
+        /// oldPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword oldPassword;
+
+        /// <summary>
+        /// newPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword newPassword;
+
+        /// <summary>
+        /// confirmNewPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword confirmNewPassword;
+
+        /// <summary>
+        /// ChangePasswordSubmitBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ChangePasswordSubmitBtn;
+
+        /// <summary>
         /// footer control.
         /// </summary>
         /// <remarks>
@@ -60,67 +150,49 @@ namespace resellerAdminB
         protected global::resellerAdminB.Controls.Footer footer;
 
         /// <summary>
-        /// newUserFullName control.
+        /// messageSubject control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText newUserFullName;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText messageSubject;
 
         /// <summary>
-        /// newUserEmail control.
+        /// messageBody control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl newUserEmail;
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea messageBody;
 
         /// <summary>
-        /// newUserPhoneNumber control.
+        /// SendMessageSubmitBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText newUserPhoneNumber;
+        protected global::System.Web.UI.WebControls.Button SendMessageSubmitBtn;
 
         /// <summary>
-        /// newUserAddress control.
+        /// creditsAmount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText newUserAddress;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl creditsAmount;
 
         /// <summary>
-        /// newUserCity control.
+        /// AddCreditsSubmitBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText newUserCity;
-
-        /// <summary>
-        /// newUserState control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText newUserState;
-
-        /// <summary>
-        /// newUserCountry control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect newUserCountry;
+        protected global::System.Web.UI.WebControls.Button AddCreditsSubmitBtn;
 
         /// <summary>
         /// footerLinks control.

@@ -605,7 +605,10 @@ button.tablinks.active {
     margin-bottom: 1rem;
     margin-left: 10%;
 }
-.border-1.rounded-1.px-4.py-2.m-2:hover {
+.badge-hover {
+    transition: all .2s ease-in-out;
+}
+.badge-hover:hover {
     background: #f0f0f06e;
     box-shadow: var(--bs-box-shadow-xs);
 }
@@ -631,7 +634,7 @@ button.tablinks.active {
 }
 
 /*form search js file */
-input#dt-search-0 {
+input#dt-search-0, input#dt-search-1, input#dt-search-2 {
     border-color: #000;
     border: 1px solid #80808000;
     border-bottom: 1px solid black;

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="user-list.aspx.cs" Inherits="resellerAdminB.user_list" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="users-list.aspx.cs" Inherits="resellerAdminB.user_list" %>
 
 
 <%@ Register Src="~/Controls/Footer.ascx" TagPrefix="uc1" TagName="Footer" %>

@@ -181,60 +181,60 @@ function emailSettingsSubmit(id) {
 
 // Create new gateway function
 function createGatewaySubmit(id) {
-    //var el = document.getElementById(id)
-    //el.disabled = true;
+    var el = document.getElementById(id)
+    el.disabled = true;
 
-    //var newGatewayType = document.getElementById("newGatewayType");
-    //var newGatewayName = document.getElementById("newGatewayName");
-    //var newGatewayMinimumOrder = document.getElementById("newGatewayMinimumOrder");
-    //var newGatewayFeeType = document.getElementById("newGatewayFeeType");
-    //var newGatewayFeeAmount = document.getElementById("newGatewayFeeAmount");
-    //var newGatewaynotice = document.getElementById("newGatewaynotice");
-    //var EnableNewGateway = document.getElementById("EnableNewGateway");
+    var newGatewayType = document.getElementById("newGatewayType");
+    var newGatewayName = document.getElementById("newGatewayName");
+    var newGatewayMinimumOrder = document.getElementById("newGatewayMinimumOrder");
+    var newGatewayFeeType = document.getElementById("newGatewayFeeType");
+    var newGatewayFeeAmount = document.getElementById("newGatewayFeeAmount");
+    var newGatewaynotice = document.getElementById("newGatewaynotice");
+    var EnableNewGateway = document.getElementById("EnableNewGateway");
 
-    //if (newGatewayType.value.trim() == "") {
-    //    toastr.error("Please enter gateway type");
-    //    el.disabled = false;
-    //    return false;
-    //}
+    if (newGatewayType.value.trim() == "") {
+        toastr.error("Please enter gateway type");
+        el.disabled = false;
+        return false;
+    }
 
-    //if (newGatewayName.value.trim() == "") {
-    //    toastr.error("Please enter gateway name");
-    //    el.disabled = false;
-    //    return false;
-    //}
+    if (newGatewayName.value.trim() == "") {
+        toastr.error("Please enter gateway name");
+        el.disabled = false;
+        return false;
+    }
 
-    //if (newGatewayMinimumOrder.value.trim() == "") {
-    //    toastr.error("Please enter gateway minimum order");
-    //    el.disabled = false;
-    //    return false;
-    //}
+    if (newGatewayMinimumOrder.value.trim() == "") {
+        toastr.error("Please enter gateway minimum order");
+        el.disabled = false;
+        return false;
+    }
 
-    //if (newGatewayFeeType.value.trim() == "") {
-    //    toastr.error("Please enter gateway fee type");
-    //    el.disabled = false;
-    //    return false;
-    //}
+    if (newGatewayFeeType.value.trim() == "") {
+        toastr.error("Please enter gateway fee type");
+        el.disabled = false;
+        return false;
+    }
 
-    //if (newGatewayFeeAmount.value.trim() == "") {
-    //    toastr.error("Please enter gateway fee amount");
-    //    el.disabled = false;
-    //    return false;
-    //}
+    if (newGatewayFeeAmount.value.trim() == "") {
+        toastr.error("Please enter gateway fee amount");
+        el.disabled = false;
+        return false;
+    }
 
-    //if (newGatewaynotice.value.trim() == "") {
-    //    toastr.error("Please enter gateway notice");
-    //    el.disabled = false;
-    //    return false;
-    //}
+    if (newGatewaynotice.value.trim() == "") {
+        toastr.error("Please enter gateway notice");
+        el.disabled = false;
+        return false;
+    }
 
-    //if (EnableNewGateway.value.trim() == "") {
-    //    toastr.error("Please enter enable option");
-    //    el.disabled = false;
-    //    return false;
-    //}
+    if (EnableNewGateway.value.trim() == "") {
+        toastr.error("Please enter enable option");
+        el.disabled = false;
+        return false;
+    }
 
-    //el.disabled = false;
+    el.disabled = false;
     __doPostBack(id, '');
 }
 

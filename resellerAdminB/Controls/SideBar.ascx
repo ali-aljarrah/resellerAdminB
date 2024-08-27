@@ -277,9 +277,9 @@
                         <!--begin:Menu sub-->
                         <div class="menu-sub menu-sub-accordion pt-2">
                             <!--begin:Menu item-->
-                            <div class="menu-item child mb-2" id="user-list-link">
+                            <div class="menu-item child mb-2" id="users-list-link">
                                 <!--begin:Menu link-->
-                                <a class="menu-link" href="/user-list.aspx">
+                                <a class="menu-link" href="/users-list.aspx">
                                     <span class="menu-bullet">
                                         <span class="bullet bullet-dot"></span>
                                     </span>
