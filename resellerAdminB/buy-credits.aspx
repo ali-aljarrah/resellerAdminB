@@ -207,7 +207,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <hr class="mt-8 pt-5" />
+
                                             <!--begin::Page title-->
                                             <div class="pt-5 pb-5">
                                                 <div class="card shadow-xs p-8 d-flex mb-5">

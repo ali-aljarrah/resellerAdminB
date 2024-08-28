@@ -1,5 +1,5 @@
 // Delete file event
-$('.delete-file').click(function (e) {
+function confirmDelete(fileID) {
     Swal.fire({
         title: 'Are you sure this file?',
         text: "You won't be able to revert this!",
@@ -10,14 +10,13 @@ $('.delete-file').click(function (e) {
         confirmButtonText: 'Delete'
     }).then((result) => {
         if (result.isConfirmed) {
-            Swal.fire(
-                'Deleted!',
-                'Your file has been deleted.',
-                'success'
-            )
+            // Trigger postback with userID as the argument
+            __doPostBack('DeleteFile', fileID);
         }
-    })
-});
+    });
+}
+
+
 // Checking the file if it's valid after uploading
 $("#attach1").change(function () {
     var fileExtension = ['txt', 'csv', 'xls', 'xlsx'];

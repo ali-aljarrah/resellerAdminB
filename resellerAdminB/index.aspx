@@ -99,7 +99,7 @@
                                 </div>
                                 <!--end::Row-->
                                 <!--begin::Row-->
-                                <div class="row g-5 g-xl-10">
+                                <div class="row">
                                     <!--begin::Col-->
                                     <div class="col-xl-12">
                                         <!--begin::Row-->
@@ -307,21 +307,24 @@
                                         </div>
                                         <!--end::Col-->
                                     </div>
-                                    <!--end::Row-->
-                                    <!--begin::Row-->
-                                    <div class="row g-2 gx-xl-10">
-                                        <!--begin::Col-->
-                                        <div class="row g-2 gx-xl-10">
-                                            <!--begin::Col-->
-                                            <!--begin::Title-->
-                                            <span class="fw-bold fs-20 text-gray-800 ps-5">Sent Messages</span>
-                                            <!--end::Title-->
+                                    <!--end::Col-->
+
+                                    <!--begin::Col-->
+                                    <div class="col-xl-12 mb-8">
+                                        <div class="card card-flush shadow-xs h-xl-100 mt-1">
+                                            <div class="card-header pt-5">
+                                                <!--begin::Title-->
+                                                <h3 class="card-title align-items-start flex-column">
+                                                    <span class="card-label fw-bold text-gray-800">Sent Messages</span>
+                                                </h3>
+                                                <!--end::Title-->
+                                            </div>
                                             <!--end::Header-->
-                                            <div class="col-xl-12 mb-5 mb-xl-10">
+                                            <div class="card-body">
                                                 <!--begin::Table container-->
-                                                <div class="table-responsive px-5 py-5 mt-5 align-items-center ">
+                                                <div class="table-responsive">
                                                     <!--begin::Table-->
-                                                    <table class="table table-row-dashed align-middle gs-0 gy-3 my-0">
+                                                    <table class="table custom-table table-row-gray-300 gy-5">
                                                         <!--begin::Table body-->
                                                         <tbody>
                                                             <tr>
@@ -420,27 +423,26 @@
                                                 <!--end::Table-->
                                             </div>
                                         </div>
-                                        <!--end::Col-->
                                     </div>
-                                    <!--end::Row-->
-                                    <!--begin::Row-->
-                                    <div class="row g-2 gx-xl-10">
-                                        <!--begin::Col-->
-                                        <!--begin::Title-->
-                                        <span class="fw-bold fs-20 text-gray-800 ps-5">Recent Activity</span>
-                                        <!--end::Title-->
-                                        <!--end::Header-->
-                                        <div class="col-xl-12 mb-5 mb-xl-10">
-                                            <!--begin::Table widget 9-->
-                                            <div class="mt-2">
-                                                <div id="kt_apexcharts_3" style="height: 400px;"></div>
+                                    <!--end::Col-->
+                                 
+                                     <!--begin::Col-->
+                                    <div class="col-xl-12 mb-8">
+                                         <div class="card card-flush shadow-xs h-xl-100 mt-1">
+                                                <!--begin::Header-->
+                                                <div class="card-header pt-5">
+                                                    <!--begin::Title-->
+                                                    <h3 class="card-title align-items-start flex-column">
+                                                        <span class="card-label fw-bold text-gray-800">Recent Activity</span>
+                                                    </h3>
+                                                    <!--end::Title-->
+                                                </div>
+                                                <div class="card-body">
+                                                   <div id="kt_apexcharts_3" style="height: 400px;"></div>
+                                                </div>
                                             </div>
-                                            <!--end::Table Widget 9-->
-                                        </div>
-                                        <!--end::Col-->
                                     </div>
-                                    <!--end::Row-->
-                                    <!--end::Content container-->
+                                    <!--end::Col-->
                                 </div>
                                 <!--end::Content-->
                                 <!--end::Content container-->

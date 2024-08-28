@@ -53,7 +53,7 @@
                                             <!--begin::Page title-->
                                             <div class="page-title gap-1 d-flex justify-content-between align-items-start">
                                                 <div>
-                                                   <h1 class="page-heading text-dark fw-bold mb-3 me-3">Sent SMS Scheduled Log</h1>
+                                                    <h1 class="page-heading text-dark fw-bold mb-3 me-3">Sent SMS Scheduled Log</h1>
                                                     <p class="fs-14 color-neutral-grey pb-5">
                                                         This list is a temporary list of reports for precisely 24 hours. This ensures swift access to recent data while maintaining data privacy and security.
                                                     </p>
@@ -76,8 +76,37 @@
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
-                                                                <tbody>
-                                                                </tbody>
+
+                                                                <tr>
+                                                                    <td>60146255666</td>
+                                                                    <td class="mw-100px">
+                                                                        <div class="overflow-clip-ellipsis" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.">
+                                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>22/08/2023 03:09:36</td>
+                                                                    <td class="text-success">Sent</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>0147775666</td>
+                                                                    <td class="mw-100px">
+                                                                        <div class="overflow-clip-ellipsis" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.">
+                                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 																	
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>22/08/2023 03:09:36</td>
+                                                                    <td class="text-success">Sent</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>0136255666</td>
+                                                                    <td class="mw-100px">
+                                                                        <div class="overflow-clip-ellipsis" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.">
+                                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 																	
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>22/08/2023 03:09:36</td>
+                                                                    <td class="text-danger">Failed</td>
+                                                                </tr>
                                                             </tbody>
                                                         </table>
                                                     </div>

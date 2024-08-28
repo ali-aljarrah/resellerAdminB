@@ -44,7 +44,7 @@
                             <!--begin::Content container-->
                             <div id="kt_app_content_container" class="app-container container-fluid">
                                     <div class="row">
-                                        <div class="col-xl-8">
+                                        <div class="col-xl-12">
                                             <!--begin::Title-->
                                             <div class="card shadow-xs p-8 mb-5">
                                                 <div class="mb-1 pt-5">
@@ -54,22 +54,30 @@
                                                     Easily send messages to multiple numbers by adding commas between them. You can send to a maximum of 30 numbers each time. Happy texting!                                                                
                                                 </p>
 
-                                                <div class="mb-8">
-                                                    <label for="txtSender" class="form-label fs-14 dark-color required">Sender name</label>
-                                                    <input type="text" class="form-control form-custom-input mt-3" name="txtSender" id="txtSender" runat="server" placeholder="Sender name" data-bs-toggle="tooltip" data-bs-placement="top" title="Please Enter Sender For Message,Max length for numeric:18 and alphanumeric:11" />
-                                                </div>
-                                                <div class="mb-8">
-                                                    <label for="cmbMessageType" class="form-label fs-14 dark-color required">SMS type</label>
-                                                    <select class="form-select form-custom-select mt-3" runat="server" onchange="javascript:setMessageLength();" id="cmbMessageType" name="cmbMessageType" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Please Select Message Type">
-                                                        <option value="">Please select one</option>
-                                                        <option value="0">Text</option>
-                                                        <option value="2">Arabic</option>
-                                                        <option value="9">Unicode</option>
-                                                    </select>
-                                                </div>
-                                                <div class="mb-8">
-                                                    <label for="txtNumber" class="form-label fs-14 dark-color required">Mobile number</label>
-                                                    <input type="text" class="form-control form-custom-input mt-3" runat="server" onkeypress="return goodchars(event,'0123456789,+');" name="txtNumber" id="txtNumber" placeholder="Use number with country code" data-bs-toggle="tooltip" data-bs-placement="top" title="Please Enter Mobile Number,Maximum 30 numbers can be added seperated by comma.." />
+                                                <div class="row">
+                                                    <div class="col-xl-4">
+                                                         <div class="mb-8">
+                                                            <label for="txtSender" class="form-label fs-14 dark-color required">Sender name</label>
+                                                            <input type="text" class="form-control form-custom-input mt-3" name="txtSender" id="txtSender" runat="server" placeholder="Sender name" data-bs-toggle="tooltip" data-bs-placement="top" title="Please Enter Sender For Message,Max length for numeric:18 and alphanumeric:11" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4">
+                                                        <div class="mb-8">
+                                                            <label for="cmbMessageType" class="form-label fs-14 dark-color required">SMS type</label>
+                                                            <select class="form-select form-custom-select mt-3" runat="server" onchange="javascript:setMessageLength();" id="cmbMessageType" name="cmbMessageType" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Please Select Message Type">
+                                                                <option value="">Please select one</option>
+                                                                <option value="0">Text</option>
+                                                                <option value="2">Arabic</option>
+                                                                <option value="9">Unicode</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4">
+                                                          <div class="mb-8">
+                                                              <label for="txtNumber" class="form-label fs-14 dark-color required">Mobile number</label>
+                                                              <input type="text" class="form-control form-custom-input mt-3" runat="server" onkeypress="return goodchars(event,'0123456789,+');" name="txtNumber" id="txtNumber" placeholder="Use number with country code" data-bs-toggle="tooltip" data-bs-placement="top" title="Please Enter Mobile Number,Maximum 30 numbers can be added seperated by comma.." />
+                                                          </div>
+                                                    </div>
                                                 </div>
                                                 <div class="mb-8">
                                                     <div class="d-flex justify-content-between align-items-center">

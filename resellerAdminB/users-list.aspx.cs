@@ -13,10 +13,32 @@ namespace resellerAdminB
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            if (IsPostBack)
+            {
+                string eventTarget = Request["__EVENTTARGET"];
+                string eventArgument = Request["__EVENTARGUMENT"];
+
+                if (!string.IsNullOrEmpty(eventTarget))
+                {
+                    if (eventTarget == "DeleteUser")
+                    {
+                        // Handle the delete action
+                        DeleteUser(eventArgument);
+                    }
+                }
+            }
+
+        }
+
+        private void DeleteUser(string userId)
+        {
+            string script = $"toastr.success(\"User: {userId} has been deleted!\");";
+            ScriptManager.RegisterStartupScript(this, GetType(), "showalert", script, true);
+            return;
         }
 
 
-        protected void addNewUserSubmitBtn_Click(object sender, EventArgs e)
+        protected void AddNewUserSubmitBtn_Click(object sender, EventArgs e)
         {
 
             string script;

@@ -12,7 +12,27 @@ namespace resellerAdminB
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (IsPostBack)
+            {
+                string eventTarget = Request["__EVENTTARGET"];
+                string eventArgument = Request["__EVENTARGUMENT"];
 
+                if (!string.IsNullOrEmpty(eventTarget))
+                {
+                    if (eventTarget == "DeleteGateWay")
+                    {
+                        // Handle the delete action
+                        DeleteGateWay(eventArgument);
+                    }
+                }
+            }
+        }
+
+        private void DeleteGateWay(string GatewayID)
+        {
+            string script = $"toastr.success(\"Gateway: {GatewayID} has been deleted!\");";
+            ScriptManager.RegisterStartupScript(this, GetType(), "showalert", script, true);
+            return;
         }
 
 

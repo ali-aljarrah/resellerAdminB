@@ -12,7 +12,27 @@ namespace resellerAdminB
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (IsPostBack)
+            {
+                string eventTarget = Request["__EVENTTARGET"];
+                string eventArgument = Request["__EVENTARGUMENT"];
 
+                if (!string.IsNullOrEmpty(eventTarget))
+                {
+                    if (eventTarget == "DeleteFile")
+                    {
+                        // Handle the delete action
+                        DeleteFile(eventArgument);
+                    }
+                }
+            }
+        }
+
+        private void DeleteFile(string FileID)
+        {
+            string script = $"toastr.success(\"File: {FileID} has been deleted!\");";
+            ScriptManager.RegisterStartupScript(this, GetType(), "showalert", script, true);
+            return;
         }
 
         protected void upload_Click(object sender, EventArgs e)

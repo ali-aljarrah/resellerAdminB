@@ -689,7 +689,7 @@ input#dt-search-0, input#dt-search-1, input#dt-search-2 {
 }
 
 .app-wrapper {
-    background-color: #f6f6f67d;
+    background-color: #f6f6ff;
     padding-top: 20px;
 }
 
@@ -698,7 +698,7 @@ input#dt-search-0, input#dt-search-1, input#dt-search-2 {
 }
 
 .bg-sidebar {
-    background-color: #f6f6f6b5 !important;
+    background-color: #f6f6ff !important;
 }
 
 .b-right-blue {

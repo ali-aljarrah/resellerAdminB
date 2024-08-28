@@ -245,7 +245,26 @@ function openGatewayTabAndModal() {
     newGatewayModal.show();
 }
 
-$('.delete-gateway').click(function (e) {
+//$('.delete-gateway').click(function (e) {
+//    Swal.fire({
+//        title: 'Are you sure you want to delete this gateway?',
+//        text: "You won't be able to revert this!",
+//        icon: 'error',
+//        showCancelButton: true,
+//        confirmButtonColor: '#d33',
+//        cancelButtonColor: '#3085d6',
+//        confirmButtonText: 'Delete'
+//    }).then((result) => {
+//        if (result.isConfirmed) {
+//            Swal.fire(
+//                'Deleted!',
+//                'Gateway has been deleted.',
+//                'success'
+//            )
+//        }
+//    })
+//});
+function confirmDelete(GatewayID) {
     Swal.fire({
         title: 'Are you sure you want to delete this gateway?',
         text: "You won't be able to revert this!",
@@ -256,11 +275,8 @@ $('.delete-gateway').click(function (e) {
         confirmButtonText: 'Delete'
     }).then((result) => {
         if (result.isConfirmed) {
-            Swal.fire(
-                'Deleted!',
-                'Gateway has been deleted.',
-                'success'
-            )
+            // Trigger postback with userID as the argument
+            __doPostBack('DeleteGateWay', GatewayID);
         }
-    })
-});
+    });
+}

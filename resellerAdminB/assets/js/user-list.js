@@ -33,27 +33,47 @@
     });
 
     // Delete user event
-    $('.delete-user').click(function (e) {
-        Swal.fire({
-            title: 'Are you sure you want to delete this user?',
-            text: "You won't be able to revert this!",
-            icon: 'error',
-            showCancelButton: true,
-            confirmButtonColor: '#d33',
-            cancelButtonColor: '#3085d6',
-            confirmButtonText: 'Delete'
-        }).then((result) => {
-            if (result.isConfirmed) {
-                Swal.fire(
-                    'Deleted!',
-                    'User has been deleted.',
-                    'success'
-                )
-            }
-        })
-    });
+    //$('.delete-user').click(function (e) {
+    //    Swal.fire({
+    //        title: 'Are you sure you want to delete this user?',
+    //        text: "You won't be able to revert this!",
+    //        icon: 'error',
+    //        showCancelButton: true,
+    //        confirmButtonColor: '#d33',
+    //        cancelButtonColor: '#3085d6',
+    //        confirmButtonText: 'Delete'
+    //    }).then((result) => {
+    //        if (result.isConfirmed) {
+    //            Swal.fire(
+    //                'Deleted!',
+    //                'User has been deleted.',
+    //                'success'
+    //            )
+    //        }
+    //    })
+    //});
+
+    
    
 });
+
+// Delete user event
+function confirmDelete(userID) {
+    Swal.fire({
+        title: 'Are you sure you want to delete this user?',
+        text: "You won't be able to revert this!",
+        icon: 'error',
+        showCancelButton: true,
+        confirmButtonColor: '#d33',
+        cancelButtonColor: '#3085d6',
+        confirmButtonText: 'Delete'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            // Trigger postback with userID as the argument
+            __doPostBack('DeleteUser', userID);
+        }
+    });
+}
 
 var popupUserList = new bootstrap.Modal(document.getElementById("popupUserList"), {});
 
