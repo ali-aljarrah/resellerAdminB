@@ -17,14 +17,10 @@ body {
         background: gray;
     }
 
+
 .app-header {
     box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
 }
-/* 
-.icon-header {
-  color: #0f204b !important;
-  font-size: 2rem !important;
-} */
 
 .btn-crown {
     font-size: 24px !important;
@@ -197,20 +193,21 @@ span.menu-link, span.menu-link.menu-center:hover svg path {
 
 .form-custom-input,
 .form-custom-select {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #121212;
-    border-radius: 0px;
+    background-color: #f4f4f4d1;
+    border-bottom: 1px solid #948484;
+    border-radius: 5px;
 }
 
 .form-custom-textarea {
-    background-color: transparent;
-    border: 1px solid #121212;
+    background-color: #f4f4f4d1;
+    border-bottom: 1px solid #948484;
+    border-radius: 5px;
 }
 
 .form-control.form-custom-textarea:disabled {
     background-color: transparent;
-    border: 1px solid #121212;
+    border-bottom: 1px solid #948484;
+    border-radius: 5px;
 }
 
 .text-gradients-blue {
@@ -311,58 +308,12 @@ button.btn.btn-secondary.buttons-pdf.buttons-html5 {
     border-bottom-width: 0px;
 }
 
-:not(pre) > code[class*=language-], pre[class*=language-] {
-    background: #121212 !important;
-    border-radius: 10px;
-    color: red;
-}
 
-code[class*=language-], pre[class*=language-] {
-    color: #ccc;
-    background: 0 0;
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    font-size: 1em;
-    text-align: left;
-    white-space: pre;
-    word-spacing: normal;
-    word-break: normal;
-    word-wrap: normal;
-    line-height: 1.5;
-    -moz-tab-size: 4;
-    -o-tab-size: 4;
-    tab-size: 4;
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-    -ms-hyphens: none;
-    hyphens: none;
-}
 
-pre[class*=language-] {
-    padding: 1em;
-    margin: .5em 0;
-    overflow: auto;
-}
 
 .nav-line-tabs.nav-line-tabs-2x {
     border-bottom-width: 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -632,16 +583,6 @@ button.tablinks.active {
 }
 
 /*form search js file */
-/*input#dt-search-0, input#dt-search-1, input#dt-search-2 {
-    border-color: #000;
-    border: 1px solid #80808000;
-    border-bottom: 1px solid black;
-    color: var(--bs-gray-700);
-    transition: color .2s ease;
-    border-radius: 0px;
-    background-color: #f0f8ff00;
-}*/
-/*form search js file */
 
 .nav-line-tabs.nav-line-tabs-2x .nav-item .nav-link, .nav-line-tabs.nav-line-tabs-2x .nav-item .nav-link:not(.disabled), .nav-line-tabs.nav-line-tabs-2x .nav-item.show .nav-link {
     padding-left: 20px;
@@ -758,4 +699,9 @@ button.tablinks.active {
 
 .active > .page-link, .page-link.active {
     background-color: #0f204b;
+}
+
+pre {
+    background: #020b23 !important;
+    border-radius: 10px;
 }

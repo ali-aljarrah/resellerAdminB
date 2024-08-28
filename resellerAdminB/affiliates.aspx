@@ -41,7 +41,7 @@
                     <div class="d-flex flex-column flex-column-fluid">
 
                         <!--begin::Content-->
-                        <div id="kt_app_content" class="app-content flex-column-fluid">
+                        <div id="kt_app_content" class="app-content flex-column d-flex flex-grow-1 justify-content-between">
                             <!--begin::Content container-->
                             <div id="kt_app_content_container" class="app-container container-fluid">
                                 <!--begin::Row-->
@@ -255,7 +255,7 @@
                                            
                                             <div class="card-body w-100 pt-3 pb-5">
                                                 <div class="d-flex justify-content-between align-items-md-center">
-                                                    <div class="fs-14">
+                                                    <div class="fs-14 p-3 px-5 border border-1 w-75 me-5 rounded-1 bg-gray-200i">
                                                         <a class="colored-link" href="https://example.com">https://example.com</a>
                                                     </div>
                                                     <div class="mt-5 mt-md-0">

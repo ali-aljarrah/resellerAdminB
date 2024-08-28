@@ -40,7 +40,7 @@
                     <div class="d-flex flex-column flex-column-fluid">
                    
                         <!--begin::Content-->
-                        <div id="kt_app_content" class="app-content flex-column-fluid">
+                        <div id="kt_app_content" class="app-content flex-column d-flex flex-grow-1 justify-content-between">
                             <!--begin::Content container-->
                             <div id="kt_app_content_container" class="app-container container-fluid">
 								<!--begin::Row-->
@@ -101,7 +101,7 @@
                                                                         API credentials are unique identifiers that are required to access some API tools. They provide a way for you to control who has access to your APIs, and they protect you from malicious usage.
                                                                     </p>
                                                                     <div class="table-responsive mt-8 mb-5">
-                                                                        <table class="table custom-table table-bordered table-striped table-row-gray-300 gy-5">
+                                                                        <table class="table custom-table table-bordered table-striped gy-5">
                                                                             <thead>
                                                                                 <tr class="fs-16 fw-600 dark-color">
                                                                                     <th class="white-color">API Key</th>

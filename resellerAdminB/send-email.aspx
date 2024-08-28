@@ -8,120 +8,116 @@
 <%@ Register Src="~/Controls/MenuTop.ascx" TagPrefix="uc1" TagName="MenuTop" %>
 <%@ Register Src="~/Controls/SideBar.ascx" TagPrefix="uc1" TagName="SideBar" %>
 
-<uc1:Head runat="server" id="Head" />
+<uc1:Head runat="server" ID="Head" />
 <title>Reseller Admin - Dashboard</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
 <body id="kt_app_body" data-kt-app-header-fixed="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-hoverable="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-enabled="true" class="app-default">
-    <form action="#" method="post" runat="server">
-    <uc1:Loader runat="server" id="Loader" />
-    <!--begin::Theme mode setup on page load-->
-    <script>
-        var defaultThemeMode = "light"; var themeMode; if (document.documentElement) { if (document.documentElement.hasAttribute("data-bs-theme-mode")) { themeMode = document.documentElement.getAttribute("data-bs-theme-mode"); } else { if (localStorage.getItem("data-bs-theme") !== null) { themeMode = localStorage.getItem("data-bs-theme"); } else { themeMode = defaultThemeMode; } } if (themeMode === "system") { themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } document.documentElement.setAttribute("data-bs-theme", themeMode); }
-    </script>
-    <!--end::Theme mode setup on page load-->
-    <!--begin::App-->
-    <div class="d-flex flex-column flex-root app-root" id="kt_app_root">
-        <!--begin::Page-->
-        <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
-            <!--begin::Header-->
-            <uc1:MenuTop runat="server" id="MenuTop" parentPageText="Dashboard" childPageText="Send Email" />
-            <!--end::Header-->
-            <!--begin::Wrapper-->
-            <div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
-                <!--begin::Sidebar-->
-                <uc1:SideBar runat="server" id="SideBar" />
-                <!--end::Sidebar-->
-                <!--begin::Main-->
-                <div class="app-main flex-column flex-row-fluid" id="kt_app_main">
-                    <!--begin::Content wrapper-->
-                    <div class="d-flex flex-column flex-column-fluid">
-                   
-                        <!--begin::Content-->
-                        <div id="kt_app_content" class="app-content flex-column-fluid">
-                            <!--begin::Content container-->
-                            <div id="kt_app_content_container" class="app-container container-fluid">
-								<!--begin::Row-->
+    <form class="d-flex flex-fill" action="#" method="post" runat="server">
+        <uc1:Loader runat="server" ID="Loader" />
+        <!--begin::Theme mode setup on page load-->
+        <script>
+            var defaultThemeMode = "light"; var themeMode; if (document.documentElement) { if (document.documentElement.hasAttribute("data-bs-theme-mode")) { themeMode = document.documentElement.getAttribute("data-bs-theme-mode"); } else { if (localStorage.getItem("data-bs-theme") !== null) { themeMode = localStorage.getItem("data-bs-theme"); } else { themeMode = defaultThemeMode; } } if (themeMode === "system") { themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } document.documentElement.setAttribute("data-bs-theme", themeMode); }
+        </script>
+        <!--end::Theme mode setup on page load-->
+        <!--begin::App-->
+        <div class="d-flex flex-column flex-root app-root" id="kt_app_root">
+            <!--begin::Page-->
+            <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
+                <!--begin::Header-->
+                <uc1:MenuTop runat="server" ID="MenuTop" parentPageText="Dashboard" childPageText="Send Email" />
+                <!--end::Header-->
+                <!--begin::Wrapper-->
+                <div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
+                    <!--begin::Sidebar-->
+                    <uc1:SideBar runat="server" ID="SideBar" />
+                    <!--end::Sidebar-->
+                    <!--begin::Main-->
+                    <div class="app-main flex-column flex-row-fluid" id="kt_app_main">
+                        <!--begin::Content wrapper-->
+                        <div class="d-flex flex-column flex-column-fluid">
+
+                            <!--begin::Content-->
+                            <div id="kt_app_content" class="app-content flex-column d-flex flex-grow-1 justify-content-between">
+                                <!--begin::Content container-->
+                                <div id="kt_app_content_container" class="app-container container-fluid">
+                                    <!--begin::Row-->
                                     <div class="row">
                                         <!--begin::Col-->
                                         <div class="col-md-12 mb-md-0 mb-5 mt-5">
                                             <!--begin::Accordion-->
                                             <div class="card card-flush shadow-xs mt-4 p-8 border-0">
                                                 <!--begin::Item-->
-                                                <div class="mb-5">
-                                                    <div class="d-flex justify-content-between align-items-start flex-column flex-md-row">
-                                                        <!--begin::Page title-->
-                                                        <div class="page-title gap-1 d-flex justify-content-between align-items-start mb-5 mb-md-0">
-                                                            <div>
-                                                                <!--begin::Title-->
-                                                                <div class="d-flex pt-3 justify-content-start align-items-center mb-1">
-                                                                    <h1 class="page-heading text-dark fw-bold m-0 me-3">Send Email</h1>
-                                                                </div>
-                                                                <p class="fs-14 pt-3 color-neutral-grey">
-                                                                    Use this tool to send email to a single customer or to all your customer. Your email will be processed in background to save you time.
-                                                                </p>
-                                                                <!--end::Title-->
+                                                <div class="d-flex justify-content-between align-items-start flex-column flex-md-row">
+                                                    <!--begin::Page title-->
+                                                    <div class="page-title gap-1 d-flex justify-content-between align-items-start mb-5 mb-md-0">
+                                                        <div>
+                                                            <!--begin::Title-->
+                                                            <div class="d-flex pt-3 justify-content-start align-items-center mb-1">
+                                                                <h1 class="page-heading text-dark fw-bold m-0 me-3">Send Email</h1>
                                                             </div>
+                                                            <p class="fs-14 pt-3 color-neutral-grey">
+                                                                Use this tool to send email to a single customer or to all your customer. Your email will be processed in background to save you time.
+                                                            </p>
+                                                            <!--end::Title-->
                                                         </div>
-                                                        <!--end::Page title-->
-                                                        <!--begin::Header-->
-                                                        <button type="button" class="btn btn-primary btn-grad" id="btn-modal-popup" data-bs-toggle="modal" data-bs-target="#sendEmailModal">
-                                                            New Message
-                                                        </button>
-                                                        <!--end::Header-->
                                                     </div>
+                                                    <!--end::Page title-->
+                                                    <!--begin::Header-->
+                                                    <button type="button" class="btn btn-grad-1" id="btn-modal-popup" data-bs-toggle="modal" data-bs-target="#sendEmailModal">
+                                                        New Message
+                                                    </button>
+                                                    <!--end::Header-->
                                                 </div>
                                                 <!--end::Item-->
                                                 <!--end::Accordion-->
                                                 <!--begin::Card widget 4-->
-                                                <div class="card-body border-0 ps-0 pr-0">
+                                                <div class="card-body pb-4 mt-0 pt-5 ps-0 pr-0">
                                                     <!--begin::Card body-->
-                                                    <div class="pb-4 mt-0 pt-5">
-                                                        <div class="table-responsive">
-                                                            <table id="sent-sms-report" class="table custom-table table-bordered table-row-gray-300 gy-5 datatable">
-                                                                <thead>
-                                                                    <tr class="fs-14 fw-600">
-                                                                        <th class="white-color">Recipient</th>
-                                                                        <th class="white-color">Subject</th>
-                                                                        <th class="white-color">Date</th>
-                                                                        <th class="white-color">Status</th>
-                                                                    </tr>
-                                                                </thead>
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td>All Registered Customers</td>
-                                                                        <td class="mw-100px">
-                                                                            <div class="overflow-clip-ellipsis" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.">
-                                                                                Lorem ipsum dolor sit amet, consectetur adipi ..																	
-                                                                            </div>
-                                                                        </td>
-                                                                        <td>22/08/2023</td>
-                                                                        <td class="text-success">Sent</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>All Unverified Customers</td>
-                                                                        <td class="mw-100px">
-                                                                            <div class="overflow-clip-ellipsis" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.">
-                                                                                Lorem ipsum dolor sit amet, consectetur adipi ..																	
-                                                                            </div>
-                                                                        </td>
-                                                                        <td>22/08/2023</td>
-                                                                        <td class="text-warning">Queued</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>Customers With Zero Balance</td>
-                                                                        <td class="mw-100px">
-                                                                            <div class="overflow-clip-ellipsis" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.">
-                                                                                Lorem ipsum dolor sit amet, consectetur adipi ..																	
-                                                                            </div>
-                                                                        </td>
-                                                                        <td>22/08/2023</td>
-                                                                        <td class="text-warning">Queued</td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </div>
+                                                    <div class="table-responsive">
+                                                        <table id="sent-sms-report" class="table custom-table table-bordered table-striped gy-5">
+                                                            <thead>
+                                                                <tr class="fs-14 fw-600">
+                                                                    <th class="white-color">Recipient</th>
+                                                                    <th class="white-color">Subject</th>
+                                                                    <th class="white-color">Date</th>
+                                                                    <th class="white-color">Status</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>All Registered Customers</td>
+                                                                    <td class="mw-100px">
+                                                                        <div class="overflow-clip-ellipsis" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.">
+                                                                            Lorem ipsum dolor sit amet, consectetur adipi ..																	
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>22/08/2023</td>
+                                                                    <td class="text-success">Sent</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>All Unverified Customers</td>
+                                                                    <td class="mw-100px">
+                                                                        <div class="overflow-clip-ellipsis" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.">
+                                                                            Lorem ipsum dolor sit amet, consectetur adipi ..																	
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>22/08/2023</td>
+                                                                    <td class="text-warning">Queued</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Customers With Zero Balance</td>
+                                                                    <td class="mw-100px">
+                                                                        <div class="overflow-clip-ellipsis" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.">
+                                                                            Lorem ipsum dolor sit amet, consectetur adipi ..																	
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>22/08/2023</td>
+                                                                    <td class="text-warning">Queued</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
                                                     </div>
                                                     <!--end::Card body-->
                                                 </div>
@@ -135,7 +131,7 @@
                                 </div>
                                 <!--end::Content wrapper-->
                                 <!--begin::Footer-->
-                                <uc1:footer runat="server" ID="footer" />
+                                <uc1:Footer runat="server" ID="footer" />
                                 <!--end::Footer-->
                             </div>
                             <!--end:::Main-->
@@ -162,7 +158,7 @@
                         <!--begin::Body-->
 
                         <div class="modal-body">
-                            <div class="row my-4 p-8">
+                            <div class="row">
                                 <div class="col-lg-12">
                                     <div class="mb-5">
                                         <label for="emailRecipient" class="form-label fs-14 dark-color required">Email recipient</label>
@@ -185,14 +181,14 @@
                         <!--end::Body-->
                         <div class="modal-footer">
                             <asp:Button ID="sendEmailSubmitBtn" runat="server" Text="Send email"
-                                CssClass="btn btn-primary btn-grad py-2 px-6 rounded-1"
+                                CssClass="btn btn-grad-1 py-2 px-6 rounded-1"
                                 OnClientClick="sendEmailSubmit('sendEmailSubmitBtn'); return false;" OnClick="sendEmailSubmitBtn_Click" />
 
                         </div>
                     </div>
                 </div>
             </div>
-            <uc1:footerLinks runat="server" ID="footerLinks" />
+            <uc1:FooterLinks runat="server" ID="footerLinks" />
             <script src="/assets/js/send-email.js"></script>
             <asp:ScriptManager ID="ScriptManager1" runat="server" />
     </form>

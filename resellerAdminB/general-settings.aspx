@@ -14,7 +14,7 @@
 <!--end::Head-->
 <!--begin::Body-->
 <body id="kt_app_body" data-kt-app-header-fixed="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-hoverable="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-enabled="true" class="app-default">
-     <form action="#" name="frmSettings" id="frmSettings" runat="server">
+     <form class="d-flex flex-fill" action="#" name="frmSettings" id="frmSettings" runat="server">
         <uc1:Loader runat="server" ID="Loader" />
         <!--begin::Theme mode setup on page load-->
         <script>
@@ -39,7 +39,7 @@
                         <div class="d-flex flex-column flex-column-fluid">
 
                             <!--begin::Content-->
-                            <div id="kt_app_content" class="app-content flex-column-fluid">
+                            <div id="kt_app_content" class="app-content flex-column d-flex flex-grow-1 justify-content-between">
                                 <!--begin::Content container-->
                                 <div id="kt_app_content_container" class="app-container container-fluid">
 								<!--begin::Row-->

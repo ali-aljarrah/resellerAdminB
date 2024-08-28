@@ -40,7 +40,7 @@
                         <div class="d-flex flex-column flex-column-fluid">
 
                             <!--begin::Content-->
-                            <div id="kt_app_content" class="app-content flex-column-fluid">
+                            <div id="kt_app_content" class="app-content flex-column d-flex flex-grow-1 justify-content-between">
                                 <!--begin::Content container-->
                                 <div id="kt_app_content_container" class="app-container container-fluid">
 								<!--begin::Row-->
@@ -55,7 +55,7 @@
                                                     <div class="d-flex pt-3 justify-content-start align-items-center mb-1">
                                                         <h1 class="page-heading text-dark fw-bold m-0 me-3">Transactions Log</h1>
                                                     </div>
-                                                    <p class="fs-14 color-neutral-grey pt-3">
+                                                    <p class="fs-14 color-neutral-grey">
                                                     See a complete list of all the transactions your customers have done here. You can view or approve their invoices here too
                                                     </p>
                                                     <!--end::Title-->
@@ -63,11 +63,10 @@
                                             </div>
                                             <!--end::Page title-->
                                             <!--begin::Card widget 4-->
-                                            <div class="card-body ps-0 pr-0">
+                                            <div class="card-body pb-4 mt-0 pt-5 ps-0 pr-0">
                                                 <!--begin::Card body-->
-                                                <div class="pb-4 mt-0 pt-5">
                                                     <div class="table-responsive">
-                                                        <table id="sent-sms-report" class="table custom-table table-bordered table-row-gray-300 gy-5 datatable">
+                                                        <table id="sent-sms-report" class="table custom-table table-bordered table-striped gy-5">
                                                             <thead>
                                                                 <tr class="fs-14 fw-600">
                                                                     <th class="white-color">User</th>
@@ -86,7 +85,6 @@
                                                             </tbody>
                                                         </table>
                                                     </div>
-                                                </div>
                                                 <!--end::Card body-->
                                             </div>
                                             <!--end::Card widget 4-->

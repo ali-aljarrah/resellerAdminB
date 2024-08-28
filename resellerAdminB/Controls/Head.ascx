@@ -10,7 +10,6 @@
  </style>
  <meta charset="utf-8" />
  <meta name="wport" content="width=device-width, initial-scale=1" />
- <linkl="shortcut icon" href="../assets/img/LOGO.svg" />
  <script>// Frame-busting to prevent site from being loaded within a frame without permission (click-jacking) if (window.top != window.self) { window.top.location.replace(window.self.location.href); }</script>
  <link href="../assets/css/font.css" rel="stylesheet" />
  <link href="../assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" />
