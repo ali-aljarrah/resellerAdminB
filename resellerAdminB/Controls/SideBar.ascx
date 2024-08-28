@@ -37,8 +37,8 @@
                                     <path d="M8.95801 15.4999C8.95801 15.7651 9.06336 16.0194 9.2509 16.207C9.43844 16.3945 9.69279 16.4999 9.95801 16.4999C10.2232 16.4999 10.4776 16.3945 10.6651 16.207C10.8527 16.0194 10.958 15.7651 10.958 15.4999V11.4999C10.958 11.2347 10.8527 10.9803 10.6651 10.7928C10.4776 10.6052 10.2232 10.4999 9.95801 10.4999C9.69279 10.4999 9.43844 10.6052 9.2509 10.7928C9.06336 10.9803 8.95801 11.2347 8.95801 11.4999V15.4999Z" fill="white" />
                                     <defs>
                                         <linearGradient id="paint0_linear_1677_7940" x1="9.99984" y1="1.54163" x2="9.99984" y2="19.4583" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#0E41C1" stop-opacity="0.870588" />
-                                            <stop offset="1" stop-color="#0047FF" stop-opacity="0.870588" />
+                                            <stop stop-color="#0f204b" stop-opacity="0.870588" />
+                                            <stop offset="1" stop-color="#0f204b" stop-opacity="0.870588" />
                                         </linearGradient>
                                     </defs>
                                 </svg>
@@ -57,12 +57,12 @@
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M17.4316 14.6667C17.4604 14.6655 17.4891 14.6712 17.5153 14.6832C17.5415 14.6952 17.5646 14.7132 17.5825 14.7358C17.6004 14.7583 17.6128 14.7848 17.6186 14.8131C17.6244 14.8413 17.6234 14.8705 17.6158 14.8983C17.4491 15.4917 17.1833 15.9983 16.7575 16.4233C16.1333 17.0483 15.3425 17.3242 14.3658 17.4558C13.4158 17.5833 12.2033 17.5833 10.6716 17.5833H8.91163C7.37996 17.5833 6.16663 17.5833 5.21746 17.4558C4.24079 17.3242 3.44996 17.0475 2.82579 16.4242C2.20246 15.8 1.92579 15.0092 1.79413 14.0325C1.66663 13.0825 1.66663 11.87 1.66663 10.3383V10.245C1.66663 8.71333 1.66663 7.5 1.79413 6.55C1.92579 5.57333 2.20246 4.7825 2.82579 4.15833C3.44996 3.535 4.24079 3.25833 5.21746 3.12667C6.16746 3 7.37996 3 8.91163 3H10.6716C12.2033 3 13.4166 3 14.3658 3.1275C15.3425 3.25917 16.1333 3.53583 16.7575 4.15917C17.1833 4.58583 17.4491 5.09167 17.6158 5.685C17.6234 5.71281 17.6244 5.74202 17.6186 5.77027C17.6128 5.79851 17.6004 5.825 17.5825 5.84757C17.5646 5.87014 17.5415 5.88816 17.5153 5.90016C17.4891 5.91217 17.4604 5.91782 17.4316 5.91667H15.3283C12.9641 5.91667 10.8808 7.78333 10.8808 10.2917C10.8808 12.8 12.9641 14.6667 15.3283 14.6667H17.4316ZM4.79163 6.33333C4.62587 6.33333 4.46689 6.39918 4.34968 6.51639C4.23247 6.6336 4.16663 6.79257 4.16663 6.95833C4.16663 7.12409 4.23247 7.28306 4.34968 7.40027C4.46689 7.51749 4.62587 7.58333 4.79163 7.58333H8.12496C8.29072 7.58333 8.44969 7.51749 8.5669 7.40027C8.68411 7.28306 8.74996 7.12409 8.74996 6.95833C8.74996 6.79257 8.68411 6.6336 8.5669 6.51639C8.44969 6.39918 8.29072 6.33333 8.12496 6.33333H4.79163Z" fill="url(#paint1_linear_1677_7286)" />
                                     <defs>
                                         <linearGradient id="paint0_linear_1677_7286" x1="15.5453" y1="7.16663" x2="15.5453" y2="13.4166" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#0E41C1" stop-opacity="0.870588" />
-                                            <stop offset="1" stop-color="#0047FF" stop-opacity="0.870588" />
+                                            <stop stop-color="#0f204b" stop-opacity="0.870588" />
+                                            <stop offset="1" stop-color="#0f204b" stop-opacity="0.870588" />
                                         </linearGradient>
                                         <linearGradient id="paint1_linear_1677_7286" x1="9.64447" y1="3" x2="9.64447" y2="17.5833" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#0E41C1" stop-opacity="0.870588" />
-                                            <stop offset="1" stop-color="#0047FF" stop-opacity="0.870588" />
+                                            <stop stop-color="#0f204b" stop-opacity="0.870588" />
+                                            <stop offset="1" stop-color="#0f204b" stop-opacity="0.870588" />
                                         </linearGradient>
                                     </defs>
                                 </svg>
@@ -72,67 +72,7 @@
                         </a>
                     </div>
                     <!--end:Menu item-->
-                    <!--begin:Menu item-->
-                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion" id="send-sms-link">
-                        <!--begin:Menu link-->
-                        <span class="menu-link main">
-                            <span class="menu-icon">
-                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3575 17.56L10.9058 18.3233C10.5033 19.0033 9.49746 19.0033 9.09413 18.3233L8.64246 17.56C8.29246 16.9683 8.11746 16.6716 7.83579 16.5083C7.55413 16.3441 7.19996 16.3383 6.49163 16.3258C5.44496 16.3083 4.78913 16.2441 4.23913 16.0158C3.7336 15.8064 3.27426 15.4995 2.88735 15.1126C2.50044 14.7257 2.19352 14.2663 1.98413 13.7608C1.66663 12.9958 1.66663 12.025 1.66663 10.0833V9.24996C1.66663 6.52246 1.66663 5.15829 2.28079 4.15663C2.62416 3.59596 3.09533 3.1245 3.65579 2.78079C4.65829 2.16663 6.02329 2.16663 8.74996 2.16663H11.25C13.9775 2.16663 15.3416 2.16663 16.3441 2.78079C16.9045 3.12426 17.3757 3.59543 17.7191 4.15579C18.3333 5.15829 18.3333 6.52329 18.3333 9.24996V10.0833C18.3333 12.025 18.3333 12.9958 18.0166 13.7608C17.8071 14.2664 17.5001 14.7258 17.113 15.1127C16.726 15.4996 16.2665 15.8065 15.7608 16.0158C15.2108 16.2441 14.555 16.3075 13.5083 16.3258C12.8 16.3383 12.4458 16.3441 12.1641 16.5083C11.8825 16.6716 11.7075 16.9675 11.3575 17.56ZM6.66663 10.2916C6.50087 10.2916 6.34189 10.3575 6.22468 10.4747C6.10747 10.5919 6.04163 10.7509 6.04163 10.9166C6.04163 11.0824 6.10747 11.2414 6.22468 11.3586C6.34189 11.4758 6.50087 11.5416 6.66663 11.5416H11.25C11.4157 11.5416 11.5747 11.4758 11.6919 11.3586C11.8091 11.2414 11.875 11.0824 11.875 10.9166C11.875 10.7509 11.8091 10.5919 11.6919 10.4747C11.5747 10.3575 11.4157 10.2916 11.25 10.2916H6.66663ZM6.04163 7.99996C6.04163 7.8342 6.10747 7.67523 6.22468 7.55802C6.34189 7.44081 6.50087 7.37496 6.66663 7.37496H13.3333C13.4991 7.37496 13.658 7.44081 13.7752 7.55802C13.8924 7.67523 13.9583 7.8342 13.9583 7.99996C13.9583 8.16572 13.8924 8.32469 13.7752 8.4419C13.658 8.55911 13.4991 8.62496 13.3333 8.62496H6.66663C6.50087 8.62496 6.34189 8.55911 6.22468 8.4419C6.10747 8.32469 6.04163 8.16572 6.04163 7.99996Z" fill="url(#paint0_linear_1677_7295)" />
-                                    <defs>
-                                        <linearGradient id="paint0_linear_1677_7295" x1="9.99996" y1="2.16663" x2="9.99996" y2="18.8333" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#0E41C1" stop-opacity="0.870588" />
-                                            <stop offset="1" stop-color="#0047FF" stop-opacity="0.870588" />
-                                        </linearGradient>
-                                    </defs>
-                                </svg>
-                            </span>
-                            <span class="menu-title black">Send SMS</span>
-                            <span class="menu-arrow"></span>
-                        </span>
-                        <!--end:Menu link-->
-                        <!--begin:Menu sub-->
-                        <div class="menu-sub menu-sub-accordion pt-2">
-                            <!--begin:Menu item-->
-                            <div class="menu-item child mb-2" id="send-sinle-sms-link">
-                                <!--begin:Menu link-->
-                                <a class="menu-link" href="/single-sms.aspx">
-                                    <span class="menu-bullet">
-                                        <span class="bullet bullet-dot"></span>
-                                    </span>
-                                    <span class="menu-title black">Single SMS</span>
-                                </a>
-                                <!--end:Menu link-->
-                            </div>
-                            <!--end:Menu item-->
-                            <!--begin:Menu item-->
-                            <div class="menu-item child mb-2" id="send-bulk-sms-link">
-                                <!--begin:Menu link-->
-                                <a class="menu-link" href="/sendbulk.aspx">
-                                    <span class="menu-bullet">
-                                        <span class="bullet bullet-dot"></span>
-                                    </span>
-                                    <span class="menu-title black">Bulk SMS</span>
-                                </a>
-                                <!--end:Menu link-->
-                            </div>
-                            <!--end:Menu item-->
-                            <!--begin:Menu item-->
-                            <div class="menu-item child mb-2" id="file-manager-sms-link">
-                                <!--begin:Menu link-->
-                                <a class="menu-link" href="/files-manager.aspx">
-                                    <span class="menu-bullet">
-                                        <span class="bullet bullet-dot"></span>
-                                    </span>
-                                    <span class="menu-title black">Files Manager</span>
-                                </a>
-                                <!--end:Menu link-->
-                            </div>
-                            <!--end:Menu item-->
-                        </div>
-                        <!--end:Menu sub-->
-                    </div>
-                    <!--end:Menu item-->
+                  
                     <!--begin:Menu item-->
                     <div class="menu-item" id="admin-sms-log-link">
                         <a class="menu-link main" href="/admin-sms-log.aspx">
@@ -142,8 +82,8 @@
                                     <path d="M10 0a2 2 0 1 1-4 0H3.5A1.5 1.5 0 0 0 2 1.5v13A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-13A1.5 1.5 0 0 0 12.5 0zM4.5 5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1m0 2h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1" fill="url(#paint55_linear_1677_7940)" />
                                   <defs>
                                       <linearGradient id="paint55_linear_1677_7940" x1="9.99984" y1="1.54163" x2="9.99984" y2="19.4583" gradientUnits="userSpaceOnUse">
-                                          <stop stop-color="#0E41C1" stop-opacity="0.870588" />
-                                          <stop offset="1" stop-color="#0047FF" stop-opacity="0.870588" />
+                                          <stop stop-color="#0f204b" stop-opacity="0.870588" />
+                                          <stop offset="1" stop-color="#0f204b" stop-opacity="0.870588" />
                                       </linearGradient>
                                   </defs>
                                 </svg>
@@ -163,12 +103,12 @@
                                     <path d="M14.375 2.52502H6.45833C4.08333 2.52502 2.5 4.10836 2.5 6.48336V10.2C2.5 10.4917 2.8 10.7 3.08333 10.625C3.43333 10.5417 3.79167 10.5 4.16667 10.5C6.55 10.5 8.51667 12.4334 8.73333 14.775C8.75 15.0084 8.94167 15.1917 9.16667 15.1917H9.625L13.15 17.5417C13.6667 17.8917 14.375 17.5084 14.375 16.875V15.1917C15.5583 15.1917 16.55 14.7917 17.2417 14.1084C17.9333 13.4084 18.3333 12.4167 18.3333 11.2334V6.48336C18.3333 4.10836 16.75 2.52502 14.375 2.52502ZM13.1917 9.50836H7.64167C7.31667 9.50836 7.05 9.24169 7.05 8.91669C7.05 8.58336 7.31667 8.31669 7.64167 8.31669H13.1917C13.5167 8.31669 13.7833 8.58336 13.7833 8.91669C13.7833 9.24169 13.5167 9.50836 13.1917 9.50836Z" fill="url(#paint1_linear_1677_7324)" />
                                     <defs>
                                         <linearGradient id="paint0_linear_1677_7324" x1="4.16671" y1="11.75" x2="4.16671" y2="18.4167" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#0E41C1" stop-opacity="0.870588" />
-                                            <stop offset="1" stop-color="#0047FF" stop-opacity="0.870588" />
+                                            <stop stop-color="#0f204b" stop-opacity="0.870588" />
+                                            <stop offset="1" stop-color="#0f204b" stop-opacity="0.870588" />
                                         </linearGradient>
                                         <linearGradient id="paint1_linear_1677_7324" x1="10.4167" y1="2.52502" x2="10.4167" y2="17.6745" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#0E41C1" stop-opacity="0.870588" />
-                                            <stop offset="1" stop-color="#0047FF" stop-opacity="0.870588" />
+                                            <stop stop-color="#0f204b" stop-opacity="0.870588" />
+                                            <stop offset="1" stop-color="#0f204b" stop-opacity="0.870588" />
                                         </linearGradient>
                                     </defs>
                                 </svg>
@@ -188,8 +128,8 @@
                                     </g>
                                     <defs>
                                         <linearGradient id="paint0_linear_1677_7335" x1="10.0392" y1="1.44153" x2="10.0392" y2="20.1915" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#0E41C1" stop-opacity="0.870588" />
-                                            <stop offset="1" stop-color="#0047FF" stop-opacity="0.870588" />
+                                            <stop stop-color="#0f204b" stop-opacity="0.870588" />
+                                            <stop offset="1" stop-color="#0f204b" stop-opacity="0.870588" />
                                         </linearGradient>
                                         <clipPath id="clip0_1677_7335">
                                             <rect width="20" height="20" fill="white" transform="translate(0 0.5)" />
@@ -264,8 +204,8 @@
                                     <path d="M3.4083 17.0917C3.86664 17.5417 4.46664 17.7917 5.09997 17.7917C5.7333 17.7917 6.3333 17.5417 6.7833 17.0917L11.375 12.5C12.9916 12.9167 14.7333 12.4667 15.9166 11.2833C17.1166 10.0917 17.575 8.34167 17.1333 6.71667C17.075 6.50001 16.9083 6.33334 16.6916 6.27501C16.4833 6.21667 16.25 6.27501 16.0916 6.43334L14.05 8.47501L12.4583 8.04167L12.025 6.45001L14.0666 4.40834C14.225 4.25001 14.2833 4.02501 14.225 3.80834C14.1666 3.59167 14 3.42501 13.7833 3.36667C12.9823 3.15046 12.1385 3.14908 11.3368 3.36267C10.5351 3.57626 9.80387 3.99728 9.21664 4.58334C8.0333 5.76667 7.5833 7.50834 7.99997 9.12501L3.4083 13.7167C3.18632 13.9381 3.0102 14.2011 2.89003 14.4907C2.76986 14.7802 2.70801 15.0907 2.70801 15.4042C2.70801 15.7177 2.76986 16.0281 2.89003 16.3177C3.0102 16.6073 3.18632 16.8703 3.4083 17.0917Z" fill="url(#paint0_linear_1677_7360)" />
                                     <defs>
                                         <linearGradient id="paint0_linear_1677_7360" x1="10.0031" y1="3.20349" x2="10.0031" y2="17.7917" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#0E41C1" stop-opacity="0.870588" />
-                                            <stop offset="1" stop-color="#0047FF" stop-opacity="0.870588" />
+                                            <stop stop-color="#0f204b" stop-opacity="0.870588" />
+                                            <stop offset="1" stop-color="#0f204b" stop-opacity="0.870588" />
                                         </linearGradient>
                                     </defs>
                                 </svg>

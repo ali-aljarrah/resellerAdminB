@@ -118,7 +118,7 @@
                                                                     </div>
                                                                     <div class="mb-10">
                                                                          <asp:Button ID="generateNewAPIKeyBtn" runat="server" Text="Generate New Key"
-                                                                            CssClass="btn btn-primary btn-grad w-225px py-2 px-8 rounded-1" OnClick="generateNewAPIKeyBtn_Click" />
+                                                                            CssClass="btn btn-grad-1 w-225px py-2 px-8 rounded-1" OnClick="generateNewAPIKeyBtn_Click" />
                                                                     </div>
                                                                     <div class="fs-16 dark-color fw-600 mb-3">White-Listed IP Addresses</div>
                                                                     <p class="fs-14 gray">
@@ -133,7 +133,7 @@
                                                                                 </div>
                                                                                 <div>
                                                                                     <asp:Button ID="save_ip_addresses" runat="server" Text="Save settings"
-                                                                                        CssClass="btn btn-primary btn-grad py-2 px-8 rounded-1 border-1" OnClick="save_ip_addresses_Click" />
+                                                                                        CssClass="btn btn-grad-1 py-2 px-8 rounded-1 border-1" OnClick="save_ip_addresses_Click" />
                                                                                 </div>
                                                                             </div>
                                                                         </div>

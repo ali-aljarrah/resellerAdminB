@@ -224,7 +224,7 @@
                                                     </div>
                                                     <!--begin::Card body-->
                                                     <div class="table-responsive">
-                                                        <table id="sent-sms-report" class="table custom-table table-row-gray-300 gy-5 datatable">
+                                                        <table id="sent-sms-report" class="table custom-table gy-5 table-bordered table-striped datatable">
                                                             <thead>
                                                                 <tr class="fs-14 fw-600">
                                                                     <th class="white-color">Payment type</th>

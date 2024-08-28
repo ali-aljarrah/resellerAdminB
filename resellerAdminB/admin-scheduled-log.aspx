@@ -54,7 +54,7 @@
                                             <div class="page-title gap-1 d-flex justify-content-between align-items-start">
                                                 <div>
                                                     <h1 class="page-heading text-dark fw-bold mb-3 me-3">Sent SMS Scheduled Log</h1>
-                                                    <p class="fs-14 color-neutral-grey pb-5">
+                                                    <p class="fs-14 color-neutral-grey">
                                                         This list is a temporary list of reports for precisely 24 hours. This ensures swift access to recent data while maintaining data privacy and security.
                                                     </p>
                                                     <!--end::Title-->

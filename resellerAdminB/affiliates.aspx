@@ -217,7 +217,7 @@
                                 <!--end::Row-->
                                 <!--begin::Row-->
                                 <div class="row g-5 g-xl-10">
-                                    <div class="col-md-12 mb-5">
+                                    <div class="col-md-12 mb-xl-10">
                                         <!--begin::Chart widget 38-->
                                         <div class="card card-flush border-0 shadow-xs h-100 mb-5">
                                             <!--begin::Header-->
@@ -245,19 +245,21 @@
                                 <div class="row g-5 g-xl-10">
                                     <div class="col-md-12">
                                         <!--begin::Chart widget 38-->
-                                        <div class="card card-flush border-0 h-100">
+                                        <div class="card card-flush border-0 shadow-xs h-100 mb-5">
+                                            <div class="card-header">
+                                                 <p class="fs-18 dark-color fw-600 py-5 my-5">
+                                                     Your unique affiliate link:
+                                                 </p>
+                                            </div>
                                             <!--begin::Body-->
-                                            <p class="fs-18 dark-color fw-600 py-5 my-5">
-                                                Your unique affiliate link:
-                                            </p>
-                                            <div class="card-body border-1 rounded-4 bg-gray w-100">
+                                           
+                                            <div class="card-body w-100 pt-3 pb-5">
                                                 <div class="d-flex justify-content-between align-items-md-center">
                                                     <div class="fs-14">
-                                                        <a class="colored-link" href="https://demos.ynetinteractive.com/sendroidultimate/app/index.php?ref=mjuoALt69I3QoSza">https://demos.ynetinteractive.com/sendroidultimate/app/index.php?ref=mjuoALt69I3QoSza
-                                                        </a>
+                                                        <a class="colored-link" href="https://example.com">https://example.com</a>
                                                     </div>
                                                     <div class="mt-5 mt-md-0">
-                                                        <button id="kt_clipboard_3" class="btn btn-primary btn-grad py-2 px-8 rounded-1" data-clipboard-text="https://demos.ynetinteractive.com/sendroidultimate/app/index.php?ref=mjuoALt69I3QoSza">
+                                                        <button id="kt_clipboard_3" class="btn btn-grad-1 py-2 px-8 rounded-1" data-clipboard-text="https://example.com">
                                                             Copy link
                                                         </button>
                                                     </div>

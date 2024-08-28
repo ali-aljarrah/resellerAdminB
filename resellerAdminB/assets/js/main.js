@@ -36,21 +36,6 @@ $(document).ready(function () {
         document.getElementById("home-link").classList.add("active");
     } else if (url == '/buy-credits.aspx') {
         document.getElementById("reload-link").classList.add("active");
-    } else if (url == '/single-sms.aspx') {
-        document.getElementById("send-sms-link").classList.add("active");
-        document.getElementById("send-sinle-sms-link").classList.add("active");
-        document.getElementById("send-sms-link").classList.add("hover");
-        document.getElementById("send-sms-link").classList.add("show");
-    } else if (url == '/sendbulk.aspx') {
-        document.getElementById("send-sms-link").classList.add("active");
-        document.getElementById("send-bulk-sms-link").classList.add("active");
-        document.getElementById("send-sms-link").classList.add("hover");
-        document.getElementById("send-sms-link").classList.add("show");
-    } else if (url == '/files-manager.aspx') {
-        document.getElementById("send-sms-link").classList.add("active");
-        document.getElementById("file-manager-sms-link").classList.add("active");
-        document.getElementById("send-sms-link").classList.add("hover");
-        document.getElementById("send-sms-link").classList.add("show");
     } else if (url == '/admin-sms-log.aspx') {
         document.getElementById("admin-sms-log-link").classList.add("active");
     } else if (url == '/admin-scheduled-log.aspx') {

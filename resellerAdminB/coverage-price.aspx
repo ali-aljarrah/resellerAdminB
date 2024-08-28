@@ -52,7 +52,7 @@
                                                 <div class="page-title gap-1 d-flex justify-content-between align-items-start">
                                                     <div>
                                                            <h1 class="page-heading text-dark fw-bold mb-3 me-3">List of Countries Covered</h1>
-                                                        <p class="fs-14 color-neutral-grey pb-5">
+                                                        <p class="fs-14 color-neutral-grey">
                                                             Please find below our comprehensive list of covered countries, including information on each country or region pricing.
                                                         </p>
                                                         <!--end::Title-->

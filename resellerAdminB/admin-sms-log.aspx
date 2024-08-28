@@ -55,18 +55,18 @@
                                                     <!--begin::Title-->
                                                    <h2 class="page-heading text-dark fw-bold mb-3 me-3">Sent SMS Log</h2>
                                                     
-                                                    <p class="fs-14 color-neutral-grey pb-5">
+                                                    <p class="fs-14 color-neutral-grey">
                                                         This list is a temporary list of reports for precisely 24 hours. This ensures swift access to recent data while maintaining data privacy and security. 
                                                     </p>
                                                 </div>
                                             </div>
                                             <!--begin::Card body-->
                                             <!--begin::Card widget 4-->
-                                            <div class="card-body ps-0 pr-0">
+                                            <div class="card-body px-0">
                                                 <!--begin::Card body-->
-                                                <div class="pb-4 mt-0 pt-5">
+                                                <div class="">
                                                     <div class="table-responsive">
-                                                        <table id="sent-sms-report" class="table custom-table table-row-gray-300 gy-5 datatable">
+                                                        <table id="sent-sms-report" class="table custom-table gy-5 table-bordered table-striped datatable">
                                                             <thead>
                                                                 <tr class="fs-14 fw-600 dark-color">
                                                                     <th class="white-color">Recipient</th>
