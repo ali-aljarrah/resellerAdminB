@@ -9,7 +9,7 @@
 <%@ Register Src="~/Controls/SideBar.ascx" TagPrefix="uc1" TagName="SideBar" %>
 
 <uc1:Head runat="server" id="Head" />
-<title>Reseller Admin - Dashboard</title>
+<title>Reseller Admin - Send Bulk SMS</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -50,13 +50,12 @@
                                             <div class="card card-flush shadow-xs">
                                                 <!--begin::Header-->
                                                 <div class="card-header d-block pt-7">
-                                                    <!--begin::Title-->
-                                                    <h3 class="card-title card-label fs-20 fw-bold color-black-1">Send Bulk SMS
-                                                    </h3>
-                                                    <!--end::Title-->
-                                                    <p class="color-neutral-grey mt-1 fs-14">
-                                                        Send a large volume of text messages to multiple recipients simultaneously. Whether it's for marketing campaigns, announcements, reminders, or any other purpose.
-                                                    </p>
+                                                      <div class="mb-1 pt-5">
+                                                          <h2 class="page-heading text-dark fw-bold mb-3 me-3">Send Bulk SMS</h2>
+                                                      </div>
+                                                      <p class="fs-14 color-neutral-grey">
+                                                      Send a large volume of text messages to multiple recipients simultaneously. Whether it's for marketing campaigns, announcements, reminders, or any other purpose.
+                                                      </p>
                                                 </div>
                                                 <!--end::Header-->
                                                 <!--begin::Body-->

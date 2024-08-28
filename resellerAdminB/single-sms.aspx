@@ -10,7 +10,7 @@
 <%@ Register Src="~/Controls/SideBar.ascx" TagPrefix="uc1" TagName="SideBar" %>
 
 <uc1:Head runat="server" id="Head" />
-<title>Reseller Admin - Dashboard</title>
+<title>Reseller Admin - Send Single SMS</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -50,7 +50,7 @@
                                                 <div class="mb-1 pt-5">
                                                     <h2 class="page-heading text-dark fw-bold mb-3 me-3">Send Single SMS</h2>
                                                 </div>
-                                                <p class="fs-16 color-neutral-grey pb-5">
+                                                <p class="fs-14 color-neutral-grey pb-5">
                                                     Easily send messages to multiple numbers by adding commas between them. You can send to a maximum of 30 numbers each time. Happy texting!                                                                
                                                 </p>
 

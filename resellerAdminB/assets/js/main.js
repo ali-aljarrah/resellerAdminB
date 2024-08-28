@@ -100,7 +100,7 @@ $(document).ready(function () {
         document.getElementById("sms-log-link").classList.add("active");
         document.getElementById("reseller-admin-link").classList.add("hover");
         document.getElementById("reseller-admin-link").classList.add("show");
-    } else if (url == '/general-settings.aspx') {
+    } else if (url == '/general-settings.aspx' || url == '/edit-gateway.aspx') {
         document.getElementById("reseller-admin-link").classList.add("active");
         document.getElementById("general-settings-link").classList.add("active");
         document.getElementById("reseller-admin-link").classList.add("hover");

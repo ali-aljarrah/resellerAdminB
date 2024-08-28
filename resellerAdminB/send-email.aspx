@@ -43,7 +43,7 @@
                             <!--begin::Content container-->
                             <div id="kt_app_content_container" class="app-container container-fluid">
 								<!--begin::Row-->
-                                    <div class="row gy-5 g-xl-10">
+                                    <div class="row">
                                         <!--begin::Col-->
                                         <div class="col-md-12 mb-md-0 mb-5 mt-5">
                                             <!--begin::Accordion-->
@@ -58,7 +58,7 @@
                                                                 <div class="d-flex pt-3 justify-content-start align-items-center mb-1">
                                                                     <h1 class="page-heading text-dark fw-bold m-0 me-3">Send Email</h1>
                                                                 </div>
-                                                                <p class="fs-14 pt-3 gray">
+                                                                <p class="fs-14 pt-3 color-neutral-grey">
                                                                     Use this tool to send email to a single customer or to all your customer. Your email will be processed in background to save you time.
                                                                 </p>
                                                                 <!--end::Title-->

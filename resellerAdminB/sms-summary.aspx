@@ -48,20 +48,23 @@
                                 <!--begin::Row-->
                                 <div class="row gy-5 g-xl-10">
                                     <div class="col-md-12">
-                                        <!--begin::Page title-->
-                                        <div class="page-title gap-1 d-flex justify-content-between align-items-start">
-                                            <div>
-                                                <!--begin::Title-->
-                                                <div class="d-flex justify-content-start align-items-center mb-1">
-                                                    <h1 class="page-heading text-dark fw-bold m-0 me-3">SMS Summary</h1>
+                                        <div class="card card-flush shadow-xs h-lg-100">
+                                            <div class="card-body">
+                                                <!--begin::Page title-->
+                                                <div class="page-title gap-1 d-flex justify-content-between align-items-start">
+                                                    <div>
+                                                        <!--begin::Title-->
+                                                        <h1 class="page-heading text-dark fw-bold mb-3 me-3">SMS Summary</h1>
+                                                        <p class="fs-14 color-neutral-grey mb-0">
+                                                            View and track your SMS summary here. Monitor your status activity and destination activity to be well informed of your sent SMS.
+                                                        </p>
+                                                        <!--end::Title-->
+                                                    </div>
                                                 </div>
-                                                <p class="fs-14 gray pt-4">
-                                                    View and track your SMS summary here. Monitor your status activity and destination activity to be well informed of your sent SMS.
-                                                </p>
-                                                <!--end::Title-->
+                                                <!--end::Page title-->
                                             </div>
                                         </div>
-                                        <!--end::Page title-->
+
                                     </div>
                                     <!--begin::Col-->
                                     <div class="col-sm-6 col-xl-4 mb-xl-10">

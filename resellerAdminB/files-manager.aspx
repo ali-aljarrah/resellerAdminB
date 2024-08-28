@@ -10,7 +10,7 @@
 <%@ Register Src="~/Controls/SideBar.ascx" TagPrefix="uc1" TagName="SideBar" %>
 
 <uc1:Head runat="server" ID="Head" />
-<title>Reseller Admin - Dashboard</title>
+<title>Reseller Admin - Files Manager</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -51,11 +51,11 @@
                                                 <!--begin::Page title-->
                                                 <div class="page-title d-flex flex-column justify-content-center gap-1">
                                                     <!--begin::Title-->
-                                                    <div class="d-flex justify-content-start align-items-center mb-1 mt-5">
-                                                        <h1 class="page-heading text-dark fw-bold m-0 ms-3 me-3">Files List</h1>
+                                                    <div class="d-flex justify-content-start align-items-center mb-3 mt-5">
+                                                        <h1 class="page-heading text-dark fw-bold ms-3 me-3">Files List</h1>
                                                         <span class="fs-12 cyan-color fw-600 cyan-bg px-2 py-1">3 available</span>
                                                     </div>
-                                                    <p class="fs-14 gray ms-3 pt-4">
+                                                    <p class="fs-14 color-neutral-grey ms-3">
                                                         Take advantage of our user-friendly platform to craft compelling SMS templates that can be easily adapted and utilized across different campaigns, saving you time and effort while maximizing your outreach.
                                                     </p>
                                                     <!--end::Title-->
@@ -133,7 +133,7 @@
                                                                     Upload Files
                                                                 </div>
                                                             </div>
-                                                            <p class="fs-14 color-black-1 mb-0 pt-4">
+                                                            <p class="fs-14 color-neutral-grey mb-0">
                                                                 Here, you can easily upload your data files to get started. We accept the following file formats: .txt, .csv, .xls, and .xlsx. These formats are perfect for handling your data efficiently and effectively.
                                                             </p>
                                                         </div>
@@ -146,7 +146,7 @@
                                                                         <input name="attach1" id="attach1" runat="server" type="file" accept=".txt,.csv,.xls,.xlsx" class="form-control form-control-solid">
                                                                         <div class="mt-8">
                                                                             <asp:Button ID="upload" runat="server" Text="Upload"
-                                                                                CssClass="btn btn-primary btn-grad py-2 px-8 rounded-1 w-100"
+                                                                                CssClass="btn btn-primary btn-grad py-2 px-8 rounded-1 w-100 m-0"
                                                                                 OnClientClick="uploadFile('upload'); return false;" OnClick="upload_Click" />
                                                                         </div>
 

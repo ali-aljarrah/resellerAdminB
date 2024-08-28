@@ -9,7 +9,7 @@
 <%@ Register Src="~/Controls/SideBar.ascx" TagPrefix="uc1" TagName="SideBar" %>
 
 <uc1:Head runat="server" ID="Head" />
-<title>Reseller Admin - Dashboard</title>
+<title>Reseller Admin - Reload</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -54,11 +54,11 @@
                                                     <div class="col-lg-3">
                                                         <label class="form-check-image w-100 active">
                                                             <div class="form-check-wrapper p-5">
-                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between">
+                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between ms-0">
                                                                     <p class="color-black-1 fs-14 mb-0">100 Credits</p>
                                                                     <input class="form-check-input" type="radio" value="100" name="payment" runat="server" checked />
                                                                 </div>
-                                                                <p class="color-black-1 fs-25 fw-bold mb-0 pt-3">$100</p>
+                                                                <p class="color-black-1 fs-20 fw-bold mb-0 pt-3">$100</p>
                                                             </div>
                                                         </label>
                                                     </div>
@@ -66,11 +66,11 @@
                                                     <div class="col-lg-3">
                                                         <label class="form-check-image w-100">
                                                             <div class="form-check-wrapper p-5">
-                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between">
+                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between ms-0">
                                                                     <p class="color-black-1 fs-14 mb-0">1,000 Credits</p>
                                                                     <input class="form-check-input" type="radio" value="1000" name="payment" runat="server" />
                                                                 </div>
-                                                                <p class="color-black-1 fs-25 fw-bold mb-0 pt-3">$1,000</p>
+                                                                <p class="color-black-1 fs-20 fw-bold mb-0 pt-3">$1,000</p>
                                                             </div>
                                                         </label>
                                                     </div>
@@ -78,11 +78,11 @@
                                                     <div class="col-lg-3">
                                                         <label class="form-check-image w-100">
                                                             <div class="form-check-wrapper p-5">
-                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between">
+                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between ms-0">
                                                                     <p class="color-black-1 fs-14 mb-0">5,000 Credits</p>
                                                                     <input class="form-check-input" type="radio" value="5000" name="payment" runat="server" />
                                                                 </div>
-                                                                <p class="color-black-1 fs-25 fw-bold mb-0 pt-3">$5,000</p>
+                                                                <p class="color-black-1 fs-20 fw-bold mb-0 pt-3">$5,000</p>
                                                             </div>
                                                         </label>
                                                     </div>
@@ -90,11 +90,11 @@
                                                     <div class="col-lg-3">
                                                         <label class="form-check-image w-100">
                                                             <div class="form-check-wrapper p-5">
-                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between">
+                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between ms-0">
                                                                     <p class="color-black-1 fs-14 mb-0">10,000 Credits</p>
                                                                     <input class="form-check-input" type="radio" value="10000" name="payment" runat="server" />
                                                                 </div>
-                                                                <p class="color-black-1 fs-25 fw-bold mb-0 pt-3">$10,000</p>
+                                                                <p class="color-black-1 fs-20 fw-bold mb-0 pt-3">$10,000</p>
                                                             </div>
                                                         </label>
                                                     </div>
@@ -102,11 +102,11 @@
                                                     <div class="col-lg-3">
                                                         <label class="form-check-image w-100">
                                                             <div class="form-check-wrapper p-5">
-                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between">
+                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between ms-0">
                                                                     <p class="color-black-1 fs-14 mb-0">25,000 Credits</p>
                                                                     <input class="form-check-input" type="radio" value="25000" name="payment" runat="server" />
                                                                 </div>
-                                                                <p class="color-black-1 fs-25 fw-bold mb-0 pt-3">$25,000</p>
+                                                                <p class="color-black-1 fs-20 fw-bold mb-0 pt-3">$25,000</p>
                                                             </div>
                                                         </label>
                                                     </div>
@@ -114,11 +114,11 @@
                                                     <div class="col-lg-3">
                                                         <label class="form-check-image w-100">
                                                             <div class="form-check-wrapper p-5">
-                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between">
+                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between ms-0">
                                                                     <p class="color-black-1 fs-14 mb-0">50,000 Credits</p>
                                                                     <input class="form-check-input" type="radio" value="50000" name="payment" runat="server" />
                                                                 </div>
-                                                                <p class="color-black-1 fs-25 fw-bold mb-0 pt-3">$50,000</p>
+                                                                <p class="color-black-1 fs-20 fw-bold mb-0 pt-3">$50,000</p>
                                                             </div>
                                                         </label>
                                                     </div>
@@ -126,11 +126,11 @@
                                                     <div class="col-lg-3">
                                                         <label class="form-check-image w-100">
                                                             <div class="form-check-wrapper p-5">
-                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between">
+                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between ms-0">
                                                                     <p class="color-black-1 fs-14 mb-0">100,000</p>
                                                                     <input class="form-check-input" type="radio" value="100000" name="payment" runat="server" />
                                                                 </div>
-                                                                <p class="color-black-1 fs-25 fw-bold mb-0 pt-3">$100,000</p>
+                                                                <p class="color-black-1 fs-20 fw-bold mb-0 pt-3">$100,000</p>
                                                             </div>
                                                         </label>
                                                     </div>
@@ -138,11 +138,11 @@
                                                     <div class="col-lg-3">
                                                         <label class="form-check-image w-100">
                                                             <div class="form-check-wrapper p-5">
-                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between">
+                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between ms-0">
                                                                     <p class="color-black-1 fs-14 mb-0">250,000 Credits</p>
                                                                     <input class="form-check-input" type="radio" value="250000" name="payment" runat="server" />
                                                                 </div>
-                                                                <p class="color-black-1 fs-25 fw-bold mb-0 pt-3">$250,000</p>
+                                                                <p class="color-black-1 fs-20 fw-bold mb-0 pt-3">$250,000</p>
                                                             </div>
                                                         </label>
                                                     </div>
@@ -150,11 +150,11 @@
                                                     <div class="col-lg-3">
                                                         <label class="form-check-image w-100">
                                                             <div class="form-check-wrapper p-5">
-                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between">
+                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between ms-0">
                                                                     <p class="color-black-1 fs-14 mb-0">500,000 Credits</p>
                                                                     <input class="form-check-input" type="radio" value="500000" name="payment" runat="server" />
                                                                 </div>
-                                                                <p class="color-black-1 fs-25 fw-bold mb-0 pt-3">$500,000</p>
+                                                                <p class="color-black-1 fs-20 fw-bold mb-0 pt-3">$500,000</p>
                                                             </div>
                                                         </label>
                                                     </div>
@@ -162,11 +162,11 @@
                                                     <div class="col-lg-3">
                                                         <label class="form-check-image w-100">
                                                             <div class="form-check-wrapper p-5">
-                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between">
+                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between ms-0">
                                                                     <p class="color-black-1 fs-14 mb-0">1,000,000 Credits</p>
                                                                     <input class="form-check-input" type="radio" value="1000000" name="payment" runat="server" />
                                                                 </div>
-                                                                <p class="color-black-1 fs-25 fw-bold mb-0 pt-3">$1,000,000</p>
+                                                                <p class="color-black-1 fs-20 fw-bold mb-0 pt-3">$1,000,000</p>
                                                             </div>
                                                         </label>
                                                     </div>
@@ -174,11 +174,11 @@
                                                     <div class="col-lg-3">
                                                         <label class="form-check-image w-100">
                                                             <div class="form-check-wrapper p-5">
-                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between">
+                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between ms-0">
                                                                     <p class="color-black-1 fs-14 mb-0">1,500,000 Credits</p>
                                                                     <input class="form-check-input" type="radio" value="1500000" name="payment" runat="server" />
                                                                 </div>
-                                                                <p class="color-black-1 fs-25 fw-bold mb-0 pt-3">$1,500,000</p>
+                                                                <p class="color-black-1 fs-20 fw-bold mb-0 pt-3">$1,500,000</p>
                                                             </div>
                                                         </label>
                                                     </div>
@@ -186,7 +186,7 @@
                                                     <div class="col-lg-3">
                                                         <label class="form-check-image w-100">
                                                             <div class="form-check-wrapper p-5">
-                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between">
+                                                                <div class="form-check-label form-check-custom form-check-solid justify-content-between ms-0">
                                                                     <p class="color-black-1 fs-14 mb-0">Custom Credits</p>
                                                                     <input class="form-check-input" type="radio" value="custom" name="payment" runat="server" />
                                                                 </div>
@@ -215,9 +215,9 @@
                                                         <div>
                                                             <!--begin::Title-->
                                                             <div class="d-flex justify-content-start align-items-center mb-1">
-                                                                <h2 class="page-heading text-dark fw-bold mb-3 me-3">Transactions History</h2>
+                                                                <h2 class="page-heading text-dark fw-bold mb-0">Transactions History</h2>
                                                             </div>
-                                                            <p class="fs-16 color-neutral-grey pb-5">
+                                                            <p class="fs-14 color-neutral-grey pb-5">
                                                                 See a complete list of all the transactions your customers have done here. You can view or approve their invoices here too.                                                                
                                                                 <!--end::Title-->
                                                         </div>

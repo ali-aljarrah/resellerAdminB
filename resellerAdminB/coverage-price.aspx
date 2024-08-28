@@ -44,18 +44,15 @@
                                 <!--begin::Content container-->
                                 <div id="kt_app_content_container" class="app-container container-fluid">
 								<!--begin::Row-->
-									<div class="row gy-5 g-xl-10">
+									<div class="row">
                                         <!--begin::Col-->
                                         <div class="col-md-12 mb-md-0 mb-5 mt-5">
                                                 <div class="card card-flush shadow-xs p-8 border-0">
                                                 <!--begin::Page title-->
                                                 <div class="page-title gap-1 d-flex justify-content-between align-items-start">
                                                     <div>
-                                                       <!--begin::Title-->
-                                                        <div class="d-flex pt-1 justify-content-start align-items-center mb-1">
-                                                            <h1 class="page-heading text-dark fw-bold m-0 me-3">List of Countries Covered</h1>
-                                                        </div>
-                                                        <p class="fs-14 gray pt-5">
+                                                           <h1 class="page-heading text-dark fw-bold mb-3 me-3">List of Countries Covered</h1>
+                                                        <p class="fs-14 color-neutral-grey pb-5">
                                                             Please find below our comprehensive list of covered countries, including information on each country or region pricing.
                                                         </p>
                                                         <!--end::Title-->

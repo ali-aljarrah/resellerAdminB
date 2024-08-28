@@ -42,7 +42,7 @@
                             <!--begin::Content container-->
                             <div id="kt_app_content_container" class="app-container container-fluid">
 								<!--begin::Row-->
-									<div class="row gy-5 g-xl-10">
+									<div class="row">
                                         <div class="col-md-12">
                                             
 										<!--begin::Col-->
@@ -54,7 +54,7 @@
                                                            <div class="d-flex justify-content-start align-items-center mb-1">
                                                                <h2 class="page-heading text-dark fw-bold mb-3 me-3">SMS Log</h2>
                                                            </div>
-                                                           <p class="fs-16 color-neutral-grey pb-5">
+                                                           <p class="fs-14 color-neutral-grey pb-5">
                                                               See a complete list of all the SMS users.
 														   </p>
 													   </div>

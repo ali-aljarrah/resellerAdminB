@@ -43,19 +43,19 @@
                                 <!--begin::Content container-->
                                 <div id="kt_app_content_container" class="app-container container-fluid">
 								<!--begin::Row-->
-                                    <div class="row gy-5 g-xl-10">
+                                    <div class="row">
                                         <!--begin::Col-->
                                         <div class="col-md-12 mb-md-0 mb-5 mt-5">
                                             <!--begin::Card widget 4-->
-                                            <div class="card card-flush h-100 border-0">
+                                            <div >
                                                 <!--begin::Card body-->
-                                                <div class="card-body pb-4 mt-5 pt-0 ps-0 pr-0">
+                                                <div>
                                                     <ul class="nav nav-tabs nav-line-tabs nav-line-tabs-2x fs-6">
                                                         <li class="nav-item">
-                                                            <a class="nav-link py-3 px-5 fs-18 active" data-bs-toggle="tab" href="#business_details_tab">Business Details</a>
+                                                            <a class="nav-link py-3 px-5 fs-16 active" data-bs-toggle="tab" href="#business_details_tab">Business Details</a>
                                                         </li>
                                                         <li class="nav-item">
-                                                            <a id="paymentGatewayBtnTab" class="nav-link py-3 px-5 fs-18" data-bs-toggle="tab" href="#payment_gateway_tab">Payment Gateway</a>
+                                                            <a id="paymentGatewayBtnTab" class="nav-link py-3 px-5 fs-16" data-bs-toggle="tab" href="#payment_gateway_tab">Payment Gateway</a>
                                                         </li>
                                                     </ul>
 
@@ -380,7 +380,7 @@
                                                                                         </td>
                                                                                         <td class="text-end">
                                                                                             <div class="d-flex justify-content-center align-items-center">
-                                                                                                <a class="edit-gateway me-5 action-btn" href="/edit-gateway" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit gateway">
+                                                                                                <a class="edit-gateway me-5 action-btn" href="/edit-gateway.aspx" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit gateway">
                                                                                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                                                                                         <path d="M11.6663 5.00004L13.5772 3.0892C13.7334 2.93298 13.9454 2.84521 14.1663 2.84521C14.3873 2.84521 14.5992 2.93298 14.7555 3.0892L16.9105 5.2442C17.0667 5.40048 17.1545 5.6124 17.1545 5.83337C17.1545 6.05434 17.0667 6.26626 16.9105 6.42254L14.9997 8.33337M11.6663 5.00004L3.57717 13.0892C3.42088 13.2454 3.33306 13.4574 3.33301 13.6784V15.8334C3.33301 16.0544 3.42081 16.2663 3.57709 16.4226C3.73337 16.5789 3.94533 16.6667 4.16634 16.6667H6.32134C6.54234 16.6667 6.75426 16.5788 6.91051 16.4225L14.9997 8.33337M11.6663 5.00004L14.9997 8.33337" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                                                                     </svg>
@@ -402,7 +402,7 @@
                                                                                         </td>
                                                                                         <td class="text-end">
                                                                                             <div class="d-flex justify-content-center align-items-center">
-                                                                                                <a class="edit-gateway me-5 action-btn" href="/edit-gateway" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit gateway">
+                                                                                                <a class="edit-gateway me-5 action-btn" href="/edit-gateway.aspx" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit gateway">
                                                                                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                                                                                         <path d="M11.6663 5.00004L13.5772 3.0892C13.7334 2.93298 13.9454 2.84521 14.1663 2.84521C14.3873 2.84521 14.5992 2.93298 14.7555 3.0892L16.9105 5.2442C17.0667 5.40048 17.1545 5.6124 17.1545 5.83337C17.1545 6.05434 17.0667 6.26626 16.9105 6.42254L14.9997 8.33337M11.6663 5.00004L3.57717 13.0892C3.42088 13.2454 3.33306 13.4574 3.33301 13.6784V15.8334C3.33301 16.0544 3.42081 16.2663 3.57709 16.4226C3.73337 16.5789 3.94533 16.6667 4.16634 16.6667H6.32134C6.54234 16.6667 6.75426 16.5788 6.91051 16.4225L14.9997 8.33337M11.6663 5.00004L14.9997 8.33337" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                                                                     </svg>

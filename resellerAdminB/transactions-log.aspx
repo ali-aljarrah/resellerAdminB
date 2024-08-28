@@ -44,7 +44,7 @@
                                 <!--begin::Content container-->
                                 <div id="kt_app_content_container" class="app-container container-fluid">
 								<!--begin::Row-->
-									<div class="row gy-5 g-xl-10">
+									<div class="row">
                                         <!--begin::Col-->
                                         <div class="col-md-12 mb-md-0 mb-5 mt-5">
                                             <div class="card card-flush shadow-xs p-8 border-0">
@@ -55,7 +55,7 @@
                                                     <div class="d-flex pt-3 justify-content-start align-items-center mb-1">
                                                         <h1 class="page-heading text-dark fw-bold m-0 me-3">Transactions Log</h1>
                                                     </div>
-                                                    <p class="fs-14 gray pt-3">
+                                                    <p class="fs-14 color-neutral-grey pt-3">
                                                     See a complete list of all the transactions your customers have done here. You can view or approve their invoices here too
                                                     </p>
                                                     <!--end::Title-->
