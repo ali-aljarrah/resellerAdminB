@@ -9,7 +9,7 @@
 <%@ Register Src="~/Controls/SideBar.ascx" TagPrefix="uc1" TagName="SideBar" %>
 
 <uc1:Head runat="server" ID="Head" />
-<title>Reseller Admin - Dashboard</title>
+<title>Reseller Admin - General Settings</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -26,7 +26,7 @@
             <!--begin::Page-->
             <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
                 <!--begin::Header-->
-                <uc1:MenuTop runat="server" ID="MenuTop" parentPageText="Dashboard" childPageText="General Settings" />
+                <uc1:MenuTop runat="server" ID="MenuTop" parentPageText="Reseller Admin" childPageText="General Settings" />
                 <!--end::Header-->
                 <!--begin::Wrapper-->
                 <div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
@@ -63,240 +63,261 @@
                                                         <div class="tab-pane fade show active" id="business_details_tab" role="tabpanel">
                                                             <div class="row">
                                                                 <div class="col-xl-9">
-                                                                    <!-- start branding details section -->
-                                                                    <div class="card shadow-xs p-8 d-flex my-5">
-                                                                        <!--begin::Page title-->
-                                                                        <div class="page-title d-flex flex-column justify-content-center gap-1">
-                                                                            <!--begin::Title-->
-                                                                            <h1 class="page-heading d-flex flex-column justify-content-center text-dark fw-bold my-5">Branding & Details</h1>
-                                                                            <!--end::Title-->
-                                                                        </div>
-                                                                        <!--end::Page title-->
-                                                                        <div>
-                                                                            <div class="row my-4">
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="businessName" class="form-label required mb-0">Business name</label>
-                                                                                        <input runat="server" class="form-control form-custom-input " value="Tesla X Inc." type="text" name="businessName" id="businessName" placeholder="Enter your business name">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="supportEmail" class="form-label required mb-0">Support email</label>
-                                                                                        <input runat="server" class="form-control form-custom-input " value="alexflynch@gmail.com" type="email" name="supportEmail" id="supportEmail" placeholder="Enter business support email">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="defaultSenderID" class="form-label required mb-0">Default sender ID</label>
-                                                                                        <input runat="server" class="form-control form-custom-input " value="TeslaX" type="text" name="defaultSenderID" id="defaultSenderID" placeholder="Your default sender ID">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="businessAddress" class="form-label required mb-0">Business address</label>
-                                                                                        <input runat="server" class="form-control form-custom-input " value="Office K-420-69, 69th floor, Wayne Enterprise, Gotham" type="text" name="businessAddress" id="businessAddress" placeholder="Your business address">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="businessWebsite" class="form-label required mb-0">Website</label>
-                                                                                        <input runat="server" class="form-control form-custom-input " value="www.teslax.com" type="text" name="businessWebsite" id="businessWebsite" placeholder="Your business website">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="resellerDomain" class="form-label required mb-0">Reseller domain</label>
-                                                                                        <input runat="server" class="form-control form-custom-input " value="teslaxx.com" type="text" name="resellerDomain" id="resellerDomain" placeholder="Your business reseller domain">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="businessSignature" class="form-label required mb-0">Signature</label>
-                                                                                        <input runat="server" name="businessSignature" id="businessSignature" type="file" accept="image/*" class="form-control form-custom-input ">
-                                                                                    </div>
-                                                                                    <div class="my-5">
-                                                                                        <label for="" class="form-label">Signature</label>
-                                                                                        <div class="w-150px h-150px bg-gray-200"></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="businessLogo" class="form-label required mb-0">Logo</label>
-                                                                                        <input runat="server" name="businessLogo" id="businessLogo" type="file" accept="image/*" class="form-control form-custom-input ">
-                                                                                    </div>
-                                                                                    <div class="my-5">
-                                                                                        <label for="" class="form-label">Logo</label>
-                                                                                        <div class="w-150px h-150px bg-gray-200"></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <asp:Button ID="editBusinissSubmitBtn" runat="server" Text="Edit business details"
-                                                                                CssClass="btn btn-grad-1 py-2 px-8 rounded-1 m-0"
-                                                                                OnClientClick="editBusinessSubmit('editBusinissSubmitBtn'); return false;" OnClick="editBusinissSubmitBtn_Click" />
-                                                                        </div>
-                                                                        <!-- end branding details section -->
-                                                                        <!--begin::Menu separator-->
-                                                                        <div class="separator my-8 py-5"></div>
-                                                                        <!--end::Menu separator-->
-                                                                        <!-- start other settings section -->
-                                                                        <!--begin::Page title-->
-                                                                        <div class="page-title d-flex flex-column justify-content-center gap-1">
-                                                                            <!--begin::Title-->
-                                                                            <h1 class="page-heading d-flex flex-column justify-content-center text-dark fw-bold my-5">Other Settings</h1>
-                                                                            <!--end::Title-->
-                                                                        </div>
-                                                                        <!--end::Page title-->
-                                                                        <div>
-                                                                            <div class="row my-4">
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="billingModel" class="form-label mb-0">Default billing model</label>
-                                                                                        <select name="billingModel" id="billingModel" runat="server" class="form-select form-custom-select ">
-                                                                                            <option value="">Select...</option>
-                                                                                            <option value="SMSCreditModel">SMS Credit Model</option>
-                                                                                        </select>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="hideRegistrationForm" class="form-label mb-0">Hide registration form</label>
-                                                                                        <select runat="server" name="hideRegistrationForm" id="hideRegistrationForm" class="form-select form-custom-select ">
-                                                                                            <option value="no" selected>No</option>
-                                                                                            <option value="yes">Yes</option>
-                                                                                        </select>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="enableEmailVerification" class="form-label mb-0">Enable email verification</label>
-                                                                                        <select runat="server" name="enableEmailVerification" id="enableEmailVerification" class="form-select form-custom-select ">
-                                                                                            <option value="no" selected>No</option>
-                                                                                            <option value="yes">Yes</option>
-                                                                                        </select>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="enablePhoneVerification" class="form-label mb-0">Enable phone verification</label>
-                                                                                        <select runat="server" name="enablePhoneVerification" id="enablePhoneVerification" class="form-select form-custom-select ">
-                                                                                            <option value="no" selected>No</option>
-                                                                                            <option value="yes">Yes</option>
-                                                                                        </select>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="googleReCaptchaKey" class="form-label mb-0">Google reCaptcha key</label>
-                                                                                        <input class="form-control form-custom-input " value="" type="text" name="googleReCaptchaKey" id="googleReCaptchaKey" runat="server" placeholder="Leave empty to disable feature">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="googleReCaptchaSecret" class="form-label mb-0">Google reCaptcha secret</label>
-                                                                                        <input class="form-control form-custom-input " value="" type="text" name="googleReCaptchaSecret" id="googleReCaptchaSecret" runat="server" placeholder="Leave empty to disable feature">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="disableFundingByCreditPurchases" class="form-label mb-0">Disable funding by credit purchases</label>
-                                                                                        <select name="disableFundingByCreditPurchases" id="disableFundingByCreditPurchases" runat="server" class="form-select form-custom-select ">
-                                                                                            <option value="no" selected>No</option>
-                                                                                            <option value="yes">Yes</option>
-                                                                                        </select>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="sendCustomersToWebsiteAfterLogout" class="form-label mb-0">Send customers to website after logout</label>
-                                                                                        <select runat="server" name="sendCustomersToWebsiteAfterLogout" id="sendCustomersToWebsiteAfterLogout" class="form-select form-custom-select ">
-                                                                                            <option value="no" selected>No</option>
-                                                                                            <option value="yes">Yes</option>
-                                                                                        </select>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="invoiceTax" class="form-label mb-0">Invoice Tax (%)</label>
-                                                                                        <input class="form-control form-custom-input " value="" type="number" runat="server" name="invoiceTax" id="invoiceTax" placeholder="Set to zero to disable feature">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="my-5">
-                                                                                        <label for="invoiceVat" class="form-label mb-0">Invoice VAT (%)</label>
-                                                                                        <input class="form-control form-custom-input " value="" type="number" name="invoiceVat" id="invoiceVat" runat="server" placeholder="Set to zero to disable feature">
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div>
-                                                                                <asp:Button ID="otherSettingsSubmitBtn" runat="server" Text="Save settings"
-                                                                                    CssClass="btn btn-grad-1 py-2 px-8 rounded-1 m-0"
-                                                                                    OnClientClick="otherSettingsSubmit('otherSettingsSubmitBtn'); return false;" OnClick="otherSettingsSubmitBtn_Click" />
+                                                                    <div class="card shadow-xs p-8 d-flex my-5 h-100">
+                                                                        <ul class="nav nav-tabs nav-line-tabs nav-line-tabs-2x mb-5 fs-6">
+                                                                            <li class="nav-item">
+                                                                                <a class="nav-link active" data-bs-toggle="tab" href="#kt_tab_pane_branding">Branding & Details</a>
+                                                                            </li>
+                                                                            <li class="nav-item">
+                                                                                <a class="nav-link" data-bs-toggle="tab" href="#kt_tab_pane_other_settings">Other Settings</a>
+                                                                            </li>
+                                                                            <li class="nav-item">
+                                                                                <a class="nav-link" data-bs-toggle="tab" href="#kt_tab_pane_email_settings">Outgoing Email Settings</a>
+                                                                            </li>
+                                                                        </ul>
 
+                                                                        <div class="tab-content" id="myTabContentBusiness">
+                                                                            <div class="tab-pane fade show active" id="kt_tab_pane_branding" role="tabpanel">
+                                                                                <!-- start branding details section -->
+                                                                                <div>
+                                                                                    <!--begin::Page title-->
+                                                                                    <div class="page-title d-flex flex-column justify-content-center gap-1">
+                                                                                        <!--begin::Title-->
+                                                                                        <h1 class="page-heading d-flex flex-column justify-content-center text-dark fw-bold my-5">Branding & Details</h1>
+                                                                                        <!--end::Title-->
+                                                                                    </div>
+                                                                                    <!--end::Page title-->
+                                                                                    <div>
+                                                                                        <div class="row my-4">
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="businessName" class="form-label required mb-0">Business name</label>
+                                                                                                    <input runat="server" class="form-control form-custom-input " value="Tesla X Inc." type="text" name="businessName" id="businessName" placeholder="Enter your business name">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="supportEmail" class="form-label required mb-0">Support email</label>
+                                                                                                    <input runat="server" class="form-control form-custom-input " value="alexflynch@gmail.com" type="email" name="supportEmail" id="supportEmail" placeholder="Enter business support email">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="defaultSenderID" class="form-label required mb-0">Default sender ID</label>
+                                                                                                    <input runat="server" class="form-control form-custom-input " value="TeslaX" type="text" name="defaultSenderID" id="defaultSenderID" placeholder="Your default sender ID">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="businessAddress" class="form-label required mb-0">Business address</label>
+                                                                                                    <input runat="server" class="form-control form-custom-input " value="Office K-420-69, 69th floor, Wayne Enterprise, Gotham" type="text" name="businessAddress" id="businessAddress" placeholder="Your business address">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="businessWebsite" class="form-label required mb-0">Website</label>
+                                                                                                    <input runat="server" class="form-control form-custom-input " value="www.teslax.com" type="text" name="businessWebsite" id="businessWebsite" placeholder="Your business website">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="resellerDomain" class="form-label required mb-0">Reseller domain</label>
+                                                                                                    <input runat="server" class="form-control form-custom-input " value="teslaxx.com" type="text" name="resellerDomain" id="resellerDomain" placeholder="Your business reseller domain">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="businessSignature" class="form-label required mb-0">Signature</label>
+                                                                                                    <input runat="server" name="businessSignature" id="businessSignature" type="file" accept="image/*" class="form-control form-custom-input ">
+                                                                                                </div>
+                                                                                                <div class="my-5">
+                                                                                                    <label for="" class="form-label">Signature</label>
+                                                                                                    <div class="w-150px h-150px bg-gray-200"></div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="businessLogo" class="form-label required mb-0">Logo</label>
+                                                                                                    <input runat="server" name="businessLogo" id="businessLogo" type="file" accept="image/*" class="form-control form-custom-input ">
+                                                                                                </div>
+                                                                                                <div class="my-5">
+                                                                                                    <label for="" class="form-label">Logo</label>
+                                                                                                    <div class="w-150px h-150px bg-gray-200"></div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <asp:Button ID="editBusinissSubmitBtn" runat="server" Text="Edit business details"
+                                                                                            CssClass="btn btn-grad-1 py-2 px-8 rounded-1 m-0"
+                                                                                            OnClientClick="editBusinessSubmit('editBusinissSubmitBtn'); return false;" OnClick="editBusinissSubmitBtn_Click" />
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- end branding details section -->
+                                                                            </div>
+                                                                            <div class="tab-pane fade" id="kt_tab_pane_other_settings" role="tabpanel">
+                                                                                <!-- start other settings section -->
+                                                                                <div>
+                                                                                    <!--begin::Page title-->
+                                                                                    <div class="page-title d-flex flex-column justify-content-center gap-1">
+                                                                                        <!--begin::Title-->
+                                                                                        <h1 class="page-heading d-flex flex-column justify-content-center text-dark fw-bold my-5">Other Settings</h1>
+                                                                                        <!--end::Title-->
+                                                                                    </div>
+                                                                                    <!--end::Page title-->
+                                                                                    <div>
+                                                                                        <div class="row my-4">
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="billingModel" class="form-label">Default billing model</label>
+                                                                                                    <select name="billingModel" id="billingModel" runat="server" class="form-select form-custom-select ">
+                                                                                                        <option value="">Select...</option>
+                                                                                                        <option value="SMSCreditModel">SMS Credit Model</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="hideRegistrationForm" class="form-label">Hide registration form</label>
+                                                                                                    <select runat="server" name="hideRegistrationForm" id="hideRegistrationForm" class="form-select form-custom-select ">
+                                                                                                        <option value="no" selected>No</option>
+                                                                                                        <option value="yes">Yes</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="enableEmailVerification" class="form-label">Enable email verification</label>
+                                                                                                    <select runat="server" name="enableEmailVerification" id="enableEmailVerification" class="form-select form-custom-select ">
+                                                                                                        <option value="no" selected>No</option>
+                                                                                                        <option value="yes">Yes</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="enablePhoneVerification" class="form-label">Enable phone verification</label>
+                                                                                                    <select runat="server" name="enablePhoneVerification" id="enablePhoneVerification" class="form-select form-custom-select ">
+                                                                                                        <option value="no" selected>No</option>
+                                                                                                        <option value="yes">Yes</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="googleReCaptchaKey" class="form-label">Google reCaptcha key</label>
+                                                                                                    <input class="form-control form-custom-input " value="" type="text" name="googleReCaptchaKey" id="googleReCaptchaKey" runat="server" placeholder="Leave empty to disable feature">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="googleReCaptchaSecret" class="form-label">Google reCaptcha secret</label>
+                                                                                                    <input class="form-control form-custom-input " value="" type="text" name="googleReCaptchaSecret" id="googleReCaptchaSecret" runat="server" placeholder="Leave empty to disable feature">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="disableFundingByCreditPurchases" class="form-label">Disable funding by credit purchases</label>
+                                                                                                    <select name="disableFundingByCreditPurchases" id="disableFundingByCreditPurchases" runat="server" class="form-select form-custom-select ">
+                                                                                                        <option value="no" selected>No</option>
+                                                                                                        <option value="yes">Yes</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="sendCustomersToWebsiteAfterLogout" class="form-label">Send customers to website after logout</label>
+                                                                                                    <select runat="server" name="sendCustomersToWebsiteAfterLogout" id="sendCustomersToWebsiteAfterLogout" class="form-select form-custom-select ">
+                                                                                                        <option value="no" selected>No</option>
+                                                                                                        <option value="yes">Yes</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="invoiceTax" class="form-label">Invoice Tax (%)</label>
+                                                                                                    <input class="form-control form-custom-input " value="" type="number" runat="server" name="invoiceTax" id="invoiceTax" placeholder="Set to zero to disable feature">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="my-5">
+                                                                                                    <label for="invoiceVat" class="form-label">Invoice VAT (%)</label>
+                                                                                                    <input class="form-control form-custom-input " value="" type="number" name="invoiceVat" id="invoiceVat" runat="server" placeholder="Set to zero to disable feature">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div>
+                                                                                            <asp:Button ID="otherSettingsSubmitBtn" runat="server" Text="Save settings"
+                                                                                                CssClass="btn btn-grad-1 py-2 px-8 rounded-1 m-0"
+                                                                                                OnClientClick="otherSettingsSubmit('otherSettingsSubmitBtn'); return false;" OnClick="otherSettingsSubmitBtn_Click" />
+
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- end other settings section -->
+                                                                            </div>
+                                                                            <div class="tab-pane fade" id="kt_tab_pane_email_settings" role="tabpanel">
+                                                                                <!-- start Outgoing Email Settings section -->
+                                                                                <div>
+                                                                                    <!--begin::Page title-->
+                                                                                    <div class="page-title d-flex flex-column justify-content-center gap-1">
+                                                                                        <!--begin::Title-->
+                                                                                        <h1 class="page-heading d-flex flex-column justify-content-center text-dark fw-bold m-1">Outgoing Email Settings</h1>
+                                                                                        <!--end::Title-->
+                                                                                    </div>
+                                                                                    <!--end::Page title-->
+                                                                                    <div>
+                                                                                        <div class="row my-4">
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="mb-5">
+                                                                                                    <label for="smtpServer" class="form-label">SMTP server</label>
+                                                                                                    <input class="form-control form-custom-input " value="" type="text" name="smtpServer" id="smtpServer" runat="server" placeholder="Leave empty to disable feature">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="mb-5">
+                                                                                                    <label for="smtpUsername" class="form-label">SMTP username</label>
+                                                                                                    <input class="form-control form-custom-input " value="" type="text" name="smtpUsername" id="smtpUsername" runat="server" placeholder="Leave empty to disable feature">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="mb-5">
+                                                                                                    <label for="smtpPassword" class="form-label">SMTP password</label>
+                                                                                                    <input class="form-control form-custom-input " value="" type="text" name="smtpPassword" id="smtpPassword" runat="server" placeholder="Leave empty to disable feature">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="mb-5">
+                                                                                                    <label for="smtpPort" class="form-label">SMTP port</label>
+                                                                                                    <input class="form-control form-custom-input " value="" type="number" name="smtpPort" id="smtpPort" runat="server" placeholder="Leave empty to disable feature">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-6">
+                                                                                                <div class="mb-5">
+                                                                                                    <label for="smtpSecurity" class="form-label">SMTP security</label>
+                                                                                                    <select name="smtpSecurity" id="smtpSecurity" runat="server" class="form-select form-custom-select">
+                                                                                                        <option value="no" selected>No</option>
+                                                                                                        <option value="yes">Yes</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div>
+                                                                                            <asp:Button ID="outgoingEmailSettingsSubmitBtn" runat="server" Text="Save settings"
+                                                                                            CssClass="btn btn-grad-1 py-2 px-8 rounded-1 m-0"
+                                                                                            OnClientClick="emailSettingsSubmit('outgoingEmailSettingsSubmitBtn'); return false;" OnClick="outgoingEmailSettingsSubmitBtn_Click" />
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- end Outgoing Email Settings section -->
                                                                             </div>
                                                                         </div>
-                                                                        <!-- end other settings section -->
-                                                                        <!--begin::Menu separator-->
-                                                                        <div class="separator my-8"></div>
-                                                                        <!--end::Menu separator-->
-                                                                        <!-- start Outgoing Email Settings section -->
-                                                                        <!--begin::Page title-->
-                                                                        <div class="page-title d-flex flex-column justify-content-center gap-1">
-                                                                            <!--begin::Title-->
-                                                                            <h1 class="page-heading d-flex flex-column justify-content-center text-dark fw-bold m-1">Outgoing Email Settings</h1>
-                                                                            <!--end::Title-->
-                                                                        </div>
-                                                                        <!--end::Page title-->
-                                                                        <div>
-                                                                            <div class="row my-4">
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="mb-5">
-                                                                                        <label for="smtpServer" class="form-label mb-0">SMTP server</label>
-                                                                                        <input class="form-control form-custom-input " value="" type="text" name="smtpServer" id="smtpServer" runat="server" placeholder="Leave empty to disable feature">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="mb-5">
-                                                                                        <label for="smtpUsername" class="form-label mb-0">SMTP username</label>
-                                                                                        <input class="form-control form-custom-input " value="" type="text" name="smtpUsername" id="smtpUsername" runat="server" placeholder="Leave empty to disable feature">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="mb-5">
-                                                                                        <label for="smtpPassword" class="form-label mb-0">SMTP password</label>
-                                                                                        <input class="form-control form-custom-input " value="" type="text" name="smtpPassword" id="smtpPassword" runat="server" placeholder="Leave empty to disable feature">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="mb-5">
-                                                                                        <label for="smtpPort" class="form-label mb-0">SMTP port</label>
-                                                                                        <input class="form-control form-custom-input " value="" type="number" name="smtpPort" id="smtpPort" runat="server" placeholder="Leave empty to disable feature">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-6">
-                                                                                    <div class="mb-5">
-                                                                                        <label for="smtpSecurity" class="form-label mb-0">SMTP security</label>
-                                                                                        <select name="smtpSecurity" id="smtpSecurity" runat="server" class="form-select form-custom-select">
-                                                                                            <option value="no" selected>No</option>
-                                                                                            <option value="yes">Yes</option>
-                                                                                        </select>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div>
-                                                                                <asp:Button ID="outgoingEmailSettingsSubmitBtn" runat="server" Text="Save settings"
-                                                                                  CssClass="btn btn-grad-1 py-2 px-8 rounded-1 m-0"
-                                                                                  OnClientClick="emailSettingsSubmit('outgoingEmailSettingsSubmitBtn'); return false;" OnClick="outgoingEmailSettingsSubmitBtn_Click" />
-                                                                            </div>
-                                                                        </div>
-                                                                        <!-- end Outgoing Email Settings section -->
+
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-xl-3 mb-md-0 mb-5">
-                                                                    <div class="custom-border-left h-100 my-5">
+                                                                <div class="col-xl-3">
+                                                                    <div class="custom-border-left h-100 mt-5">
                                                                         <div>
                                                                             <div class="mb-6">
-                                                                                <div class="card shadow-xs p-8 d-flex">
+                                                                                <div class="card shadow-xs p-8 d-flex h-100">
                                                                                     <p class="fs-14 fw-600 dark-color mb-3 pt-3">
                                                                                         Signature Upload Guidelines
                                                                                     </p>
@@ -311,8 +332,8 @@
                                                                                     </ul>
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="mb-6">
-                                                                                <div class="card shadow-xs p-8 d-flex">
+                                                                            <div class="">
+                                                                                <div class="card shadow-xs p-8 d-flex h-100">
                                                                                     <p class="fs-14 fw-600 dark-color mb-5 pt-3">
                                                                                         Logo Upload Guidelines
                                                                                     </p>

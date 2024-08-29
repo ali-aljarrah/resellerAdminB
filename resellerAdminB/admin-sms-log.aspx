@@ -46,7 +46,7 @@
                             <!--begin::Content container-->
                             <div id="kt_app_content_container" class="app-container container-fluid">
                                 <!--begin::Row-->
-                                <div class="row gy-5 g-xl-10">
+                                <div class="row g-5 mt-0">
                                     <div class="col-md-12">
                                         <!--begin::Col-->
                                         <div class="card card-flush shadow-xs p-8 border-0">

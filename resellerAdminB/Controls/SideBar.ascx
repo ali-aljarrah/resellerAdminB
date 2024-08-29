@@ -143,6 +143,18 @@
                         <!--end:Menu link-->
                         <!--begin:Menu sub-->
                         <div class="menu-sub menu-sub-accordion pt-2">
+                             <!--begin:Menu item-->
+                             <div class="menu-item child mb-2" id="sms-plans-link">
+                                 <!--begin:Menu link-->
+                                 <a class="menu-link" href="/sms-plans.aspx">
+                                     <span class="menu-bullet">
+                                         <span class="bullet bullet-dot"></span>
+                                     </span>
+                                     <span class="menu-title black">SMS Plans</span>
+                                 </a>
+                                 <!--end:Menu link-->
+                             </div>
+                             <!--end:Menu item-->
                             <!--begin:Menu item-->
                             <div class="menu-item child mb-2" id="cov-link">
                                 <!--begin:Menu link-->

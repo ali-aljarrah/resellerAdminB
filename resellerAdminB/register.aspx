@@ -13,7 +13,6 @@
     <title>Reseller - Register</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="/assets/img/LOGO.svg" />
     <!--begin::Fonts(mandatory for all pages)-->
     <link rel="stylesheet" href="/assets/css/font.css" />
     <!--end::Fonts-->
@@ -89,7 +88,7 @@
                                     <div class="fv-row mb-8 fv-plugins-icon-container">
                                         <!--begin::Email-->
                                         <label for="email" class="form-label fs-14 dark-color required">Email</label>
-                                        <input type="email" placeholder="Email Address" aria-invalid="true" name="email" id="email" runat="server" autocomplete="email" class="form-control form-control-solid">
+                                        <input type="email" placeholder="Email Address" aria-invalid="true" name="email" id="email" runat="server" autocomplete="email" class="form-control form-custom-input">
                                         <!--end::Email-->
                                         <div class="fv-plugins-message-container invalid-feedback"></div>
                                     </div>
@@ -97,7 +96,7 @@
                                     <div class="fv-row mb-8 fv-plugins-icon-container">
                                         <!--begin::Full name-->
                                         <label for="fullName" class="form-label fs-14 dark-color required">Full name</label>
-                                        <input type="text" placeholder="Full Name English Only" id="fullName" name="fullName" runat="server" autocomplete="off" class="form-control form-control-solid">
+                                        <input type="text" placeholder="Full Name English Only" id="fullName" name="fullName" runat="server" autocomplete="off" class="form-control form-custom-input">
                                         <!--end::Full name-->
                                         <div class="fv-plugins-message-container invalid-feedback"></div>
                                     </div>

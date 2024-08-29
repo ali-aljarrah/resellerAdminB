@@ -10,7 +10,7 @@
 <%@ Register Src="~/Controls/SideBar.ascx" TagPrefix="uc1" TagName="SideBar" %>
 
 <uc1:Head runat="server" ID="Head" />
-<title>Reseller Admin - Dashboard</title>
+<title>Reseller Admin - Credits Log</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -27,7 +27,7 @@
             <!--begin::Page-->
             <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
                 <!--begin::Header-->
-                <uc1:MenuTop runat="server" ID="MenuTop" parentPageText="Dashboard" childPageText="Credits Log" />
+                <uc1:MenuTop runat="server" ID="MenuTop" parentPageText="Reseller Admin" childPageText="Credits Log" />
                 <!--end::Header-->
                 <!--begin::Wrapper-->
                 <div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">

@@ -40,7 +40,12 @@ $(document).ready(function () {
         document.getElementById("admin-sms-log-link").classList.add("active");
     } else if (url == '/admin-scheduled-log.aspx') {
         document.getElementById("admin-scheduled-log-link").classList.add("active");
-    } else if (url == '/coverage-price.aspx') {
+    } else if (url == '/sms-plans.aspx') {
+        document.getElementById("reseller-features-link").classList.add("active");
+        document.getElementById("sms-plans-link").classList.add("active");
+        document.getElementById("reseller-features-link").classList.add("hover");
+        document.getElementById("reseller-features-link").classList.add("show");
+    } else if (url == '/coverage-price.aspx' || url == '/edit-country-cov.aspx') {
         document.getElementById("reseller-features-link").classList.add("active");
         document.getElementById("cov-link").classList.add("active");
         document.getElementById("reseller-features-link").classList.add("hover");
@@ -91,6 +96,10 @@ $(document).ready(function () {
         document.getElementById("reseller-admin-link").classList.add("hover");
         document.getElementById("reseller-admin-link").classList.add("show");
     }
+
+    $('select').select2({
+        minimumResultsForSearch: Infinity,
+    });
 });
 
 

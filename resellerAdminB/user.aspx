@@ -10,7 +10,7 @@
 <%@ Register Src="~/Controls/SideBar.ascx" TagPrefix="uc1" TagName="SideBar" %>
 
 <uc1:Head runat="server" ID="Head" />
-<title>Reseller Admin - Dashboard</title>
+<title>Reseller Admin - User</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->

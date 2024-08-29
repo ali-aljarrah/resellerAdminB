@@ -7,34 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace resellerAdminB
 {
-    public partial class coverage_price : System.Web.UI.Page
+    public partial class edit_country_cov : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (IsPostBack)
-            {
-                string eventTarget = Request["__EVENTTARGET"];
-                string eventArgument = Request["__EVENTARGUMENT"];
 
-                if (!string.IsNullOrEmpty(eventTarget))
-                {
-                    if (eventTarget == "DeleteCountry")
-                    {
-                        // Handle the delete action
-                        DeleteCountry(eventArgument);
-                    }
-                }
-            }
         }
 
-        private void DeleteCountry(string CountryID)
-        {
-            string script = $"toastr.success(\"Country: {CountryID} has been deleted!\");";
-            ScriptManager.RegisterStartupScript(this, GetType(), "showalert", script, true);
-            return;
-        }
-
-        protected void AddNewCountryBtn_Click(object sender, EventArgs e)
+        protected void EditCountryBtn_Click(object sender, EventArgs e)
         {
             string script;
             if (serviceOption.Value.Trim() == "")
@@ -88,7 +68,7 @@ namespace resellerAdminB
                 return;
             }
 
-            script = "toastr.success(\"Country has been added Successfully!\");";
+            script = "toastr.success(\"Country has been updated Successfully!\");";
             ScriptManager.RegisterStartupScript(this, GetType(), "showalert", script, true);
             return;
         }

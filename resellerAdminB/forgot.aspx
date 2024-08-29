@@ -13,7 +13,6 @@
 	    <title>Reseller - Forget password</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="shortcut icon" href="/assets/img/LOGO.svg" />
 		<!--begin::Fonts(mandatory for all pages)-->
 		<link rel="stylesheet" href="/assets/css/font.css" />
 		<!--end::Fonts-->
@@ -87,7 +86,7 @@
                                             <!--begin::Email-->
                                             <input type="hidden" name="fotoken" id="fotoken" runat="server" value="{BFFCA4F8-E32D-4C21-B9B4-A13538CB7129}">
                                             <label for="email" class="form-label fs-14 dark-color required">Email</label>
-                                            <input type="email" placeholder="Email" name="email" id="email" runat="server" autocomplete="off" class="form-control form-control-solid">
+                                            <input type="email" placeholder="Email" name="email" id="email" runat="server" autocomplete="off" class="form-control form-custom-input">
                                             <!--end::Email-->
                                         <div class="fv-plugins-message-container invalid-feedback"></div></div>
                                         <div>

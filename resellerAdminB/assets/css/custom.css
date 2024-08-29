@@ -17,10 +17,18 @@ body {
         background: gray;
     }
 
-
-.app-header {
-    box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
+select {
+    cursor: pointer;
 }
+
+    select option {
+        line-height: 10px
+    }
+
+
+    .app-header {
+        box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
+    }
 
 .btn-crown {
     font-size: 24px !important;

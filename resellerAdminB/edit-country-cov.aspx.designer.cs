@@ -11,7 +11,7 @@ namespace resellerAdminB
 {
 
 
-    public partial class coverage_price
+    public partial class edit_country_cov
     {
 
         /// <summary>
@@ -24,13 +24,13 @@ namespace resellerAdminB
         protected global::resellerAdminB.Controls.Head Head;
 
         /// <summary>
-        /// covForm control.
+        /// countryform control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm covForm;
+        protected global::System.Web.UI.HtmlControls.HtmlForm countryform;
 
         /// <summary>
         /// Loader control.
@@ -114,13 +114,13 @@ namespace resellerAdminB
         protected global::System.Web.UI.HtmlControls.HtmlSelect user;
 
         /// <summary>
-        /// AddNewCountryBtn control.
+        /// EditCountryBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AddNewCountryBtn;
+        protected global::System.Web.UI.WebControls.Button EditCountryBtn;
 
         /// <summary>
         /// footer control.

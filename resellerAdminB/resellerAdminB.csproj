@@ -99,6 +99,7 @@
     <Content Include="assets\js\custom\authentication\sign-in\two-fa-other.js" />
     <Content Include="assets\js\custom\authentication\sign-in\two-factor.js" />
     <Content Include="assets\js\custom\authentication\sign-up\general.js" />
+    <Content Include="assets\js\edit-country-cov.js" />
     <Content Include="assets\js\edit-gateway.js" />
     <Content Include="assets\js\hlr.js" />
     <Content Include="assets\js\hlr_log.js" />
@@ -113,6 +114,7 @@
     <Content Include="assets\js\send-email.js" />
     <Content Include="assets\js\sentreport.js" />
     <Content Include="assets\js\settings.js" />
+    <Content Include="assets\js\sms-plans.js" />
     <Content Include="assets\js\sms-scheduled.js" />
     <Content Include="assets\js\transactions-log.js" />
     <Content Include="assets\js\user-list.js" />
@@ -197,6 +199,7 @@
     <Content Include="Controls\SideBar.ascx" />
     <Content Include="coverage-price.aspx" />
     <Content Include="credits-log.aspx" />
+    <Content Include="edit-country-cov.aspx" />
     <Content Include="edit-gateway.aspx" />
     <Content Include="forgot.aspx" />
     <Content Include="general-settings.aspx" />
@@ -205,6 +208,7 @@
     <Content Include="register.aspx" />
     <Content Include="send-email.aspx" />
     <Content Include="sms-log.aspx" />
+    <Content Include="sms-plans.aspx" />
     <Content Include="sms-scheduled.aspx" />
     <Content Include="sms-summary.aspx" />
     <Content Include="smslog.aspx" />
@@ -333,6 +337,13 @@
     <Compile Include="credits-log.aspx.designer.cs">
       <DependentUpon>credits-log.aspx</DependentUpon>
     </Compile>
+    <Compile Include="edit-country-cov.aspx.cs">
+      <DependentUpon>edit-country-cov.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="edit-country-cov.aspx.designer.cs">
+      <DependentUpon>edit-country-cov.aspx</DependentUpon>
+    </Compile>
     <Compile Include="edit-gateway.aspx.cs">
       <DependentUpon>edit-gateway.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -389,6 +400,13 @@
     </Compile>
     <Compile Include="sms-log.aspx.designer.cs">
       <DependentUpon>sms-log.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sms-plans.aspx.cs">
+      <DependentUpon>sms-plans.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sms-plans.aspx.designer.cs">
+      <DependentUpon>sms-plans.aspx</DependentUpon>
     </Compile>
     <Compile Include="sms-scheduled.aspx.cs">
       <DependentUpon>sms-scheduled.aspx</DependentUpon>

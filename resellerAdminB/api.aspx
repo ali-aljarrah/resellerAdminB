@@ -9,7 +9,7 @@
 <%@ Register Src="~/Controls/SideBar.ascx" TagPrefix="uc1" TagName="SideBar" %>
 
 <uc1:Head runat="server" id="Head" />
-<title>Reseller Admin - Dashboard</title>
+<title>Reseller Admin - API References</title>
 <link rel="stylesheet" href="/assets/css/prism.css">
 </head>
 <!--end::Head-->
@@ -27,7 +27,7 @@
         <!--begin::Page-->
         <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
             <!--begin::Header-->
-            <uc1:MenuTop runat="server" id="MenuTop" parentPageText="Dashboard" childPageText="API" />
+            <uc1:MenuTop runat="server" id="MenuTop" parentPageText="Reseller Features" childPageText="API" />
             <!--end::Header-->
             <!--begin::Wrapper-->
             <div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">

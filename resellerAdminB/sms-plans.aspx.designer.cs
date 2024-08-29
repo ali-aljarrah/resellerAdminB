@@ -11,7 +11,7 @@ namespace resellerAdminB
 {
 
 
-    public partial class coverage_price
+    public partial class sms_plans
     {
 
         /// <summary>
@@ -60,67 +60,67 @@ namespace resellerAdminB
         protected global::resellerAdminB.Controls.SideBar SideBar;
 
         /// <summary>
-        /// serviceOption control.
+        /// totalSMS control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect serviceOption;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl totalSMS;
 
         /// <summary>
-        /// costByCredit control.
+        /// title control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl costByCredit;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText title;
 
         /// <summary>
-        /// countryMCC control.
+        /// smsRate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect countryMCC;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl smsRate;
 
         /// <summary>
-        /// mnc control.
+        /// totalCost control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText mnc;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl totalCost;
 
         /// <summary>
-        /// available control.
+        /// currency control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect available;
+        protected global::System.Web.UI.HtmlControls.HtmlSelect currency;
 
         /// <summary>
-        /// user control.
+        /// status control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect user;
+        protected global::System.Web.UI.HtmlControls.HtmlSelect status;
 
         /// <summary>
-        /// AddNewCountryBtn control.
+        /// AddNewPlanBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AddNewCountryBtn;
+        protected global::System.Web.UI.WebControls.Button AddNewPlanBtn;
 
         /// <summary>
         /// footer control.
