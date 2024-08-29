@@ -66,25 +66,25 @@
                                                         <div class="table-responsive">
                                                             <table id="coverage-table" class="table custom-table table-bordered table-striped gy-5">
                                                                 <thead>
-                                                                    <tr class="fs-14 fw-600 dark-color">
+                                                                    <tr class="fs-12 fw-600 dark-color">
                                                                         <th class="white-color">Country Name</th>
                                                                         <th class="white-color">Price</th>
                                                                     </tr>
                                                                 </thead>
                                                                 <tbody>
-                                                                    <tr>
+                                                                    <tr class="fs-12">
                                                                         <td>Albania (Republic of)</td>
                                                                         <td>$0.56</td>
                                                                     </tr>
-                                                                    <tr>
+                                                                    <tr class="fs-12">
                                                                         <td>Albania (Republic of)</td>
                                                                         <td>$0.56</td>
                                                                     </tr>
-                                                                    <tr>
+                                                                    <tr class="fs-12">
                                                                         <td>Albania (Republic of)</td>
                                                                         <td>$0.56</td>
                                                                     </tr>
-                                                                    <tr>
+                                                                    <tr class="fs-12">
                                                                         <td>Albania (Republic of)</td>
                                                                         <td>$0.56</td>
                                                                     </tr>

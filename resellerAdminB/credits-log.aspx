@@ -68,14 +68,14 @@
                                                     <div class="table-responsive">
                                                         <table id="sent-sms-report" class="table custom-table table-bordered table-striped gy-5">
                                                             <thead>
-                                                                <tr class="fs-14 fw-600">
+                                                                <tr class="fs-12 fw-600">
                                                                     <th class="white-color">Credit Allocations</th>
                                                                     <th class="white-color">Usage</th>
                                                                     <th class="white-color">Date & Time</th>
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
-                                                                <tr>
+                                                                <tr class="fs-12">
                                                                     <td>-</td>
                                                                     <td>-</td>
                                                                     <td>-</td>

@@ -83,13 +83,13 @@
                                                                     <div class="table-responsive mb-9">
                                                                         <table class="table custom-table table-bordered table-striped table-row-gray-300 gy-5">
                                                                             <thead>
-                                                                                <tr class="fs-16 fw-600 dark-color">
+                                                                                <tr class="fs-12 fw-600 dark-color">
                                                                                     <th class="white-color">HTTP URL</th>
                                                                                     <th class="white-color">HTTP Method</th>
                                                                                 </tr>
                                                                             </thead>
                                                                             <tbody>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td><a target="_blank" href="https://demos.ynetinteractive.com/sendroidultimate/app/smsAPI">https://demos.ynetinteractive.com/sendroidultimate/app/smsAPI</a></td>
                                                                                     <td>POST or GET</td>
                                                                                 </tr>
@@ -103,13 +103,13 @@
                                                                     <div class="table-responsive mt-8 mb-5">
                                                                         <table class="table custom-table table-bordered table-striped gy-5">
                                                                             <thead>
-                                                                                <tr class="fs-16 fw-600 dark-color">
+                                                                                <tr class="fs-12 fw-600 dark-color">
                                                                                     <th class="white-color">API Key</th>
                                                                                     <th class="white-color">API Token</th>
                                                                                 </tr>
                                                                             </thead>
                                                                             <tbody>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>KtZmuvBFvYa2EnKmd3VcVDHpO5Fbnc5L</td>
                                                                                     <td>XRca1673849289</td>
                                                                                 </tr>
@@ -151,41 +151,41 @@
                                                                     <div class="table-responsive my-8">
                                                                         <table class="table custom-table table-bordered table-striped table-row-gray-300 gy-5">
                                                                             <thead>
-                                                                                <tr class="fs-16 fw-600 dark-color">
+                                                                                <tr class="fs-12 fw-600 dark-color">
                                                                                     <th class="white-color">Parameters</th>
                                                                                     <th class="white-color">Description</th>
                                                                                 </tr>
                                                                             </thead>
                                                                             <tbody>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>apikey</td>
                                                                                     <td>You unique API Key (<span class="text-danger">required</span>)</td>
                                                                                 </tr>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>apitoken</td>
                                                                                     <td>You unique API Token (<span class="text-danger">required</span>)</td>
                                                                                 </tr>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>type</td>
                                                                                     <td>Message Type Eg. sms, voice, unicode, flash, mms, whatsapp (default is sms) (<span class="text-danger">required</span>)</td>
                                                                                 </tr>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>from</td>
                                                                                     <td>Your Sender ID (<span class="text-danger">required</span>)</td>
                                                                                 </tr>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>to</td>
                                                                                     <td>Destination Number (country code) (<span class="text-danger">required</span>)</td>
                                                                                 </tr>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>text</td>
                                                                                     <td>Your message text (url encoded) (<span class="text-danger">required for sms, unicode, flash</span>)</td>
                                                                                 </tr>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>file</td>
                                                                                     <td>Voice file URL (for voice message) or Multimedia file URL (for mms or whatsapp message) (<span class="text-primary">optional</span>)</td>
                                                                                 </tr>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>language</td>
                                                                                     <td>Language of voice message (<span class="text-danger">required for text-to-speach</span>)</td>
                                                                                 </tr>
@@ -193,11 +193,11 @@
                                                                                     <td>scheduledate</td>
                                                                                     <td>Date and Time to send message (YYYY-MM-DD HH:mm:ss) (<span class="text-primary">optional</span>)</td>
                                                                                 </tr>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>duration</td>
                                                                                     <td>Duration of your voice message in seconds (<span class="text-danger">required for voice</span>)</td>
                                                                                 </tr>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>route</td>
                                                                                     <td>ID of gateway/route to use for the message. Set to 0 to use system default routing rules (<span class="text-primary">optional</span>)</td>
                                                                                 </tr>
@@ -230,21 +230,21 @@
                                                                     <div class="table-responsive my-8">
                                                                         <table class="table custom-table table-bordered table-striped table-row-gray-300 gy-5">
                                                                             <thead>
-                                                                                <tr class="fs-16 fw-600 dark-color">
+                                                                                <tr class="fs-12 fw-600 dark-color">
                                                                                     <th class="white-color">Parameters</th>
                                                                                     <th class="white-color">Description</th>
                                                                                 </tr>
                                                                             </thead>
                                                                             <tbody>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>apikey</td>
                                                                                     <td>You unique API Key (<span class="text-danger">required</span>)</td>
                                                                                 </tr>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>apitoken</td>
                                                                                     <td>You unique API Token (<span class="text-danger">required</span>)</td>
                                                                                 </tr>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>groupid</td>
                                                                                     <td>The group_id returned by send sms request (<span class="text-danger">required</span>)</td>
                                                                                 </tr>
@@ -295,21 +295,21 @@
                                                                     <div class="table-responsive white-color my-8">
                                                                         <table class="table custom-table table-bordered table-striped table-row-gray-300 gy-5">
                                                                             <thead>
-                                                                                <tr class="fs-16 fw-600 dark-color">
+                                                                                <tr class="fs-12 fw-600 dark-color">
                                                                                     <th class="white-color">Parameters</th>
                                                                                     <th class="white-color">Description</th>
                                                                                 </tr>
                                                                             </thead>
                                                                             <tbody>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>apikey</td>
                                                                                     <td>You unique API Key (<span class="text-danger">required</span>)</td>
                                                                                 </tr>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>apitoken</td>
                                                                                     <td>You unique API Token (<span class="text-danger">required</span>)</td>
                                                                                 </tr>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>list</td>
                                                                                     <td>"all" will return all messages while "unread" will return only unread messages (default is unread) (<span class="text-primary">optional</span>)</td>
                                                                                 </tr>
@@ -360,17 +360,17 @@
                                                                     <div class="table-responsive my-8">
                                                                         <table class="table custom-table table-bordered table-striped table-row-gray-300 gy-5">
                                                                             <thead>
-                                                                                <tr class="fs-16 fw-600 dark-color">
+                                                                                <tr class="fs-12 fw-600 dark-color">
                                                                                     <th class="white-color">Parameters</th>
                                                                                     <th class="white-color">Description</th>
                                                                                 </tr>
                                                                             </thead>
                                                                             <tbody>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>apikey</td>
                                                                                     <td>You unique API Key (<span class="text-danger">required</span>)</td>
                                                                                 </tr>
-                                                                                <tr class="fs-14 dark-color">
+                                                                                <tr class="fs-12 dark-color">
                                                                                     <td>apitoken</td>
                                                                                     <td>You unique API Token (<span class="text-danger">required</span>)</td>
                                                                                 </tr>

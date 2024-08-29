@@ -78,7 +78,7 @@
                                                     <div class="table-responsive">
                                                         <table id="sent-sms-report" class="table custom-table table-bordered table-striped gy-5">
                                                             <thead>
-                                                                <tr class="fs-14 fw-600">
+                                                                <tr class="fs-12 fw-600">
                                                                     <th class="white-color">Recipient</th>
                                                                     <th class="white-color">Subject</th>
                                                                     <th class="white-color">Date</th>
@@ -86,7 +86,7 @@
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
-                                                                <tr>
+                                                                <tr class="fs-12">
                                                                     <td>All Registered Customers</td>
                                                                     <td class="mw-100px">
                                                                         <div class="overflow-clip-ellipsis" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.">
@@ -96,7 +96,7 @@
                                                                     <td>22/08/2023</td>
                                                                     <td class="text-success">Sent</td>
                                                                 </tr>
-                                                                <tr>
+                                                                <tr class="fs-12">
                                                                     <td>All Unverified Customers</td>
                                                                     <td class="mw-100px">
                                                                         <div class="overflow-clip-ellipsis" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.">
@@ -106,7 +106,7 @@
                                                                     <td>22/08/2023</td>
                                                                     <td class="text-warning">Queued</td>
                                                                 </tr>
-                                                                <tr>
+                                                                <tr class="fs-12">
                                                                     <td>Customers With Zero Balance</td>
                                                                     <td class="mw-100px">
                                                                         <div class="overflow-clip-ellipsis" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.">

@@ -79,7 +79,7 @@
                                                         <table id="sent-sms-report" class="table custom-table table-bordered table-striped gy-5">
 
                                                             <thead>
-                                                                <tr class="fs-14 fw-600">
+                                                                <tr class="fs-12 fw-600">
                                                                     <th class="white-color">Full Name</th>
                                                                     <th class="white-color">Email</th>
                                                                     <th class="white-color">Joined On</th>
@@ -88,7 +88,7 @@
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
-                                                                <tr>
+                                                                <tr class="fs-12">
                                                                     <td>Jessica Davis</td>
                                                                     <td>jessica.davis@gmail.com</td>
                                                                     <td>22/08/2023</td>
@@ -109,7 +109,7 @@
                                                                         </div>
                                                                     </td>
                                                                 </tr>
-                                                                <tr>
+                                                                <tr class="fs-12">
                                                                     <td>Thorin Deep</td>
                                                                     <td>deep.thorin@hotmail.com</td>
                                                                     <td>22/08/2023</td>
@@ -130,7 +130,7 @@
                                                                         </div>
                                                                     </td>
                                                                 </tr>
-                                                                <tr>
+                                                                <tr class="fs-12">
                                                                     <td>Hugh Janus</td>
                                                                     <td>hughjanus@hotmail.com</td>
                                                                     <td>22/08/2023</td>

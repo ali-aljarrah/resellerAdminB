@@ -217,9 +217,10 @@ span.menu-link, span.menu-link.menu-center:hover svg path {
 }
 
 .btn-grad-1 {
-    background-color: #0f204b;
+    background-image: linear-gradient( to right, #0f204b 0%, #3a7bd5 51%, #0f204b 100% );
     padding: 15px 45px;
     text-align: center;
+    background-size: 200% auto;
     color: #fff;
     border-radius: 8px;
     display: block;
@@ -227,8 +228,7 @@ span.menu-link, span.menu-link.menu-center:hover svg path {
 }
 
     .btn-grad-1:hover {
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
-        background-color: #0f204b;
+        background-position: top center;
         color: #fff;
         transition: all 0.3s ease-in-out;
     }

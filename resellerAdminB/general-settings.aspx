@@ -62,7 +62,7 @@
                                                     <div class="tab-content" id="myTabContent">
                                                         <div class="tab-pane fade show active" id="business_details_tab" role="tabpanel">
                                                             <div class="row">
-                                                                <div class="col-md-8">
+                                                                <div class="col-xl-9">
                                                                     <!-- start branding details section -->
                                                                     <div class="card shadow-xs p-8 d-flex my-5">
                                                                         <!--begin::Page title-->
@@ -132,7 +132,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <asp:Button ID="editBusinissSubmitBtn" runat="server" Text="Edit business details"
-                                                                                CssClass="btn btn-primary btn-grad py-2 px-8 rounded-1 m-0"
+                                                                                CssClass="btn btn-grad-1 py-2 px-8 rounded-1 m-0"
                                                                                 OnClientClick="editBusinessSubmit('editBusinissSubmitBtn'); return false;" OnClick="editBusinissSubmitBtn_Click" />
                                                                         </div>
                                                                         <!-- end branding details section -->
@@ -230,7 +230,7 @@
                                                                             </div>
                                                                             <div>
                                                                                 <asp:Button ID="otherSettingsSubmitBtn" runat="server" Text="Save settings"
-                                                                                    CssClass="btn btn-primary btn-grad py-2 px-8 rounded-1 m-0"
+                                                                                    CssClass="btn btn-grad-1 py-2 px-8 rounded-1 m-0"
                                                                                     OnClientClick="otherSettingsSubmit('otherSettingsSubmitBtn'); return false;" OnClick="otherSettingsSubmitBtn_Click" />
 
                                                                             </div>
@@ -285,44 +285,44 @@
                                                                             </div>
                                                                             <div>
                                                                                 <asp:Button ID="outgoingEmailSettingsSubmitBtn" runat="server" Text="Save settings"
-                                                                                  CssClass="btn btn-primary btn-grad py-2 px-8 rounded-1 m-0"
+                                                                                  CssClass="btn btn-grad-1 py-2 px-8 rounded-1 m-0"
                                                                                   OnClientClick="emailSettingsSubmit('outgoingEmailSettingsSubmitBtn'); return false;" OnClick="outgoingEmailSettingsSubmitBtn_Click" />
                                                                             </div>
                                                                         </div>
                                                                         <!-- end Outgoing Email Settings section -->
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-md-4 mb-md-0 mb-5">
-                                                                    <div class="custom-border-left h-100 mt-10 mt-md-0">
-                                                                        <div class="p-5">
-                                                                            <div class="mb-6 px-5">
+                                                                <div class="col-xl-3 mb-md-0 mb-5">
+                                                                    <div class="custom-border-left h-100 my-5">
+                                                                        <div>
+                                                                            <div class="mb-6">
                                                                                 <div class="card shadow-xs p-8 d-flex">
-                                                                                    <p class="fs-18 fw-600 dark-color mb-5 pt-3">
+                                                                                    <p class="fs-14 fw-600 dark-color mb-3 pt-3">
                                                                                         Signature Upload Guidelines
                                                                                     </p>
-                                                                                    <p class="fs-14 dark-color mt-5 mb-5 pb-5">
+                                                                                    <p class="fs-12 dark-color">
                                                                                         Your signature is an important part of your business . Follow the requirements below to ensure it fits properly.
                                                                                     </p>
                                                                                     <ul>
-                                                                                        <li class="fs-14 dark-color mb-4">Format: JPG, GIF, PNG, WEPB or SVG
+                                                                                        <li class="fs-12 dark-color">Format: JPG, GIF, PNG, WEPB or SVG
                                                                                         </li>
-                                                                                        <li class="fs-14 dark-color mb-4">Maximum size: 2MB; Ideal size: at least 160 x 80 pixels
+                                                                                        <li class="fs-12 dark-color">Maximum size: 2MB; Ideal size: at least 160 x 80 pixels
                                                                                         </li>
                                                                                     </ul>
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="mb-6 p-5">
+                                                                            <div class="mb-6">
                                                                                 <div class="card shadow-xs p-8 d-flex">
-                                                                                    <p class="fs-18 fw-600 dark-color mb-5 pt-3">
+                                                                                    <p class="fs-14 fw-600 dark-color mb-5 pt-3">
                                                                                         Logo Upload Guidelines
                                                                                     </p>
-                                                                                    <p class="fs-14 dark-color my-5 pb-5">
+                                                                                    <p class="fs-12 dark-color">
                                                                                         Your brand or service logo must follow the requirements below to ensure it fits properly in the designated area.
                                                                                     </p>
                                                                                     <ul>
-                                                                                        <li class="fs-14 dark-color mb-4">Format: JPG, GIF, PNG, WEPB or SVG
+                                                                                        <li class="fs-12 dark-color">Format: JPG, GIF, PNG, WEPB or SVG
                                                                                         </li>
-                                                                                        <li class="fs-14 dark-color mb-4">Maximum size: 2MB; Ideal size: at least 200 x 40 pixels
+                                                                                        <li class="fs-12 dark-color">Maximum size: 2MB; Ideal size: at least 200 x 40 pixels
                                                                                         </li>
                                                                                     </ul>
                                                                                 </div>
@@ -351,7 +351,7 @@
                                                                                 </div>
                                                                                 <!--end::Page title-->
                                                                                 <!--begin::Header-->
-                                                                                <button type="button" class="btn btn-primary btn-grad" id="btn-modal-popup" data-bs-toggle="modal" data-bs-target="#newGatewayModal">
+                                                                                <button type="button" class="btn btn-grad-1" id="btn-modal-popup" data-bs-toggle="modal" data-bs-target="#newGatewayModal">
                                                                                     Add Payment Gateway
                                                                                 </button>
                                                                                 <!--end::Header-->
@@ -360,10 +360,10 @@
                                                                         <!--end::Item-->
                                                                         <!--end::Accordion-->
                                                                         <div class="table-responsive mt-8">
-                                                                            <table id="sent-sms-report" class="table custom-table table-bordered table-row-gray-300 gy-5 datatable">
+                                                                            <table id="sent-sms-report" class="table custom-table table-bordered table-striped gy-5">
 
                                                                                 <thead>
-                                                                                    <tr class="fs-14 fw-600">
+                                                                                    <tr class="fs-12 fw-600">
                                                                                         <th class="white-color">Title</th>
                                                                                         <th class="white-color">Type</th>
                                                                                         <th class="white-color">Status</th>
@@ -371,7 +371,7 @@
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody>
-                                                                                    <tr>
+                                                                                    <tr class="fs-12">
                                                                                         <td>BB</td>
                                                                                         <td>Custom</td>
                                                                                         <td>
@@ -393,7 +393,7 @@
                                                                                             </div>
                                                                                         </td>
                                                                                     </tr>
-                                                                                    <tr>
+                                                                                    <tr class="fs-12">
                                                                                         <td>Funda SMS</td>
                                                                                         <td>Paystack</td>
                                                                                         <td>
@@ -518,7 +518,7 @@
                     <!--end::Body-->
                     <div class="modal-footer">
                        <asp:Button ID="newGatewaySubmitBtn" runat="server" Text="Save gateway"
-                         CssClass="btn btn-primary btn-grad py-2 px-6 rounded-1"
+                         CssClass="btn btn-grad-1 py-2 px-6 rounded-1"
                          OnClientClick="createGatewaySubmit('newGatewaySubmitBtn'); return false;" OnClick="newGatewaySubmitBtn_Click" />
                     </div>
                 </div>

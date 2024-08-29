@@ -67,7 +67,7 @@
                                                 <!--begin::Card body-->
                                                 <div class="pb-4 mt-0">
                                                     <div class="table-responsive">
-                                                        <table id="sent-sms-report" class="table custom-table table-bordered table-row-gray-300 gy-5 datatable">
+                                                        <table id="sent-sms-report" class="table custom-table table-bordered table-striped gy-5">
                                                             <thead>
                                                                 <tr class="fs-14 fw-600 dark-color">
                                                                     <th class="white-color">Recipient</th>

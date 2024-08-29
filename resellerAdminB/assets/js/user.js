@@ -1,98 +1,26 @@
 ﻿// Table datatable
 $(document).ready(function () {
-    $('#recent_traffic_table_processing').parent().addClass('position-relative');
-    $.fn.dataTable.ext.errMode = 'none';
-    $('#recent_traffic_table').on('error.dt', function (e, settings, techNote, message) {
-        console.log('An error has been reported by DataTables: ', message);
-    }).DataTable();
 
     var recent_traffic_data = $('#recent-traffic-report').DataTable({
-        dom: "<'d-flex mb-5 justify-content-between align-items-center flex-column flex-md-row'<''f><'mt-3 mt-md-0 mb-3 mb-md-0'B>>" +
+        dom: "<'d-flex mb-5 justify-content-between align-items-center flex-column flex-md-row'<''f><'mt-3 mt-md-0 mb-3 mb-md-0'>>" +
             "<'row'<'col-sm-12'tr>>" +
             "<'d-flex justify-content-between align-items-center flex-column flex-md-row'<''l><''i><''p>>",
-        buttons: [
-            'csv', 'excel', 'pdf'
-        ],
-        "bDestroy": true,
-        "lengthChange": true,
-        "aLengthMenu": [[25, 50, 100], [25, 50, 100]],
-        "iDisplayLength": 25,
-
-        "ordering": false,
-        "processing": true,
-        'language': {
-            'loadingRecords': '&nbsp;',
-            'processing': '<div class="spinner"></div>'
-        },
-        "bProcessing": false,
-        "bServerSide": false,
-        "searching": true,
-
-        scrollCollapse: true,
-
     });
 
-    $('#recent_transactions_table_processing').parent().addClass('position-relative');
-    $.fn.dataTable.ext.errMode = 'none';
-    $('#recent_transactions_table').on('error.dt', function (e, settings, techNote, message) {
-        console.log('An error has been reported by DataTables: ', message);
-    }).DataTable();
 
     var recent_transactions_data = $('#recent-transactions-report').DataTable({
-        dom: "<'d-flex mb-5 justify-content-between align-items-center flex-column flex-md-row'<''f><'mt-3 mt-md-0 mb-3 mb-md-0'B>>" +
+        dom: "<'d-flex mb-5 justify-content-between align-items-center flex-column flex-md-row'<''f><'mt-3 mt-md-0 mb-3 mb-md-0'>>" +
             "<'row'<'col-sm-12'tr>>" +
             "<'d-flex justify-content-between align-items-center flex-column flex-md-row'<''l><''i><''p>>",
-        buttons: [
-            'csv', 'excel', 'pdf'
-        ],
-        "bDestroy": true,
-        "lengthChange": true,
-        "aLengthMenu": [[25, 50, 100], [25, 50, 100]],
-        "iDisplayLength": 25,
-
-        "ordering": false,
-        "processing": true,
-        'language': {
-            'loadingRecords': '&nbsp;',
-            'processing': '<div class="spinner"></div>'
-        },
-        "bProcessing": false,
-        "bServerSide": false,
-        "searching": true,
-
-        scrollCollapse: true,
 
     });
 
-    $('#custom_rates_table_processing').parent().addClass('position-relative');
-    $.fn.dataTable.ext.errMode = 'none';
-    $('#custom_rates_table').on('error.dt', function (e, settings, techNote, message) {
-        console.log('An error has been reported by DataTables: ', message);
-    }).DataTable();
+
 
     var custom_rates_data = $('#custom-rates-report').DataTable({
-        dom: "<'d-flex mb-5 justify-content-between align-items-center flex-column flex-md-row'<''f><'mt-3 mt-md-0 mb-3 mb-md-0'B>>" +
+        dom: "<'d-flex mb-5 justify-content-between align-items-center flex-column flex-md-row'<''f><'mt-3 mt-md-0 mb-3 mb-md-0'>>" +
             "<'row'<'col-sm-12'tr>>" +
             "<'d-flex justify-content-between align-items-center flex-column flex-md-row'<''l><''i><''p>>",
-        buttons: [
-            'csv', 'excel', 'pdf'
-        ],
-        "bDestroy": true,
-        "lengthChange": true,
-        "aLengthMenu": [[25, 50, 100], [25, 50, 100]],
-        "iDisplayLength": 25,
-
-        "ordering": false,
-        "processing": true,
-        'language': {
-            'loadingRecords': '&nbsp;',
-            'processing': '<div class="spinner"></div>'
-        },
-        "bProcessing": false,
-        "bServerSide": false,
-        "searching": true,
-
-        scrollCollapse: true,
 
     });
 });

@@ -68,7 +68,7 @@
                                                     <div class="table-responsive">
                                                         <table id="sent-sms-report" class="table custom-table gy-5 table-bordered table-striped datatable">
                                                             <thead>
-                                                                <tr class="fs-14 fw-600 dark-color">
+                                                                <tr class="fs-12 fw-600 dark-color">
                                                                     <th class="white-color">Recipient</th>
                                                                     <th class="white-color">Message Content</th>
                                                                     <th class="white-color">Date & Time</th>
@@ -76,7 +76,7 @@
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
-                                                                <tr>
+                                                                <tr class="fs-12">
                                                                     <td>60146255666</td>
                                                                     <td class="mw-100px">
                                                                         <div class="overflow-clip-ellipsis" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.">
@@ -86,7 +86,7 @@
                                                                     <td>22/08/2023 03:09:36</td>
                                                                     <td class="text-success">Sent</td>
                                                                 </tr>
-                                                                <tr>
+                                                                <tr class="fs-12">
                                                                     <td>0147775666</td>
                                                                     <td class="mw-100px">
                                                                         <div class="overflow-clip-ellipsis" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.">
@@ -96,7 +96,7 @@
                                                                     <td>22/08/2023 03:09:36</td>
                                                                     <td class="text-success">Sent</td>
                                                                 </tr>
-                                                                <tr>
+                                                                <tr class="fs-12">
                                                                     <td>0136255666</td>
                                                                     <td class="mw-100px">
                                                                         <div class="overflow-clip-ellipsis" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.">

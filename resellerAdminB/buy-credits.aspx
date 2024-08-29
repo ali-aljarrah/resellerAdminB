@@ -226,24 +226,24 @@
                                                     <div class="table-responsive">
                                                         <table id="sent-sms-report" class="table custom-table gy-5 table-bordered table-striped datatable">
                                                             <thead>
-                                                                <tr class="fs-14 fw-600">
+                                                                <tr class="fs-12 fw-600">
                                                                     <th class="white-color">Payment type</th>
                                                                     <th class="white-color">Amount</th>
                                                                     <th class="white-color">Date & Time</th>
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
-                                                                <tr>
+                                                                <tr class="fs-12">
                                                                     <td>-</td>
                                                                     <td>-</td>
                                                                     <td>-</td>
                                                                 </tr>
-                                                                <tr>
+                                                                <tr class="fs-12">
                                                                     <td>-</td>
                                                                     <td>-</td>
                                                                     <td>-</td>
                                                                 </tr>
-                                                                <tr>
+                                                                <tr class="fs-12">
                                                                     <td>-</td>
                                                                     <td>-</td>
                                                                     <td>-</td>

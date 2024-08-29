@@ -333,7 +333,7 @@
                                                                         Monitor your account activities by date and time, IP addresses and events. This will help you be informed and keeping records of the changes that are happening in your account.
                                                                     </div>
                                                                     <div class="table-responsive mt-5">
-                                                                        <table id="account-activity-report" class="table custom-table table-bordered table-row-gray-300 gy-5 datatable">
+                                                                        <table id="account-activity-report" class="table custom-table table-bordered table-striped gy-5">
                                                                             <thead>
                                                                                 <tr class="fs-14 fw-600 dark-color">
                                                                                     <th class="white-color">Date & Time</th>

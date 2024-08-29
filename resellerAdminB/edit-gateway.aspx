@@ -121,7 +121,7 @@
                                                         </div>
                                                     </div>
                                                       <asp:Button ID="EditGatewayBtn" runat="server" Text="Save changes"
-                                                          CssClass="btn btn-primary btn-grad py-2 px-8 rounded-1 m-0"
+                                                          CssClass="btn btn-grad-1 py-2 px-8 rounded-1 m-0"
                                                           OnClientClick="editGateway('EditGatewayBtn'); return false;" OnClick="EditGatewayBtn_Click" />
                                                 </div>
                                             </div>
