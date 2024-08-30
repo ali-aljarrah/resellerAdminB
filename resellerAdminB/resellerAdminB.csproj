@@ -101,9 +101,13 @@
     <Content Include="assets\js\custom\authentication\sign-up\general.js" />
     <Content Include="assets\js\edit-country-cov.js" />
     <Content Include="assets\js\edit-gateway.js" />
+    <Content Include="assets\js\edit-keyword-filter.js" />
+    <Content Include="assets\js\edit-sender-filter.js" />
     <Content Include="assets\js\edit-sms-plan.js" />
+    <Content Include="assets\js\hide-show-pages.js" />
     <Content Include="assets\js\hlr.js" />
     <Content Include="assets\js\hlr_log.js" />
+    <Content Include="assets\js\keyword-filter.js" />
     <Content Include="assets\js\loader.js" />
     <Content Include="assets\js\main.js" />
     <Content Include="assets\js\manage_temp.js" />
@@ -113,6 +117,7 @@
     <Content Include="assets\js\reload_report.js" />
     <Content Include="assets\js\scripts.bundle.js" />
     <Content Include="assets\js\send-email.js" />
+    <Content Include="assets\js\sender-id-filter.js" />
     <Content Include="assets\js\sentreport.js" />
     <Content Include="assets\js\settings.js" />
     <Content Include="assets\js\sms-plans.js" />
@@ -202,13 +207,18 @@
     <Content Include="credits-log.aspx" />
     <Content Include="edit-country-cov.aspx" />
     <Content Include="edit-gateway.aspx" />
+    <Content Include="edit-keyword-filter.aspx" />
+    <Content Include="edit-sender-filter.aspx" />
     <Content Include="edit-sms-plan.aspx" />
     <Content Include="forgot.aspx" />
     <Content Include="general-settings.aspx" />
     <Content Include="index.aspx" />
+    <Content Include="keyword-filter.aspx" />
     <Content Include="login.aspx" />
     <Content Include="register.aspx" />
     <Content Include="send-email.aspx" />
+    <Content Include="sender-id-filter.aspx" />
+    <Content Include="show-hide-pages.aspx" />
     <Content Include="sms-log.aspx" />
     <Content Include="sms-plans.aspx" />
     <Content Include="sms-scheduled.aspx" />
@@ -353,6 +363,20 @@
     <Compile Include="edit-gateway.aspx.designer.cs">
       <DependentUpon>edit-gateway.aspx</DependentUpon>
     </Compile>
+    <Compile Include="edit-keyword-filter.aspx.cs">
+      <DependentUpon>edit-keyword-filter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="edit-keyword-filter.aspx.designer.cs">
+      <DependentUpon>edit-keyword-filter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="edit-sender-filter.aspx.cs">
+      <DependentUpon>edit-sender-filter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="edit-sender-filter.aspx.designer.cs">
+      <DependentUpon>edit-sender-filter.aspx</DependentUpon>
+    </Compile>
     <Compile Include="edit-sms-plan.aspx.cs">
       <DependentUpon>edit-sms-plan.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -381,6 +405,13 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="keyword-filter.aspx.cs">
+      <DependentUpon>keyword-filter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="keyword-filter.aspx.designer.cs">
+      <DependentUpon>keyword-filter.aspx</DependentUpon>
+    </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -402,6 +433,20 @@
     </Compile>
     <Compile Include="send-email.aspx.designer.cs">
       <DependentUpon>send-email.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sender-id-filter.aspx.cs">
+      <DependentUpon>sender-id-filter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sender-id-filter.aspx.designer.cs">
+      <DependentUpon>sender-id-filter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="show-hide-pages.aspx.cs">
+      <DependentUpon>show-hide-pages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="show-hide-pages.aspx.designer.cs">
+      <DependentUpon>show-hide-pages.aspx</DependentUpon>
     </Compile>
     <Compile Include="sms-log.aspx.cs">
       <DependentUpon>sms-log.aspx</DependentUpon>

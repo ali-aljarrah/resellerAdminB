@@ -417,6 +417,8 @@ button.btn.btn-secondary.buttons-pdf.buttons-html5 {
     border-color: #ffffff !important;
 }
 
+
+
 .form-check-image.active p.dark-color.fs-25.fw-bold.mb-0 {
     color: #fff !important;
 }
@@ -715,4 +717,8 @@ button.tablinks.active {
 pre {
     background: #020b23 !important;
     border-radius: 10px;
+}
+
+.form-control:disabled {
+    background-color: #bfbfbfd1 !important;
 }

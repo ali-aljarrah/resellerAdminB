@@ -80,20 +80,9 @@
                             </div>
                         </div>
                         <!--end::Menu item-->
-                        <!--begin::Menu separator-->
-                        <div class="separator my-2"></div>
-                        <!--end::Menu separator-->
                         <!--begin::Menu item-->
                         <div class="menu-item px-5">
                             <a href="/account.aspx" class="menu-link px-5">My Profile</a>
-                        </div>
-                        <!--end::Menu item-->
-                        <!--begin::Menu separator-->
-                        <div class="separator my-2"></div>
-                        <!--end::Menu separator-->
-                        <!--begin::Menu item-->
-                        <div class="menu-item px-5">
-                            <a href="/help.aspx" class="menu-link px-5">Help</a>
                         </div>
                         <!--end::Menu item-->
                         <!--begin::Menu item-->

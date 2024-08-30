@@ -65,6 +65,11 @@ $(document).ready(function () {
         document.getElementById("api-link").classList.add("active");
         document.getElementById("reseller-features-link").classList.add("hover");
         document.getElementById("reseller-features-link").classList.add("show");
+    } else if (url == '/show-hide-pages.aspx') {
+        document.getElementById("reseller-admin-link").classList.add("active");
+        document.getElementById("pages-list-link").classList.add("active");
+        document.getElementById("reseller-admin-link").classList.add("hover");
+        document.getElementById("reseller-admin-link").classList.add("show");
     } else if (url == '/users-list.aspx' || url == '/user.aspx') {
         document.getElementById("reseller-admin-link").classList.add("active");
         document.getElementById("users-list-link").classList.add("active");
@@ -95,6 +100,16 @@ $(document).ready(function () {
         document.getElementById("general-settings-link").classList.add("active");
         document.getElementById("reseller-admin-link").classList.add("hover");
         document.getElementById("reseller-admin-link").classList.add("show");
+    } else if (url == '/sender-id-filter.aspx' || url == '/edit-sender-filter.aspx') {
+        document.getElementById("spam-firewall-link").classList.add("active");
+        document.getElementById("sender-filter-link").classList.add("active");
+        document.getElementById("spam-firewall-link").classList.add("hover");
+        document.getElementById("spam-firewall-link").classList.add("show");
+    } else if (url == '/keyword-filter.aspx' || url == '/edit-keyword-filter.aspx') {
+        document.getElementById("spam-firewall-link").classList.add("active");
+        document.getElementById("keyword-filter-link").classList.add("active");
+        document.getElementById("spam-firewall-link").classList.add("hover");
+        document.getElementById("spam-firewall-link").classList.add("show");
     }
 
     $('select').select2({

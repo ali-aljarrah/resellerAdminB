@@ -1,7 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="coverage-price.aspx.cs" Inherits="resellerAdminB.coverage_price" %>
 
-
-
 <%@ Register Src="~/Controls/Footer.ascx" TagPrefix="uc1" TagName="Footer" %>
 <%@ Register Src="~/Controls/FooterLinks.ascx" TagPrefix="uc1" TagName="FooterLinks" %>
 <%@ Register Src="~/Controls/Head.ascx" TagPrefix="uc1" TagName="Head" %>

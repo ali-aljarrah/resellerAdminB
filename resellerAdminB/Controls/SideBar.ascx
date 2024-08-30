@@ -72,7 +72,7 @@
                         </a>
                     </div>
                     <!--end:Menu item-->
-                  
+
                     <!--begin:Menu item-->
                     <div class="menu-item" id="admin-sms-log-link">
                         <a class="menu-link main" href="/admin-sms-log.aspx">
@@ -80,12 +80,12 @@
                             <span class="menu-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" fill="currentColor" class="bi bi-pass-fill" viewBox="0 0 16 16">
                                     <path d="M10 0a2 2 0 1 1-4 0H3.5A1.5 1.5 0 0 0 2 1.5v13A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-13A1.5 1.5 0 0 0 12.5 0zM4.5 5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1m0 2h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1" fill="url(#paint55_linear_1677_7940)" />
-                                  <defs>
-                                      <linearGradient id="paint55_linear_1677_7940" x1="9.99984" y1="1.54163" x2="9.99984" y2="19.4583" gradientUnits="userSpaceOnUse">
-                                          <stop stop-color="#0f204b" stop-opacity="0.870588" />
-                                          <stop offset="1" stop-color="#0f204b" stop-opacity="0.870588" />
-                                      </linearGradient>
-                                  </defs>
+                                    <defs>
+                                        <linearGradient id="paint55_linear_1677_7940" x1="9.99984" y1="1.54163" x2="9.99984" y2="19.4583" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#0f204b" stop-opacity="0.870588" />
+                                            <stop offset="1" stop-color="#0f204b" stop-opacity="0.870588" />
+                                        </linearGradient>
+                                    </defs>
                                 </svg>
                             </span>
                             <span class="menu-title black">SMS Log</span>
@@ -118,6 +118,56 @@
                     </div>
                     <!--end:Menu link-->
                     <!--end:Menu item-->
+                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion" id="spam-firewall-link">
+                        <!--begin:Menu link-->
+                        <span class="menu-link main">
+                            <span class="menu-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-funnel-fill" viewBox="0 0 16 16">
+                                  <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5z" fill="url(#paint55_linear_1677_79444)"/>
+                                    <defs>
+                                       <linearGradient id="paint55_linear_1677_79444" x1="9.99984" y1="1.54163" x2="9.99984" y2="19.4583" gradientUnits="userSpaceOnUse">
+                                           <stop stop-color="#0f204b" stop-opacity="0.870588" />
+                                           <stop offset="1" stop-color="#0f204b" stop-opacity="0.870588" />
+                                       </linearGradient>
+                                   </defs>
+                                </svg>
+                            </span>
+                            <span class="menu-title black">Spam Firewall</span>
+                            <span class="menu-arrow"></span>
+                        </span>
+                        <!--end:Menu link-->
+                        <!--begin:Menu sub-->
+                        <div class="menu-sub menu-sub-accordion pt-2">
+                            <!--begin:Menu item-->
+                            <div class="menu-item child mb-2" id="sender-filter-link">
+                                <!--begin:Menu link-->
+                                <a class="menu-link" href="/sender-id-filter.aspx">
+                                    <span class="menu-bullet">
+                                        <span class="bullet bullet-dot"></span>
+                                    </span>
+                                    <span class="menu-title black">Sender ID Filter</span>
+                                </a>
+                                <!--end:Menu link-->
+                            </div>
+                            <!--end:Menu item-->
+                            <!--begin:Menu item-->
+                            <div class="menu-item child mb-2" id="keyword-filter-link">
+                                <!--begin:Menu link-->
+                                <a class="menu-link" href="/keyword-filter.aspx">
+                                    <span class="menu-bullet">
+                                        <span class="bullet bullet-dot"></span>
+                                    </span>
+                                    <span class="menu-title black">Keyword Filter</span>
+                                </a>
+                                <!--end:Menu link-->
+                            </div>
+                            <!--end:Menu item-->
+                        </div>
+                        <!--end:Menu sub-->
+                    </div>
+                    <!--end:Menu item-->
+
+                    <!--end:Menu item-->
                     <div data-kt-menu-trigger="click" class="menu-item menu-accordion" id="reseller-features-link">
                         <!--begin:Menu link-->
                         <span class="menu-link main">
@@ -143,18 +193,18 @@
                         <!--end:Menu link-->
                         <!--begin:Menu sub-->
                         <div class="menu-sub menu-sub-accordion pt-2">
-                             <!--begin:Menu item-->
-                             <div class="menu-item child mb-2" id="sms-plans-link">
-                                 <!--begin:Menu link-->
-                                 <a class="menu-link" href="/sms-plans.aspx">
-                                     <span class="menu-bullet">
-                                         <span class="bullet bullet-dot"></span>
-                                     </span>
-                                     <span class="menu-title black">SMS Plans</span>
-                                 </a>
-                                 <!--end:Menu link-->
-                             </div>
-                             <!--end:Menu item-->
+                            <!--begin:Menu item-->
+                            <div class="menu-item child mb-2" id="sms-plans-link">
+                                <!--begin:Menu link-->
+                                <a class="menu-link" href="/sms-plans.aspx">
+                                    <span class="menu-bullet">
+                                        <span class="bullet bullet-dot"></span>
+                                    </span>
+                                    <span class="menu-title black">SMS Plans</span>
+                                </a>
+                                <!--end:Menu link-->
+                            </div>
+                            <!--end:Menu item-->
                             <!--begin:Menu item-->
                             <div class="menu-item child mb-2" id="cov-link">
                                 <!--begin:Menu link-->
@@ -228,6 +278,18 @@
                         <!--end:Menu link-->
                         <!--begin:Menu sub-->
                         <div class="menu-sub menu-sub-accordion pt-2">
+                            <!--begin:Menu item-->
+                            <div class="menu-item child mb-2" id="pages-list-link">
+                                <!--begin:Menu link-->
+                                <a class="menu-link" href="/show-hide-pages.aspx">
+                                    <span class="menu-bullet">
+                                        <span class="bullet bullet-dot"></span>
+                                    </span>
+                                    <span class="menu-title black">Manage Pages</span>
+                                </a>
+                                <!--end:Menu link-->
+                            </div>
+                            <!--end:Menu item-->
                             <!--begin:Menu item-->
                             <div class="menu-item child mb-2" id="users-list-link">
                                 <!--begin:Menu link-->

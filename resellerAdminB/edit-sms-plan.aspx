@@ -44,7 +44,7 @@
                                 <div id="kt_app_content_container" class="app-container container-fluid">
                                     <!--begin::Row-->
                                     <div class="row">
-                                        <div class="col-md-12 mb-md-0 mb-5 mt-5">
+                                        <div class="col-md-12 mb-md-0 mb-5">
                                             <div class="card shadow-xs p-8 d-flex my-5">
                                                 <div class="mb-6">
                                                     <a href="/sms-plans.aspx" class="d-flex align-items-center w-fit">
