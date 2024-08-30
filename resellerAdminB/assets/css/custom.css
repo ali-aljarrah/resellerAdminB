@@ -200,10 +200,12 @@ span.menu-link, span.menu-link.menu-center:hover svg path {
 }
 
 .form-custom-input,
-.form-custom-select {
-    background-color: #f4f4f4d1;
-    border-bottom: 1px solid #948484;
-    border-radius: 5px;
+.form-custom-select,
+input[type='search'] {
+    background-color: #f4f4f4d1 !important;
+    border-color: #DBDFE9 !important;
+    border-bottom: 1px solid #948484 !important;
+    border-radius: 5px !important;
 }
 
 .form-custom-textarea {
@@ -595,12 +597,13 @@ button.tablinks.active {
 .nav-line-tabs.nav-line-tabs-2x .nav-item .nav-link, .nav-line-tabs.nav-line-tabs-2x .nav-item .nav-link:not(.disabled), .nav-line-tabs.nav-line-tabs-2x .nav-item.show .nav-link {
     padding-left: 20px;
     padding-right: 20px;
+    transition: all .2s ease-in-out;
+    border-radius: 20px !important;
+    border: none !important;
 }
 
     .nav-line-tabs.nav-line-tabs-2x .nav-item .nav-link.active, .nav-line-tabs.nav-line-tabs-2x .nav-item .nav-link:hover:not(.disabled), .nav-line-tabs.nav-line-tabs-2x .nav-item.show .nav-link {
         background: #0f204b;
-        border: none !important;
-        border-radius: 20px !important;
         color: white !important;
         margin-bottom: .75rem !important;
     }

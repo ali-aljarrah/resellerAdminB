@@ -40,7 +40,7 @@ $(document).ready(function () {
         document.getElementById("admin-sms-log-link").classList.add("active");
     } else if (url == '/admin-scheduled-log.aspx') {
         document.getElementById("admin-scheduled-log-link").classList.add("active");
-    } else if (url == '/sms-plans.aspx') {
+    } else if (url == '/sms-plans.aspx' || url == '/edit-sms-plan.aspx') {
         document.getElementById("reseller-features-link").classList.add("active");
         document.getElementById("sms-plans-link").classList.add("active");
         document.getElementById("reseller-features-link").classList.add("hover");

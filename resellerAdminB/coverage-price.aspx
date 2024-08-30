@@ -52,7 +52,7 @@
                                                     <!--begin::Item-->
                                                     <div>
                                                         <!--begin::Header-->
-                                                        <div class="accordion-header py-3 d-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#kt_accordion_2_item_1" aria-expanded="true">
+                                                        <div class="accordion-header py-0 d-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#kt_accordion_2_item_1" aria-expanded="true">
                                                             <span class="accordion-icon"><i class="ki-duotone ki-arrow-right fs-4"><span class="path1"></span><span class="path2"></span></i></span>
                                                             <h3 class="fs-20 fw-bold mb-0 ms-4" data-bs-toggle="tooltip" data-bs-placement="top" title="Click here to hide/show adding country form">Adding new country</h3>
                                                         </div>

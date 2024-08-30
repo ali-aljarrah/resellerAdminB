@@ -7,34 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace resellerAdminB
 {
-    public partial class sms_plans : System.Web.UI.Page
+    public partial class edit_sms_plan : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (IsPostBack)
-            {
-                string eventTarget = Request["__EVENTTARGET"];
-                string eventArgument = Request["__EVENTARGUMENT"];
 
-                if (!string.IsNullOrEmpty(eventTarget))
-                {
-                    if (eventTarget == "DeletePlan")
-                    {
-                        // Handle the delete action
-                        DeletePlan(eventArgument);
-                    }
-                }
-            }
         }
 
-        private void DeletePlan(string PlanID)
-        {
-            string script = $"toastr.success(\"Plan: {PlanID} has been deleted!\");";
-            ScriptManager.RegisterStartupScript(this, GetType(), "showalert", script, true);
-            return;
-        }
-
-        protected void AddNewPlanBtn_Click(object sender, EventArgs e)
+        protected void EditPlanBtn_Click(object sender, EventArgs e)
         {
             string script;
 
@@ -86,7 +66,7 @@ namespace resellerAdminB
                 return;
             }
 
-            script = "toastr.success(\"SMS plan has been added Successfully!\");";
+            script = "toastr.success(\"SMS plan has been updated Successfully!\");";
             ScriptManager.RegisterStartupScript(this, GetType(), "showalert", script, true);
             return;
         }

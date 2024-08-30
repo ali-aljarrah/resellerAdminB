@@ -14,7 +14,7 @@
 <!--end::Head-->
 <!--begin::Body-->
 <body id="kt_app_body" data-kt-app-header-fixed="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-hoverable="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-enabled="true" class="app-default">
-    <form action="#" id="frmReload" name="frmReload" novalidate="novalidate" runat="server">
+    <form class="d-flex flex-fill" action="#" id="frmReload" name="frmReload" novalidate="novalidate" runat="server">
         <uc1:Loader runat="server" ID="Loader" />
         <!--begin::Theme mode setup on page load-->
         <script>

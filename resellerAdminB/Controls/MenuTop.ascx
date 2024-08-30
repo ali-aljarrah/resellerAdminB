@@ -85,7 +85,7 @@
                         <!--end::Menu separator-->
                         <!--begin::Menu item-->
                         <div class="menu-item px-5">
-                            <a href="/general-settings.aspx" class="menu-link px-5">My Profile</a>
+                            <a href="/account.aspx" class="menu-link px-5">My Profile</a>
                         </div>
                         <!--end::Menu item-->
                         <!--begin::Menu separator-->
